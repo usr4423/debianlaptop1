@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta name="description" content="読めば必ず糧になるを目標に頑張っていきたいと思います　理学・工学・情報学・ＩＴ・サイバー・通信・放送・ジャパンカルチャー・コミュニケーション・現代社会などなど" />
+<link href="http://blog-imgs-67-origin.fc2.com/3/p/y/3pypromo/css/f0441.css" type="text/css" rel="stylesheet" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://3pypromo.blog.fc2.com/?xml" />
+<title>「Google Chromeで日本語入力ができない」解決方法</title>
+
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js" charset="euc-jp"></script>
+<link href="http://static.fc2.com/css_cn/common/headbar/120710style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body><div id="sh_fc2blogheadbar">
+	<div class="sh_fc2blogheadbar_body">
+		<div id="sh_fc2blogheadbar_menu">
+			<a href="http://blog.fc2.com/" rel="nofollow">				<img src="http://static.fc2.com/image/headbar/sh_fc2blogheadbar_logo.png" alt="FC2ブログ" />
+			</a>		</div>
+		<div id="sh_fc2blogheadbar_search">
+			<form name="barForm" method="get" action="" target="blank">
+				<input class="sh_fc2blogheadbar_searchform" type="text" name="q" value="" maxlength="30" onclick="this.style.color='#000000';" onfocus="this.select();" onblur="this.style.color='#999999'" />
+				<input type="hidden" name="charset" value="utf-8" />
+				<input class="sh_fc2blogheadbar_searchbtn" type="submit" value="ブログ内検索" />
+			</form>
+		</div>
+		<div id="sh_fc2blogheadbar_link_box" class="sh_fc2blogheadbar_link" style="visibility: hidden;"></div>
+	</div>
+</div>
+
+
+
+<script type="text/javascript" charset="euc-jp">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22049311-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+<br><br>
+<div id="baseBlock">
+<a name="page_top"></a>
+<!--headBlockBase-->
+<div id="headBlockBase">
+<!--headBlock-->
+<div id="headBlock">
+
+
+<h1 id="title">「Google Chromeで日本語入力ができない」解決方法</h1>
+<div class="sub_title">ここでは、「「Google Chromeで日本語入力ができない」解決方法」 に関する記事を紹介しています。</div>
+
+<center>
+<script language="JavaScript" charset="euc-jp">
+<!--
+ranimg = new Array();
+ranimg[0]="http://blog-imgs-42.fc2.com/3/p/y/3pypromo/201112272047188d7.png";
+ranimg[1]="http://blog-imgs-42.fc2.com/3/p/y/3pypromo/201112272047188d7.png";
+ranimg[2]="http://blog-imgs-42.fc2.com/3/p/y/3pypromo/201112272047369df.png";
+ranimg[3]="http://blog-imgs-42-origin.fc2.com/3/p/y/3pypromo/201112272047369df.png";
+xx = Math.floor(ranimg.length*Math.random());
+ranimg = ranimg[Math.floor(xx)];
+document.write('<img src="'+ ranimg +'">');
+// -->
+</script><br>
+
+
+
+
+</center><br>
+
+<table width="100%" border="0" summary="navi"><tr><td style="padding-left:40px;">
+<!--ナビ-->
+<div class="navi_body">
+ | 
+<span class="navi"><a href="http://3pypromo.blog.fc2.com/" title="とある工学の電脳世界に戻る">トップページ</a></span> | <span class="navi"><font class="navi_l"><a href="http://3pypromo.blog.fc2.com/?all" title="記事の一覧を表示する">全記事一覧</a></font></span>
+
+
+</div>
+<!--/ナビ-->
+</td><td width="40">
+</td></tr></table>
+
+</div>
+<!--/headBlock-->
+</div>
+<!--/headBlockBase-->
+
+<table width="100%" border="0"><tr><td width="80%" valign="top">
+<!--mainBlock-->
+<div id="mainBlock">
+
+<div align="center">
+<!--TOPフリーエリア-->
+<div class="free_area" style="text-align:left;">
+疑問質問はTwitterでも受け付けていますhttps://twitter.com/toaru_cyber<br>雑談等もしますし、どなたでもフォローしていただいて構いません。楽しく会話しましょう！
+
+
+
+</div></div>
+<br />
+
+<!--エントリー-->
+<div class="mainEntryBlock">
+<div class="mainEntryTitle"><h2>
+<a href="http://3pypromo.blog.fc2.com/blog-entry-106.html">「Google Chromeで日本語入力ができない」解決方法</a></h2></div>
+<!--mainEntryBase-->
+<div class="mainEntryBase">
+<div class="editentry">
+<a href="./admin.php?mode=editentry&no=106" title="記事を編集する">
+2011/05/29(日)</a>
+</div>
+<div class="mainEntryBody">どうも管理人の天照です<br /><br />クロームでニコニコ動画やスティッカムなどに日本語入力ができな～いという方が大多数いるようです<br /><br />今回はクロームで日本語入力を可能にする方法を紹介しますよ<br /><br />治らなかったらごめんよ<br />ちなみにＭＡＣでも治ります<br /><br /><br />今回もできるだけ難しい単語は避けたので、表現が事実とずれていることもあるかもしれませんが、ＰＣが苦手な人のためなのでお気になさらぬようお願いしますｗｗｗｗ<br /><br />また、管理人の情報収集のために事後報告をしていただけると嬉しいです</div>
+<div class="mainEntryMore">
+
+
+
+
+<a name="more" id="more"></a>なぜクロームで日本語入力ができないのか？<br /><br />ニコニコ動画やスティッカムなどのコンテンツ部分（動画が映るところやコメント記入部分もそうです）はＦｌａｓｈで構成されている場合が多いです<br /><br />Ｆｌａｓｈはインターネット上で高度で複雑な表現を可能にしてくれる非常に便利なものと考えてください<br /><br />通常はＰＣ自体にFlashが組み込まれているのですが、クロームの場合、クローム自体にもFlashが組み込まれています<br /><br />問題なのはクロームに組み込まれたFlash<br /><br />じつはこいつが日本語入力をさせてくれないのです<br /><br /><br /><br /><br /><br />上述したようにFlashはＰＣとクロームに組み込まれているわけですが、それにはどうやら大きな役割があるようで・・・・・・<br />でも、それを説明しだすと長いので今回はしませんｗｗ<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />ということでこうやって解決します<br /><br /><span style="color:#FF0000"><span style="font-size:x-large;"><strong>クロームに内蔵されたFlushを無効化する<br /></strong></span></span><br /><br /><br />ながながと説明してきて結局言いたいことはこれだけというね<br /><br />つまりFlashはＰＣに内蔵されているほうを利用することになります<br /><br /><br /><br />これから２つの方法を紹介しますがその前に重要なことを１つ言っておきます<br />クロームに組み込まれている方を無効化するわけですから、当然ＰＣのほうにFlashが入ってないとFlashは動きません<br />つまりようつべもニコニコも見れなくなります<br />確認方法は２つ目の解決方法にかいてあります<br />もし入っていないようでああれば各自でインストールすることになります<br /><br /><br /><br />では無効化していきましょう<br /><br /><br /><br /><strong>１つめ</strong><br />まあ、一言でいえば、起動オプション --no-sandboxを適用する<br />これだけ<br /><br />１．まずコンピュータ上でchromeで検索をかけます<br />２．出てきたクロームのアイコンを右クリックしてプロパティを選択<br />３．出てきた画面のなかにショートカットというタブがあるのでそれを選択<br />４．リンク先という項目にC:\・・・・・・・・・・・・・・・・・・.exeとあるので.exeのうしろに「 --no-sandbox」と記述<br /> --no-sandboxは見てわかると思いますが--no-sandboxのまえに１つ半角スペースがあります<br /><br /><img src="http://blog-imgs-26-origin.fc2.com/3/p/y/3pypromo/201105291142067e0.png"><br /><br />５．ＯＫをクリック<br />６．たぶんchromeで検索するとさっきよりクロームのアイコンが１つ増えてるはずです<br />ＭＡＣ版でのやり方はわかりませんｗｗ<br />管理人が持ってないのでｗｗ<br /><br /><span style="color:#FF0000">クロームを再起動したときにセキュリティーがうんぬんと注意書きが出てきたら成功です<br /></span><br /><br /><br />＝＝＝終了です　お疲れさまでした　もしかしたらＰＣの再起必要かも<br /><br /><br /><br /><br /><br />下記で --no-sandboxは非推奨とありますが、それはセキュリティーが下がるがるからだと思われます<br />が、ほかの方法では解決しない場合もあるようですし、なんといってもsandboxがいろいろ邪魔すぎるｗｗｗ<br /><br />よって管理人は --no-sandboxをつかってsandboxを無効化しました<br /><br /><br /><br /><br /><br /><strong>２つめ</strong><br /><span style="color:#FF0000">上記下記の方法以外にも</span><br />クローム上から直接内蔵Flashを無効化する方法がありますのでこちらも参考になさってください<br /><strong><span style="color:#FF0000">こちらの方法で友人のＭＡＣでの日本語入力ができました</span></strong><br /><br /><br />１．まず、アドレスバーに「about:plugins」と入力する。<br />２．「プラグイン」という画面が出ますよね？<br />そうしたら右上にある詳細ボタンをクリック<br /><br />３．すると、（普通は）Flashだけで2つ出ているはずです<br />おそらくクロームに内蔵されているFlashだけ表示されている状態だと思われます<br />２つない場合は各自でＰＣにインストールする必要があります<br /><br />Flash (2 files) と書かれているか確認してください。<br />Flash (2 files)と書かれてなく、「場所:C:\WINDOWS」がない場合。 <br />PC本体にAdobe Flash PlayerをPCへのインストール作業が必要になります。<br />http://get.adobe.com/jp/flashplayer/?no_redirect<br />からインストーラーをダウンロードし、一度Adobe Flash PlayerをPCにインストールしてください。<br />インストール後、「場所:C:\WINDOWS」側が表示されます。<br /><br /><br />C:\Documents and Settings\Owner\Local Settings\Application Data\Google\Chrome\Application\9.0.597.19\gcswf32.dll<br /><span style="color:#FF0000">↑がChromに内蔵されたFlashです。</span><br /><br />C:\WINDOWS\system32\Macromed\Flash\NPSWF32.dll<br /><span style="color:#FF0000">↑はAdobe標準の物。(スタンドアロン)</span>つまりＰＣに組み込まれているやつですね<br />パスは例です。若干環境によって変わってきます。(上はWindowsXP環境)<br /><br /><img src="http://blog-imgs-26-origin.fc2.com/3/p/y/3pypromo/201105291133125a6.png"><br /><br />この写真はウインドウズ７の場合です<br /><br />両方に「無効にする」という部分があるとおもいますが、クロームに内蔵されている方を無効にしてください<br />見分け方ですが、場所：という項目のどこかにchromeという文字があると思います<br />それがクローム内蔵のフラッシュになります<br /><br />おそらくＭＡＣ版でも同じことができると思われます<br /><br /><br />＝＝＝＝以上です　お疲れさまでした　もしかしたらＰＣの再起必要かも<br /><br /><span style="color:#FF0000">追記２０１２年３月２０日</span><br /><span style="color:#FF0000">対処法３？？</span><br />上に示した画像は古いバージョンのクロームの画面ですが、<br />どうやら最近のは無効にするという文字の横に許可というチェックボックスができたらしく、そこにチェックを入れると日本語入力ができるようになりましたと言う報告が入りました<br />さらなるご報告よろしくお願いします<br /><br /><br /><br /><br /><br /><span style="font-size:x-large;"><strong>以下に有志がつくったクロームのＦＡＱを転載します<br />技術的に詳しいことを知る必要がない場合は読まなくて結構です</strong></span><br /><br /><br />Flashで日本語入力できない  <br /><br />バージョン9.0以降（Beta/Dev/Canary）において、Flashコンテンツのテキスト入力欄（ニコニコ動画のコメント入力フォームなど）にIMEによる日本語入力ができない問題が発生しています。<br />これは仕様（制限事項）です。<br />※正式安定版（Stableチャンネル）においてはバージョン9.0.597.98以降で改善されています。（「追記」を参照ください）<br />内蔵Flashプラグインを無効にして Adobeが配布するFlashプラグインをダウンロード・インストールすると改善されるはずです。<br /><br /><br />開発版では内蔵FlashプラグインがデフォルトでSandbox化されています。<br />　・Issue 50796: Sandbox built-in flash plugin (windows)（Google Code）<br />一方、Sandboxで動作する内蔵FlashプラグインにはIME（日本語入力）でクラッシュする問題があるため、意図的にIMEが無効化されています。<br />　・Issue 63352: Chrome: Crash Report - Stack Signature: CIMECtx::SetStatusWndPos(tagPOINT &)-b3909dcf_7efca19f_51915e22_b30c0be7_7bc36f8b（Google Code）<br />　・Revision 67152: Disable IME for sandboxed flash (windows)（src.chromium.org）<br />したがって、デフォルトでは内蔵Flashプラグインでは日本語入力ができません。<br />　・Issue 66605: Chrome 9 and 10 flash game: can't change to Japanese or Chinese input, just can type in English words.（Google Code）<br /><br /><br />・起動オプション --disable-internal-flash でも内蔵Flashプラグインを無効化することができます。<br /><br />・起動オプション --disable-flash-sandbox を使用すると内蔵FlashプラグインのSandbox化を無効化できるはずですが、これは正常に機能していないようです。*2<br /><br />・起動オプション --no-sandbox を使用してブラウザ全体のSandboxを無効化すると内蔵Flashプラグインでも日本語入力できますが、安全性が低下するため使用するべきではありません。<br /><br /><br /><br /><br />追記：<br /><br /><br />ただし起動オプション --enable-flash-sandbox や --safe-plugins を使用した場合は日本語入力できないことがあります。<br />バージョン9.0の正式安定版（2011/02/04リリース）では、内蔵FlashプラグインのSandbox化が無効になっているもののIMEが無効化されたままですので、内蔵Flashプラグインでは日本語入力ができません。<br />（起動オプション --no-sandbox は対策としては有効ですが、上述の通り使用するべきではありません）<br />※上記の通りバージョン9.0.597.98で改善されました。<br />開発版においては、Revision 71501: Re-enabling the IME for sandboxed flashでIMEが有効化されたため ビルド640以降 バージョン10.0.640.0以降ならばSandbox化を無効にすれば内蔵フラッシュプラグインでもIMEで日本語入力が可能となりました。<br />Sandbox化はWindows XPではバージョン10.0.633.0以降でデフォルトで無効になっています。Vista/7では --disable-flash-sandbox を使用すると無効化できます。（未確認ですが64bit OSでは無効になっているかもしれません）<br />バージョン11.0.681.0（Chromium r75568）以降および10.0.648.xxの10.0.648.108以降（正式安定版のバージョン10を含む）ではIMEサブシステムの読み込みに関する修正が行われ、Sandbox化有効時にもIMEでの日本語入力が可能になりました。<span style="color:#FF0000">ただし環境によっては問題が解決されないケースもあるようです。</span><br /><br /><div class="fc2_footer" style="text-align:left;vertical-align:middle;height:auto;">
+<div class="fc2button-clap" id="fc2button-clap-106" style="vertical-align:top;border:none;display:inline;margin-right:2px;">
+<script type="text/javascript">
+(function(d) {
+var img = new Image();
+d.getElementById("fc2button-clap-106").appendChild(img);
+img.src = 'http://static.fc2.com/image/clap/number/blue/13.gif';
+(function(s) { s.cursor = 'pointer'; s.border = 0; s.verticalAlign = 'top'; s.margin = '0'; s.padding = '0'; })(img.style);
+var clap = function() { window.open('ht'+'tp://' + 'blogvote.fc2.com/pickup/3pypromo/106/clap')};
+if (img.addEventListener) { img.addEventListener('click', clap, false); } else if (img.attachEvent) { img.attachEvent('onclick', clap); }
+})(document);
+</script>
+</div>
+
+<div class="fc2button-twitter" style="vertical-align:top;border:none;margin-right:2px;display:inline-block;*display:inline;">
+<script type="text/javascript">
+document.write('<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://3pypromo.blog.fc2.com/blog-entry-106.html" data-text="「Google Chromeで日本語入力ができない」解決方法" data-count="horizontal" data-lang="ja">Tweet</a>');
+</script>
+<script type="text/javascript" charset="utf-8" src="http://platform.twitter.com/widgets.js"></script>
+</div>
+<div class="fc2button-facebook" style="vertical-align:top;border:none;display:inline-block;*display:inline;*margin-right:5px;">
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2F3pypromo.blog.fc2.com%2Fblog-entry-106.html&amp;send=false&amp;layout=button_count&amp;width=105&amp;show_faces=false&amp;share=0&amp;colorscheme=light&amp;action=like&amp;height=21&amp;locale=ja_JP" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:105px; height:21px;" allowTransparency="true"></iframe>
+</div>
+
+</div>
+
+
+<br>スポンサードリンク
+<br>
+<script type="text/javascript" charset="euc-jp"><!--
+google_ad_client = "ca-pub-6534461999600999";
+/* サイバー個別記事下 */
+google_ad_slot = "8175823175";
+google_ad_width = 336;
+google_ad_height = 280;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js" charset="euc-jp">
+</script>
+
+
+
+
+
+
+
+
+<!---タグがある場合-->
+<!--タグがある場合ここまで-->
+
+
+</div>
+</div>
+<!--/mainEntryBase-->
+<div class="mainEntryDate">
+<a href="blog-category-9.html" title="カテゴリ一分類">パソコン・ソフト・周辺機器</a> | 
+<a href="http://3pypromo.blog.fc2.com/blog-entry-106.html#trackback">トラックバック：0</a> | 
+<a href="http://3pypromo.blog.fc2.com/blog-entry-106.html#comment">コメント：13</a> |
+<a href="#page_top" title="ページトップへ"> Page Top↑</a>
+</div>
+<!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description rdf:about="http://3pypromo.blog.fc2.com/blog-entry-106.html" trackback:ping="http://3pypromo.blog.fc2.com/tb.php/106-5213f8fd" dc:title="「Google Chromeで日本語入力ができない」解決方法" dc:identifier="http://3pypromo.blog.fc2.com/blog-entry-106.html" dc:subject="パソコン・ソフト・周辺機器" dc:description="どうも管理人の天照ですクロームでニコニコ動画やスティッカムなどに日本語入力ができな～いという方が大多数いるようです今回はクロームで日本語入力を可能にする方法を紹介しますよ治らなかったらごめんよちなみにＭＡＣでも治ります今回もできるだけ難しい単語は避けたので、表現が事実とずれていることもあるかもしれませんが、ＰＣが苦手な人のためなのでお気になさらぬようお願いしますｗｗｗｗまた、管理人の情報収集のため..." dc:creator="天照" dc:date="2011-05-29T11:43:24+09:00" />
+</rdf:RDF>
+ -->
+</div><!--エントリーここまで-->
+
+<!--コメント-->
+<div class="pageLink">
+≪<a href="http://3pypromo.blog.fc2.com/blog-entry-108.html" title="セグウェイついに公道実験へに戻る">セグウェイついに公道実験へ</a>
+| <a href="http://3pypromo.blog.fc2.com/" title="とある工学の電脳世界に戻る">ホーム</a> |
+<a href="http://3pypromo.blog.fc2.com/blog-entry-105.html" title="世界同時多発Skypeの不具合を治す方法に進む">世界同時多発Skypeの不具合を治す方法</a>≫
+</div>
+
+<div class="mainEntryComment">
+<div class="mainEntryTitle"><a name="comment" id="comment"></a>コメント</div>
+<div class="mainCommentBody">
+<div class="mainCommentBold">この記事へのコメント</div>
+<div class="mainCommentTitle"><a id="comment4" name="comment4"></a><a href="" target="_blank"></a></div>
+<div class="mainCommentBody">ありがとうございます！<br />一つ目の方法で日本語入力が出来るようになりました<br /><br />クロームを再起動したときにセキュリティーがうんぬんという注意書は表示されませんでしたが、成功です(*´ｖ`*)<br /><br />ニコ生でこの症状がでていました</div>
+<div class="mainCommentDate">2011/07/19(火) 21:45 | URL | 名前はひ・み・つ #-[ <a href="http://3pypromo.blog.fc2.com/?no=106">編集</a>]</div><div class="mainCommentTitle"><a id="comment32" name="comment32"></a><a href="" target="_blank">管理人のみ閲覧できます</a></div>
+<div class="mainCommentBody">このコメントは管理人のみ閲覧できます</div>
+<div class="mainCommentDate">2012/03/17(土) 10:46 |  |  #[ <a href="http://3pypromo.blog.fc2.com/">編集</a>]</div><div class="mainCommentTitle"><a id="comment34" name="comment34"></a><a href="" target="_blank">Re: タイトルなし</a></div>
+<div class="mainCommentBody"><br />&gt; 「無効にする」の横の許可にチェックを入れましたら解決致しました♪<br /><br />ご報告ありがとうございます！<br />私が紹介記事を書いたときにはチェックボックスがありませんでした<br />状況が若干変わってるいのかもしれませんので記事の修正を検討したいと思います</div>
+<div class="mainCommentDate">2012/03/20(火) 09:58 | URL | 天照 #-[ <a href="http://3pypromo.blog.fc2.com/?no=106">編集</a>]</div><div class="mainCommentTitle"><a id="comment105" name="comment105"></a><a href="" target="_blank">管理人のみ閲覧できます</a></div>
+<div class="mainCommentBody">このコメントは管理人のみ閲覧できます</div>
+<div class="mainCommentDate">2012/07/26(木) 16:32 |  |  #[ <a href="http://3pypromo.blog.fc2.com/">編集</a>]</div><div class="mainCommentTitle"><a id="comment106" name="comment106"></a><a href="" target="_blank">Re: タイトルなし</a></div>
+<div class="mainCommentBody">いえいえ＞＜<br /><br />こちらこそお役に立ててよかったです</div>
+<div class="mainCommentDate">2012/07/26(木) 19:24 | URL | 天照 #-[ <a href="http://3pypromo.blog.fc2.com/?no=106">編集</a>]</div><div class="mainCommentTitle"><a id="comment109" name="comment109"></a><a href="" target="_blank">管理人のみ閲覧できます</a></div>
+<div class="mainCommentBody">このコメントは管理人のみ閲覧できます</div>
+<div class="mainCommentDate">2012/07/31(火) 19:54 |  |  #[ <a href="http://3pypromo.blog.fc2.com/">編集</a>]</div><div class="mainCommentTitle"><a id="comment110" name="comment110"></a><a href="" target="_blank">Re: タイトルなし</a></div>
+<div class="mainCommentBody">RealPlayerのDLというのはページからRealの拡張機能を使ってDLするということでいいでしょうか？<br /><br />ハッキリ試したわけではないのですが、私の場合、クロームが新しいバージョンになるたびにRealのプラグインが動かなくなります<br />Realを再インストールすると使えるようになった気がします<br />もうめんどくさいのでRealはあきらめました<br /><a href="http://douga-getter.sub.jp/" target="_blank">http://douga-getter.sub.jp/</a>のほうがはるかに優秀でしたのでオススメしておきます</div>
+<div class="mainCommentDate">2012/08/01(水) 02:49 | URL | 天照 #-[ <a href="http://3pypromo.blog.fc2.com/?no=106">編集</a>]</div><div class="mainCommentTitle"><a id="comment111" name="comment111"></a><a href="" target="_blank">管理人のみ閲覧できます</a></div>
+<div class="mainCommentBody">このコメントは管理人のみ閲覧できます</div>
+<div class="mainCommentDate">2012/08/01(水) 08:11 |  |  #[ <a href="http://3pypromo.blog.fc2.com/">編集</a>]</div><div class="mainCommentTitle"><a id="comment112" name="comment112"></a><a href="" target="_blank">Re: タイトルなし</a></div>
+<div class="mainCommentBody">いえいえ<br />お役に立てたようでよかったです＾＾</div>
+<div class="mainCommentDate">2012/08/01(水) 14:08 | URL | 天照 #-[ <a href="http://3pypromo.blog.fc2.com/?no=106">編集</a>]</div><div class="mainCommentTitle"><a id="comment225" name="comment225"></a><a href="" target="_blank">管理人のみ閲覧できます</a></div>
+<div class="mainCommentBody">このコメントは管理人のみ閲覧できます</div>
+<div class="mainCommentDate">2013/11/14(木) 03:20 |  |  #[ <a href="http://3pypromo.blog.fc2.com/">編集</a>]</div><div class="mainCommentTitle"><a id="comment228" name="comment228"></a><a href="" target="_blank">Re: ありがとうございます！</a></div>
+<div class="mainCommentBody">--no-sandboxを付け加えるだけで直ったという報告とお礼をいただきました<br />お役に立ててよかったです<br />報告にも感謝しています</div>
+<div class="mainCommentDate">2013/11/22(金) 23:24 | URL | 天照 #-[ <a href="http://3pypromo.blog.fc2.com/?no=106">編集</a>]</div><div class="mainCommentTitle"><a id="comment265" name="comment265"></a><a href="" target="_blank"></a></div>
+<div class="mainCommentBody">色々な方法を試しましたが解決せず、諦めようかと思っていたところ、この記事を見つけました。<br />2つめの方法で元通り打てるようになりました。本当にありがとうございました。</div>
+<div class="mainCommentDate">2014/01/30(木) 14:49 | URL | 名前はひ・み・つ #-[ <a href="http://3pypromo.blog.fc2.com/?no=106">編集</a>]</div><div class="mainCommentTitle"><a id="comment268" name="comment268"></a><a href="" target="_blank">Re: タイトルなし</a></div>
+<div class="mainCommentBody">&gt; 色々な方法を試しましたが解決せず、諦めようかと思っていたところ、この記事を見つけました。<br />&gt; 2つめの方法で元通り打てるようになりました。本当にありがとうございました。<br /><br />お力になれてよかったです！</div>
+<div class="mainCommentDate">2014/02/08(土) 14:35 | URL | 天照 #-[ <a href="http://3pypromo.blog.fc2.com/?no=106">編集</a>]</div><!--コメントここから-->
+<div class="mainCommentBold"><a name="comment_post" id="comment_post"></a>コメントを投稿する</div>
+<form method="post" action="http://3pypromo.blog.fc2.com/blog-entry-106.html?no=106" name="comment_form">
+<input type="hidden" name="mode" value="regist" />
+<input type="hidden" name="comment[no]" value="106" />
+<div class="mainCommentBody">
+<table border="0" align="center" cellpadding="8" cellspacing="0">
+<tr><td width="50"><label for="name">Name:</label></td>
+<td width="250"><input id="name" type="text" name="comment[name]" size="30" class="mainFormText" value="" />
+</td></tr><tr><td>
+<label for="subject">Subject:</label>
+</td><td>
+<input id="subject" type="text" name="comment[title]" size="30" class="mainFormText" />
+</td></tr><tr><td>
+<label for="mail">Mail:</label>
+</td><td>
+<input id="mail" type="text" name="comment[mail]" size="30" class="mainFormText" value="" />
+</td></tr><tr><td>URL:
+</td><td>
+<input id="url" type="text" name="comment[url]" size="30" class="mainFormText" value="" />
+</td></tr><tr><td>Comment:
+</td><td>
+<script type="text/javascript" src="/load.js"></script><br />
+<textarea id="comment" cols="40" rows="8" name="comment[body]" class="mainFormTextarea" ></textarea>
+</td></tr><tr><td>Pass:
+</td><td><input id="pass" type="password" name="comment[pass]" size="20" class="mainFormPass" />
+</td></tr><tr><td>秘密:
+</td><td>
+<input id="himitu" type="checkbox" name="comment[himitu]" class="mainFormCheack" />
+                    管理者にだけ表示を許可する
+</td></tr><tr><td>&nbsp;
+</td><td>
+<input type="submit" value="送信" class="mainFormButton" />
+</td></tr></table>
+</div>
+</form>
+<!--ここまで-->
+</div></div>
+	    
+<!--コメント編集ここから-->
+
+<div class="mainTraba">
+<div class="mainEntryTitle"><a id="" name=""></a><a name="trackback" id="trackback"></a>トラックバック</div>
+<div class="mainTrabaBody">
+<div class="mainTrabaBold">この記事のトラックバックURL</div>
+<div class="mainTrabaUrl">http://3pypromo.blog.fc2.com/tb.php/106-5213f8fd<br /> <a href="javascript:window.location.replace('http://blog.fc2.com/?url='+window.location.href);">この記事にトラックバックする(FC2ブログユーザー)</a></div>
+<div class="mainTrabaBold">この記事へのトラックバック</div>
+</div></div>
+
+
+<div id="footBlock">
+<!-- siteinfo-legal -->
+<div id="siteinfo-legal">
+<span>&nbsp;|&nbsp;</span><a href="http://3pypromo.blog.fc2.com/" title="とある工学の電脳世界へ戻る">とある工学の電脳世界</a><span>&nbsp;|&nbsp;</span>
+<hr width="98%" />
+Template by
+ <a href="http://blog298.blog25.fc2.com/" target="_blank">無料ブログ テンプレート カスタマイズ</a>
+<br /><span id="ad1"><script type="text/javascript">var j = 46;</script><script type="text/javascript" charset="utf-8" src="http://admin.blog.fc2.com/i/image/janre.js"></script></span><noscript><p>FC2Ad</p></noscript><script type="text/javascript" charset="utf-8" language="JavaScript" src="http://static.fc2.com/comment.js"></script> <strong><a href="http://summary.fc2.com/" title="FC2まとめ" target="_blank">まとめ</a></strong>	<script type="text/javascript" src="http://static.fc2.com/js/blog/blog_res.js"></script></div>
+<!-- /siteinfo-legal -->
+</div>
+
+</div>
+<!--/mainBlock-->
+
+<!--menu1-->
+<div id="menu1Block">
+
+<div class="menuBlockBase">
+<div class="menu1BlockHead" style="text-align:left">
+<div class="menuTitle">プロフィール</div>
+</div>
+<div class="menuBlockBody">
+<div class="menuText">
+<p style="text-align:left">
+
+</p>
+<p class="plugin-myimage" style="text-align:left">
+<img src="http://blog-imgs-55.fc2.com/3/p/y/3pypromo/19913ssss.jpg" alt="天照">
+</p>
+<p style="text-align:left">
+Author:天照<br>
+詳しいプロフィールはコチラ<br /><a href="http://3pypromo.blog11.fc2.com/blog-entry-155.html" target="_blank" title="管理人プロフィール">管理人プロフィール</a></p>
+<p style="text-align:left">
+
+</p>
+</div>
+</div>
+</div>
+
+<div class="menuBlockBase">
+<div class="menu1BlockHead" style="text-align:left">
+<div class="menuTitle">FC2カウンター</div>
+</div>
+<div class="menuBlockBody">
+<div class="menuText">
+<p style="text-align:left">
+
+</p>
+<div class="plugin-counter" style="text-align:left">
+	<script language="JavaScript" type="text/javascript" src="http://counter1.fc2.com/counter.php?id=5356091"></script>
+	<noscript><img src="http://counter1.fc2.com/counter_img.php?id=5356091"></noscript>
+
+<br><br>
+<!-- FC2カウンター ここから -->
+現在の閲覧者数:<script language="javascript" type="text/javascript" src="http://counter1.fc2.com/views.php?id=5356091"></script><noscript><img src="http://counter1.fc2.com/counter_now.php?id=5356091" /></noscript>人
+<!-- FC2カウンター ここまで -->
+</div>
+<p style="text-align:left">
+
+</p>
+</div>
+</div>
+</div>
+
+<div class="menuBlockBase">
+<div class="menu1BlockHead" style="text-align:left">
+<div class="menuTitle">スポンサードリンク</div>
+</div>
+<div class="menuBlockBody">
+<div class="menuText">
+<p style="text-align:right">
+
+</p>
+<div class="plugin-freearea" style="text-align:right">
+  <br/>
+<br>
+
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-6534461999600999";
+/* サイバー右右 */
+google_ad_slot = "6562426920";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+<p style="text-align:right">
+
+</p>
+</div>
+</div>
+</div>
+
+<div class="menuBlockBase">
+<div class="menu1BlockHead" style="text-align:left">
+<div class="menuTitle">スポンサードリンク</div>
+</div>
+<div class="menuBlockBody">
+<div class="menuText">
+<p style="text-align:right">
+
+</p>
+<div class="plugin-freearea" style="text-align:right">
+	<br/>
+<br>
+<right>
+
+<script type="text/javascript" charset="euc-jp"><!--
+google_ad_client = "ca-pub-6534461999600999";
+/* さいばーわーるど２ */
+google_ad_slot = "8601894850";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js" charset="euc-jp">
+</script>
+
+</right>
+
+</div>
+<p style="text-align:right">
+
+</p>
+</div>
+</div>
+</div>
+
+<div class="menuBlockBase">
+<div class="menu1BlockHead" style="text-align:left">
+<div class="menuTitle">ＱＲコード</div>
+</div>
+<div class="menuBlockBody">
+<div class="menuText">
+<p style="text-align:left">
+
+</p>
+<div class="plugin-qrcode" style="text-align:left"><img src="http://blog-imgs-35-origin.fc2.com/3/p/y/3pypromo/f57df3c2.jpg" alt="ＱＲコード"></div>
+<p style="text-align:left">
+
+</p>
+</div>
+</div>
+</div>
+
+<div class="menuBlockBase">
+<div class="menu1BlockHead" style="text-align:left">
+<div class="menuTitle">ブロとも申請フォーム</div>
+</div>
+<div class="menuBlockBody">
+<div class="menuText">
+<p style="text-align:left">
+
+</p>
+<p class="plugin-friends" style="text-align:left"><a href="http://3pypromo.blog.fc2.com/?mode=friends">この人とブロともになる</a></p>
+<p style="text-align:left">
+
+</p>
+</div>
+</div>
+</div>
+
+<div class="menuBlockBase">
+<div class="menu1BlockHead" style="text-align:left">
+<div class="menuTitle">Powered By FC2ブログ</div>
+</div>
+<div class="menuBlockBody">
+<div class="menuText">
+<p style="text-align:left">
+
+</p>
+<p class="plugin-powered" style="text-align:left">
+<a href="http://blog.fc2.com/?entry" target="_blank" title="今すぐブログを作ろう！"><img src="http://admin.blog.fc2.com/image/powered2.gif" alt="今すぐブログを作ろう！" border="0"></a><br /><br />
+<a href="http://blog.fc2.com/" target="_blank" title="Powered By FC2ブログ"><img src="http://admin.blog.fc2.com/image/powered.gif" alt="Powered By FC2ブログ" border="0"></a><br>
+</p>
+<p style="text-align:left">
+
+</p>
+</div>
+</div>
+</div>
+
+
+</div>
+<!--/menu1-->
+
+</td><td width="20%" valign="top" style="padding:0px 2px 0px 5px;">
+
+<!--menu_right-->
+<div id="menu2Block">
+
+<div class="menuBlockBase">
+<div class="menu1BlockHead" style="text-align:left">
+<div class="menuTitle">フリーエリア</div>
+</div>
+<div class="menuBlockBody">
+<div class="menuText">
+<p style="text-align:left">
+
+</p>
+<div class="plugin-freearea" style="text-align:left">
+  <br>
+<iframe src="http://rcm-jp.amazon.co.jp/e/cm?t=amaterasu0f3-22&o=9&p=6&l=ez&f=ifr&f=ifr" width="120" height="150" scrolling="no" marginwidth="0" marginheight="0" border="0" frameborder="0" style="border:none;"></iframe>
+
+
+<iframe src="http://rcm-jp.amazon.co.jp/e/cm?t=amaterasu0f3-22&o=9&p=20&l=ur1&category=comicbooks&banner=1WSZMQRDBYFHG8KB4BR2&f=ifr" width="120" height="90" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+<br>
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 10,
+  interval: 30000,
+  width: 'auto',
+  height: 200,
+  theme: {
+    shell: {
+      background: '#ccaaff',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#000000',
+      links: '#4aed05'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: true,
+    behavior: 'all'
+  }
+}).render().setUser('CyberWorld_A').start();
+</script>
+</div>
+<p style="text-align:left">
+
+</p>
+</div>
+</div>
+</div>
+
+<div class="menuBlockBase">
+<div class="menu1BlockHead" style="text-align:left">
+<div class="menuTitle">リンク</div>
+</div>
+<div class="menuBlockBody">
+<div class="menuText">
+<p style="text-align:left">
+
+</p>
+<ul>
+<li style="text-align:left"><a href="http://tarazeyuzu.blog60.fc2.com/" title="ChaNGe The WoRLd" target="_blank">ChaNGe The WoRLd</a></li><li style="text-align:left"><a href="http://yuhi.dtiblog.com/" title="とある" target="_blank">とある</a></li><li style="text-align:left"><a href="http://www.nhk.or.jp/you-doki/archive/life/20120827.html" title="糖質制限ダイエット" target="_blank">糖質制限ダイエット</a></li><li><a href="./?admin">管理画面</a></li>
+</ul>
+<p style="text-align:left">
+<a href="javascript:window.location.replace('http://blog.fc2.com/?linkid=3pypromo');">このブログをリンクに追加する</a>
+</p>
+</div>
+</div>
+</div>
+
+<div class="menuBlockBase">
+<div class="menu1BlockHead" style="text-align:left">
+<div class="menuTitle">カテゴリ</div>
+</div>
+<div class="menuBlockBody">
+<div class="menuText">
+<p style="text-align:left">
+
+</p>
+<div>
+<div style="text-align:left">
+<a href="http://3pypromo.blog.fc2.com/blog-category-0.html" title="・未分類">・未分類 (17)</a>
+</div><div style="text-align:left">
+<a href="http://3pypromo.blog.fc2.com/blog-category-19.html" title="日記（あくまでも個人的な日記）">日記（あくまでも個人的な日記） (14)</a>
+</div><div style="text-align:left">
+<a href="http://3pypromo.blog.fc2.com/blog-category-1.html" title="日記（時事・独り言・紹介したいこと）">日記（時事・独り言・紹介したいこと） (21)</a>
+</div><div style="text-align:left">
+<a href="http://3pypromo.blog.fc2.com/blog-category-9.html" title="パソコン・ソフト・周辺機器">パソコン・ソフト・周辺機器 (58)</a>
+</div><div style="text-align:left">
+<a href="http://3pypromo.blog.fc2.com/blog-category-8.html" title="ＩＴ">ＩＴ (38)</a>
+</div><div style="text-align:left">
+<a href="http://3pypromo.blog.fc2.com/blog-category-10.html" title="電気製品・電子機器">電気製品・電子機器 (15)</a>
+</div><div style="text-align:left">
+<a href="http://3pypromo.blog.fc2.com/blog-category-7.html" title="ゲーム">ゲーム (30)</a>
+</div><div style="text-align:left">
+<a href="http://3pypromo.blog.fc2.com/blog-category-18.html" title="サイエンス">サイエンス (1)</a>
+</div><div style="text-align:left">
+<a href="http://3pypromo.blog.fc2.com/blog-category-13.html" title="ラジオ">ラジオ (6)</a>
+</div><div style="text-align:left">
+<a href="http://3pypromo.blog.fc2.com/blog-category-2.html" title="バドミントン">バドミントン (5)</a>
+</div><div style="text-align:left">
+<a href="http://3pypromo.blog.fc2.com/blog-category-16.html" title="スポーツ">スポーツ (3)</a>
+</div><div style="text-align:left">
+<a href="http://3pypromo.blog.fc2.com/blog-category-3.html" title="まんが">まんが (2)</a>
+</div><div style="text-align:left">
+<a href="http://3pypromo.blog.fc2.com/blog-category-12.html" title="思想">思想 (3)</a>
+</div><div style="text-align:left">
+<a href="http://3pypromo.blog.fc2.com/blog-category-4.html" title="かるじゃぱ">かるじゃぱ (4)</a>
+</div><div style="text-align:left">
+<a href="http://3pypromo.blog.fc2.com/blog-category-11.html" title="アニメ">アニメ (2)</a>
+</div><div style="text-align:left">
+<a href="http://3pypromo.blog.fc2.com/blog-category-14.html" title="動画">動画 (6)</a>
+</div><div style="text-align:left">
+<a href="http://3pypromo.blog.fc2.com/blog-category-15.html" title="読書">読書 (1)</a>
+</div><div style="text-align:left">
+<a href="http://3pypromo.blog.fc2.com/blog-category-6.html" title="ダニー・チューのチャンネル">ダニー・チューのチャンネル (1)</a>
+</div><div style="text-align:left">
+<a href="http://3pypromo.blog.fc2.com/blog-category-20.html" title="携帯">携帯 (21)</a>
+</div></div>
+<p style="text-align:left">
+
+</p>
+</div>
+</div>
+</div>
+
+<div class="menuBlockBase">
+<div class="menu1BlockHead" style="text-align:left">
+<div class="menuTitle">検索フォーム</div>
+</div>
+<div class="menuBlockBody">
+<div class="menuText">
+<p style="text-align:left">
+
+</p>
+<form action="http://3pypromo.blog.fc2.com/blog-entry-106.html?no=106" method="get">
+<p class="plugin-search" style="text-align:left">
+
+
+
+
+<input type="text" size="20" name="q" value="" maxlength="200"><br>
+<input type="submit" value=" 検索 ">
+</p>
+</form>
+<p style="text-align:left">
+
+</p>
+</div>
+</div>
+</div>
+
+<div class="menuBlockBase">
+<div class="menu1BlockHead" style="text-align:left">
+<div class="menuTitle">RSSリンクの表示</div>
+</div>
+<div class="menuBlockBody">
+<div class="menuText">
+<p style="text-align:left">
+
+</p>
+<ul>
+<li style="text-align:left"><a href="http://3pypromo.blog.fc2.com/?xml">最近記事のRSS</a></li>
+<li style="text-align:left"><a href="http://3pypromo.blog.fc2.com/?xml&comment">最新コメントのRSS</a></li>
+<li style="text-align:left"><a href="http://3pypromo.blog.fc2.com/?xml&trackback">最新トラックバックのRSS</a></li>
+</ul>
+<p style="text-align:left">
+
+</p>
+</div>
+</div>
+</div>
+
+<div class="menuBlockBase">
+<div class="menu1BlockHead" style="text-align:left">
+<div class="menuTitle">フリーエリア</div>
+</div>
+<div class="menuBlockBody">
+<div class="menuText">
+<p style="text-align:left">
+
+</p>
+<div class="plugin-freearea" style="text-align:left">
+  <script type="text/javascript" src="http://www.j-league.or.jp/tool/blogparts/js/ranking.js"></script>
+</div>
+<p style="text-align:left">
+
+</p>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+<!--/menu_right-->
+
+<!--/右枠メニュー部分フリースペース-->
+
+</td></tr></table>
+
+</div>
+
+</body>
+<script type="text/javascript" src="http://static.fc2.com/js/blog/headbar_ad_load.js?genre=46&20140911" charset="utf-8"></script>
+<script type="text/javascript" src="http://static.fc2.com/js/blog/ad_ref.js?20121115"></script>
+</html>

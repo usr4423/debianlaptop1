@@ -1,0 +1,1079 @@
+body{ margin:0; padding:0;}
+
+.yboxcontent{ 
+/*_height:200px; min-height:200px; シーズンオフ中（高さの低いバージョン）*/
+/*_height:320px; min-height:320px; 通常（並べ替え後から順位表が出るまで）*/
+/* 順位表が入った１節終了後からheight指定は全てコメントアウト */}
+#jleague .zboxcontent .xboxcontent .yboxcontent p,
+#jleague-g .zboxcontent .xboxcontent .yboxcontent p{ padding:30px 0;}
+
+
+.date{ width:100px; font-size:10px; float:right; text-align:right; /*visibility:hidden;*/ white-space:nowrap;}
+#jleague .date,
+#jleague-g .date{ /*visibility:visible;*/}
+
+
+/* DIV ID */
+#jleague-g,
+#jleague,
+#sapporo,
+#sendai,
+#yamagata,
+#kashima,
+#mito,
+#tochigi,
+#kusatsu,
+#urawa,
+#omiya,
+#chiba,
+#kashiwa,
+#fctokyo,
+#tokyov,
+#fcmachida,
+#kawasaki,
+#yokohamafm,
+#yokohamafc,
+#shonan,
+#kofu,
+#matsumoto,
+#niigata,
+#toyama,
+#shimizu,
+#iwata,
+#nagoya,
+#gifu,
+#kyoto,
+#gosaka,
+#cosaka,
+#kobe,
+#okayama,
+#hiroshima,
+#tokushima,
+#ehime,
+#fukuoka,
+#kitakyushu,
+#tosu,
+#kumamoto,
+#oita,
+#tottori,
+#nagasaki,
+#sanuki { margin:0 auto; width:150px;/* width:100%;*/ }
+
+#banner{ margin:2px auto; width:150px; height:50px; background:url(http://www.j-league.or.jp/tool/blogparts/img/awards2013.jpg) no-repeat; height:60px; display:none;}
+#banner a{ display:block; text-indent:-9999px; outline:0;width:150px; height:50px;}
+
+
+
+
+/*jleague-g*/
+	#jleague-g .xb1 {margin:0 5px; background:#FCF;}/*上下のライン*/
+	#jleague-g .xb2,
+	#jleague-g .xb3,
+	#jleague-g .xb4 {background:#FCF; /*border-left:1px solid #FCF; border-right:1px solid #FCF;*/}/*上下隙間と4隅ライン*/
+	#jleague-g .xbottom .xb2,
+	#jleague-g .xbottom .xb3,
+	#jleague-g .xbottom .xb4 {background:#FCF; border-left:1px solid #FCF; border-right:1px solid #FCF;}/*上下隙間と4隅ライン*/
+	#jleague-g .xboxcontent {background:#FCF; border:0 solid #FCF; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+	#jleague-g #clubttle,
+	#jleague-g #bdl{ color:#F39; text-align:center; }
+	#jleague-g #clubttle{ background:url(images/header-jlogo.gif) no-repeat 3px -1px;}
+	#jleague-g #bdl a{ color:#F39; text-decoration:underline;}
+	#jleague-g #bdl a:hover{ text-decoration:none;}
+	#jleague-g .date{ float:left;    text-align:left; width:auto; position:relative; white-space:nowrap;}
+	#jleague-g .date, x:x{ color:#000;}
+	#jleague-g .sttle-bg{  background:url(images/th-bg02.gif) repeat-x center;clear:both; border:1px solid #FCF; margin:3px 0; line-height:normal; padding:0;color:#F39;}
+	#jleague-g .sttle-bg .sttle{	font-weight:normal;	line-height: normal;}
+	#jleague-g .sttle-sche,
+	#jleague-g .sttle{ font-size:12px; font-weight:bold; color:#333; padding:0; margin:0; }
+	#jleague-g .sttle-sche{ float:left; width:auto; position:relative;}
+	
+	#jleague-g .subbox{ background-image:none; padding:0; clear:both;}
+	#jleague-g .subbox dl{ padding:1px 0;}
+	#jleague-g table.rankingbox th{ background:url(images/th-bg02.gif) repeat-x center;color:#F39;border-top:1px solid #FCF;border-bottom:1px solid #FCF;}
+	#jleague-g table.rankingbox th.cornar-l{border-left:1px solid #FCF;}
+	#jleague-g table.rankingbox th.cornar-r{border-right:1px solid #FCF;}
+	/*#jleague-g .zb1 {background:#F69;}
+	#jleague-g .zboxcontent {border:0 solid #F69; }*/
+
+
+
+
+
+/*Ｊリーグ順位表*/
+#jleague .xb1 {margin:0 5px; background:#333333;}/*上下のライン*/
+#jleague .xb2,
+#jleague .xb3,
+#jleague .xb4 {background:#333333; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#jleague .xbottom .xb2,
+#jleague .xbottom .xb3,
+#jleague .xbottom .xb4 {background:#333; border-left:1px solid #333; border-right:1px solid #333;}/*上下隙間と4隅ライン*/
+#jleague .xboxcontent {background:#333333; border:0 solid #333333; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#jleague #clubttle,
+#jleague #bdl{ color:#fff; text-align:center; }
+#jleague #clubttle{ background:url(images/header-jlogo.gif) no-repeat 3px -1px;}
+
+#jleague #bdl a{ color:#fff; text-decoration:underline;}
+#jleague .date{ float:left;    text-align:left; width:auto; position:relative; white-space:nowrap;}
+
+
+#jleague .date, x:x{ color:#000;}
+
+#jleague .sttle-bg{  background:url(images/th-bg.gif) repeat-x center;clear:both; border:1px solid #ccc; margin:3px 0; line-height:normal; padding:0;}
+#jleague .sttle-bg .sttle{	font-weight:normal;	line-height: normal;}
+#jleague .sttle-sche,
+#jleague .sttle{ font-size:12px; font-weight:bold; color:#333; padding:0; margin:0; }
+#jleague .sttle-sche{ float:left; width:auto; position:relative;}
+
+table.rankingbox{ border-collapse:collapse; width:100%; font-size:10px; text-align:center; margin:2px 0 0 0; clear:both;}
+table.rankingbox th{ font-size:10px; font-weight:normal; border-top:1px solid #ccc; border-bottom:1px solid #ccc; padding:2px 0 0 0; background:url(images/th-bg.gif) repeat-x center;}
+table.rankingbox th.cornar-l{border-left:1px solid #ccc;}
+table.rankingbox th.cornar-r{border-right:1px solid #ccc;}
+table.rankingbox td.club,
+table.rankingbox td.club-r{ text-align:left; padding-left:1em; white-space:nowrap;}
+
+
+
+
+table.rankingbox td{ background:url(images/icon-dot.gif) repeat-x bottom; padding:1px 0.7em; line-height:1.3;}
+table.rankingbox td.line-r,
+table.rankingbox td.club-r{  /*最終節近くになったら出す順位表のラインbackground-image:none; border-bottom:1px solid #900;*/}
+
+
+.tab{ font-size:11px; float:right; white-space:nowrap; padding-right:0.3em; position:relative;}
+
+/* CLUB */
+/*札幌*/
+#sapporo .xb1 {margin:0 5px; background:#d7000f;}/*上下のライン*/
+#sapporo .xb2,
+#sapporo .xb3,
+#sapporo .xb4 {background:#d7000f; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#sapporo .xbottom .xb2,
+#sapporo .xbottom .xb3,
+#sapporo .xbottom .xb4 {background:#d7000f; border-left:1px solid #d7000f; border-right:1px solid #d7000f;}/*上下隙間と4隅ライン*/
+#sapporo .xboxcontent {background:#d7000f; border:0 solid #d7000f; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#sapporo #clubttle,
+#sapporo #bdl{ color:#fff; text-align:center;}
+#sapporo #bdl a{ color:#fff; text-decoration:underline;}
+#sapporo #clublogo{ background:url(images/emb-sapporo.gif) no-repeat;}
+#sapporo .rank span,
+#sapporo .sttle{ color:#d7000f;}
+#sapporo .icon-txt-home a{ background:url(images/img1.gif) no-repeat 1px -161px;}
+
+/*仙台*/
+#sendai .xb1 {margin:0 5px; background:#fcc800;}/*上下のライン*/
+#sendai .xb2,
+#sendai .xb3,
+#sendai .xb4 {background:#fcc800; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#sendai .xbottom .xb2,
+#sendai .xbottom .xb3,
+#sendai .xbottom .xb4 {background:#fcc800; border-left:1px solid #fcc800; border-right:1px solid #fcc800;}/*上下隙間と4隅ライン*/
+#sendai .xboxcontent {background:#fcc800; border:0 solid #fcc800; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#sendai #clubttle,
+#sendai #bdl{ color:#000; text-align:center;}
+#sendai #bdl a{ color:#000; text-decoration:underline;}
+#sendai #clublogo{ background:url(images/img1.gif) no-repeat -40px top;}
+#sendai .rank span,
+#sendai .sttle{ color:#fcc800;}
+#sendai .icon-txt-home a{ background:url(images/img1.gif) no-repeat -9px -161px;}
+
+/*山形*/
+#yamagata .xb1 {margin:0 5px; background:#004098;}/*上下のライン*/
+#yamagata .xb2,
+#yamagata .xb3,
+#yamagata .xb4 {background:#004098; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#yamagata .xbottom .xb2,
+#yamagata .xbottom .xb3,
+#yamagata .xbottom .xb4 {background:#004098; border-left:1px solid #004098; border-right:1px solid #004098;}/*上下隙間と4隅ライン*/
+#yamagata .xboxcontent {background:#004098; border:0 solid #004098; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#yamagata #clubttle,
+#yamagata #bdl{ color:#fff; text-align:center;}
+#yamagata #bdl a{ color:#fff; text-decoration:underline;}
+#yamagata #clublogo{ background:url(images/img1.gif) no-repeat -80px 0;}
+#yamagata .rank span,
+#yamagata .sttle{ color:#004098;}
+#yamagata .icon-txt-home a{ background:url(images/img1.gif) no-repeat -19px -161px;}
+
+/*鹿島*/
+#kashima .xb1 {margin:0 5px; background:#b8193f;}/*上下のライン*/
+#kashima .xb2,
+#kashima .xb3,
+#kashima .xb4 {background:#b8193f; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#kashima .xbottom .xb2,
+#kashima .xbottom .xb3,
+#kashima .xbottom .xb4 {background:#b8193f; border-left:1px solid #b8193f; border-right:1px solid #b8193f;}/*上下隙間と4隅ライン*/
+#kashima .xboxcontent {background:#b8193f; border:0 solid #b8193f; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#kashima #clubttle,
+#kashima #bdl{ color:#fff; text-align:center;}
+#kashima #bdl a{ color:#fff; text-decoration:underline;}
+#kashima #clublogo{ background:url(images/img1.gif) no-repeat -120px 0;}
+#kashima .rank span,
+#kashima .sttle{ color:#b8193f;}
+#kashima .icon-txt-home a{ background:url(images/img1.gif) no-repeat -29px -161px;}
+
+/*水戸*/
+#mito .xb1 {margin:0 5px; background:#005ca2;}/*上下のライン*/
+#mito .xb2,
+#mito .xb3,
+#mito .xb4 {background:#005ca2; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#mito .xbottom .xb2,
+#mito .xbottom .xb3,
+#mito .xbottom .xb4 {background:#005ca2; border-left:1px solid #005ca2; border-right:1px solid #005ca2;}/*上下隙間と4隅ライン*/
+#mito .xboxcontent {background:#005ca2; border:0 solid #005ca2; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#mito #clubttle,
+#mito #bdl{ color:#fff; text-align:center;}
+#mito #bdl a{ color:#fff; text-decoration:underline;}
+#mito #clublogo{ background:url(images/img1.gif) no-repeat -160px 0;}
+#mito .rank span,
+#mito .sttle{ color:#005ca2;}
+#mito .icon-txt-home a{ background:url(images/icon-t-mito.gif) no-repeat center 2px;}
+
+/*栃木*/
+#tochigi .xb1 {margin:0 5px; background:#ff0;}/*上下のライン*/
+#tochigi .xb2,
+#tochigi .xb3,
+#tochigi .xb4 {background:#ff0; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#tochigi .xbottom .xb2,
+#tochigi .xbottom .xb3,
+#tochigi .xbottom .xb4 {background:#FF0; border-left:1px solid #ff0; border-right:1px solid #ff0;}/*上下隙間と4隅ライン*/
+#tochigi .xboxcontent {background:#ff0; border:0 solid #ff0; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#tochigi #clubttle,
+#tochigi #bdl{ color:#000; text-align:center;}
+#tochigi #bdl a{ color:#000; text-decoration:underline;}
+#tochigi #clublogo{ background:url(images/img1.gif) no-repeat -200px 0;}
+#tochigi .rank span,
+#tochigi .sttle{ color:#000;}
+#tochigi .icon-txt-home a{ background:url(images/icon-t-tochigi.gif) no-repeat center 2px;}
+
+/*草津*/
+#kusatsu .xb1 {margin:0 5px; background:#003f73;}/*上下のライン*/
+#kusatsu .xb2,
+#kusatsu .xb3,
+#kusatsu .xb4 {background:#003f73; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#kusatsu .xbottom .xb2,
+#kusatsu .xbottom .xb3,
+#kusatsu .xbottom .xb4 {background:#003f73; border-left:1px solid #003f73; border-right:1px solid #003f73;}/*上下隙間と4隅ライン*/
+#kusatsu .xboxcontent {background:#003f73; border:0 solid #003f73; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#kusatsu #clubttle,
+#kusatsu #bdl{ color:#fff; text-align:center;}
+#kusatsu #bdl a{ color:#fff; text-decoration:underline;}
+#kusatsu #clublogo{ background:url(images/img1.gif) no-repeat -240px 0;}
+#kusatsu .rank span,
+#kusatsu .sttle{ color:#003f73;}
+#kusatsu .icon-txt-home a{ background:url(images/icon-t-kusatsu.gif) no-repeat center 2px;}
+
+/*浦和*/
+#urawa .xb1 {margin:0 5px; background:#e6002d;}/*上下のライン*/
+#urawa .xb2,
+#urawa .xb3,
+#urawa .xb4 {background:#e6002d; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#urawa .xbottom .xb2,
+#urawa .xbottom .xb3,
+#urawa .xbottom .xb4 {background:#e6002d; border-left:1px solid #e6002d; border-right:1px solid #e6002d;}/*上下隙間と4隅ライン*/
+#urawa .xboxcontent {background:#e6002d; border:0 solid #e6002d; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#urawa #clubttle,
+#urawa #bdl{ color:#fff; text-align:center;}
+#urawa #bdl a{ color:#fff; text-decoration:underline;}
+#urawa #clublogo{ background:url(images/img1.gif) no-repeat -280px 0;}
+#urawa .rank span,
+#urawa .sttle{ color:#e6002d;}
+#urawa .icon-txt-home a{ background:url(images/icon-t-urawa.gif) no-repeat center 2px;}
+
+/*大宮*/
+#omiya .xb1 {margin:0 5px; background:#ed6c00;}/*上下のライン*/
+#omiya .xb2,
+#omiya .xb3,
+#omiya .xb4 {background:#ed6c00; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#omiya .xbottom .xb2,
+#omiya .xbottom .xb3,
+#omiya .xbottom .xb4 {background:#ed6c00; border-left:1px solid #ed6c00; border-right:1px solid #ed6c00;}/*上下隙間と4隅ライン*/
+#omiya .xboxcontent {background:#ed6c00; border:0 solid #ed6c00; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#omiya #clubttle,
+#omiya #bdl{ color:#fff; text-align:center;}
+#omiya #bdl a{ color:#fff; text-decoration:underline;}
+#omiya #clublogo{ background:url(images/img1.gif) no-repeat -320px 0;}
+#omiya .rank span,
+#omiya .sttle{ color:#ed6c00;}
+#omiya .icon-txt-home a{ background:url(images/icon-t-omiya.gif) no-repeat center 2px;}
+
+/*千葉*/
+#chiba .xb1 {margin:0 5px; background:#ffe100;}/*上下のライン*/
+#chiba .xb2,
+#chiba .xb3,
+#chiba .xb4 {background:#ffe100; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#chiba .xbottom .xb2,
+#chiba .xbottom .xb3,
+#chiba .xbottom .xb4 {background:#ffe100; border-left:1px solid #ffe100; border-right:1px solid #ffe100;}/*上下隙間と4隅ライン*/
+#chiba .xboxcontent {background:#ffe100; border:0 solid #ffe100; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#chiba #clubttle,
+#chiba #bdl{ color:#009360; text-align:center;}
+#chiba #bdl a{ color:#009360; text-decoration:underline;}
+#chiba #clublogo{ background:url(images/img1.gif) no-repeat -360px 0;}
+#chiba .rank span,
+#chiba .sttle{ color:#009360;}
+#chiba .icon-txt-home a{ background:url(images/icon-t-chiba.gif) no-repeat center 2px;}
+
+/*柏*/
+#kashiwa .xb1 {margin:0 5px; background:#fff100;}/*上下のライン*/
+#kashiwa .xb2,
+#kashiwa .xb3,
+#kashiwa .xb4 {background:#fff100; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#kashiwa .xbottom .xb2,
+#kashiwa .xbottom .xb3,
+#kashiwa .xbottom .xb4 {background:#fff100; border-left:1px solid #fff100; border-right:1px solid #fff100;}/*上下隙間と4隅ライン*/
+#kashiwa .xboxcontent {background:#fff100; border:0 solid #fff100; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#kashiwa #clubttle,
+#kashiwa #bdl{ color:#000; text-align:center;}
+#kashiwa #bdl a{ color:#000; text-decoration:underline;}
+#kashiwa #clublogo{ background:url(images/img1.gif) no-repeat -400px 0;}
+#kashiwa .rank span,
+#kashiwa .sttle{ color:#000;}
+#kashiwa .icon-txt-home a{ background:url(images/icon-t-kashiwa.gif) no-repeat center 2px;}
+
+/*Ｆ東京*/
+#fctokyo .xb1 {margin:0 5px; background:#004098;}/*上下のライン*/
+#fctokyo .xb2,
+#fctokyo .xb3,
+#fctokyo .xb4 {background:#004098; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#fctokyo .xbottom .xb2,
+#fctokyo .xbottom .xb3,
+#fctokyo .xbottom .xb4 {background:#004098; border-left:1px solid #004098; border-right:1px solid #004098;}/*上下隙間と4隅ライン*/
+#fctokyo .xboxcontent {background:#004098; border:0 solid #004098; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#fctokyo #clubttle,
+#fctokyo #bdl{ color:#fff; text-align:center;}
+#fctokyo #bdl a{ color:#fff; text-decoration:underline;}
+#fctokyo #clublogo{ background:url(images/img1.gif) no-repeat -440px 0;}
+#fctokyo .rank span,
+#fctokyo .sttle{ color:#004098;}
+#fctokyo .icon-txt-home a{ background:url(images/icon-t-fctokyo.gif) no-repeat center 2px;}
+
+/*東京Ｖ*/
+#tokyov .xb1 {margin:0 5px; background:#00744b;}/*上下のライン*/
+#tokyov .xb2,
+#tokyov .xb3,
+#tokyov .xb4 {background:#00744b; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#tokyov .xbottom .xb2,
+#tokyov .xbottom .xb3,
+#tokyov .xbottom .xb4 {background:#00744b; border-left:1px solid #00744b; border-right:1px solid #00744b;}/*上下隙間と4隅ライン*/
+#tokyov .xboxcontent {background:#00744b; border:0 solid #00744b; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#tokyov #clubttle,
+#tokyov #bdl{ color:#fff; text-align:center;}
+#tokyov #bdl a{ color:#fff; text-decoration:underline;}
+#tokyov #clublogo{ background:url(images/img1.gif) no-repeat -480px 0;}
+#tokyov .rank span,
+#tokyov .sttle{ color:#00744b;}
+#tokyov .icon-txt-home a{ background:url(images/icon-t-tokyov.gif) no-repeat center 2px;}
+
+/*ＦＣ町田ゼルビア*/
+#fcmachida .xb1 {margin:0 5px; background:#00226d;}/*上下のライン*/
+#fcmachida .xb2,
+#fcmachida .xb3,
+#fcmachida .xb4 {background:#00226d; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#fcmachida .xbottom .xb2,
+#fcmachida .xbottom .xb3,
+#fcmachida .xbottom .xb4 {background:#00226d; border-left:1px solid #00226d; border-right:1px solid #00226d;}/*上下隙間と4隅ライン*/
+#fcmachida .xboxcontent {background:#00226d; border:0 solid #00226d; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#fcmachida #clubttle,
+#fcmachida #bdl{ color:#fff; text-align:center;}
+#fcmachida #bdl a{ color:#fff; text-decoration:underline;}
+#fcmachida #clublogo{ background:url(images/img1.gif) no-repeat -400px -88px;}
+#fcmachida .rank span,
+#fcmachida .sttle{ color:#00226d;}
+#fcmachida .icon-txt-home a{ background:url(images/icon-t-fcmachida.gif) no-repeat center 2px;}
+
+/*川崎Ｆ*/
+#kawasaki .xb1 {margin:0 5px; background:#38a1db;}/*上下のライン*/
+#kawasaki .xb2,
+#kawasaki .xb3,
+#kawasaki .xb4 {background:#38a1db; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#kawasaki .xbottom .xb2,
+#kawasaki .xbottom .xb3,
+#kawasaki .xbottom .xb4 {background:#38a1db; border-left:1px solid #38a1db; border-right:1px solid #38a1db;}/*上下隙間と4隅ライン*/
+#kawasaki .xboxcontent {background:#38a1db; border:0 solid #38a1db; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#kawasaki #clubttle,
+#kawasaki #bdl{ color:#fff; text-align:center;}
+#kawasaki #bdl a{ color:#fff; text-decoration:underline;}
+#kawasaki #clublogo{ background:url(images/img1.gif) no-repeat -520px 0;}
+#kawasaki .rank span,
+#kawasaki .sttle{ color:#38a1db;}
+#kawasaki .icon-txt-home a{ background:url(images/icon-t-kawasaki.gif) no-repeat center 2px;}
+
+/*横浜FM*/
+#yokohamafm .xb1 {margin:0 5px; background:#004098;}/*上下のライン*/
+#yokohamafm .xb2,
+#yokohamafm .xb3,
+#yokohamafm .xb4 {background:#004098; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#yokohamafm .xbottom .xb2,
+#yokohamafm .xbottom .xb3,
+#yokohamafm .xbottom .xb4 {background:#004098; border-left:1px solid #004098; border-right:1px solid #004098;}/*上下隙間と4隅ライン*/
+#yokohamafm .xboxcontent {background:#004098; border:0 solid #004098; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#yokohamafm #clubttle,
+#yokohamafm #bdl{ color:#fff; text-align:center;}
+#yokohamafm #bdl a{ color:#fff; text-decoration:underline;}
+#yokohamafm #clublogo{ background:url(images/img1.gif) no-repeat 0 -44px;}
+#yokohamafm .rank span,
+#yokohamafm .sttle{ color:#004098;}
+#yokohamafm .icon-txt-home a{ background:url(images/icon-t-yokohamafm.gif) no-repeat center 2px;}
+
+/*横浜FC*/
+#yokohamafc .xb1 {margin:0 5px; background:#00a0e9;}/*上下のライン*/
+#yokohamafc .xb2,
+#yokohamafc .xb3,
+#yokohamafc .xb4 {background:#00a0e9; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#yokohamafc .xbottom .xb2,
+#yokohamafc .xbottom .xb3,
+#yokohamafc .xbottom .xb4 {background:#00a0e9; border-left:1px solid #00a0e9; border-right:1px solid #00a0e9;}/*上下隙間と4隅ライン*/
+#yokohamafc .xboxcontent {background:#00a0e9; border:0 solid #00a0e9; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#yokohamafc #clubttle,
+#yokohamafc #bdl{ color:#fff; text-align:center;}
+#yokohamafc #bdl a{ color:#fff; text-decoration:underline;}
+#yokohamafc #clublogo{ background:url(images/img1.gif) no-repeat -40px -44px;}
+#yokohamafc .rank span,
+#yokohamafc .sttle{ color:#00a0e9;}
+#yokohamafc .icon-txt-home a{ background:url(images/icon-t-yokohamafc.gif) no-repeat center 2px;}
+
+/*湘南*/
+#shonan .xb1 {margin:0 5px; background:#6fba2c;}/*上下のライン*/
+#shonan .xb2,
+#shonan .xb3,
+#shonan .xb4 {background:#6fba2c; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#shonan .xbottom .xb2,
+#shonan .xbottom .xb3,
+#shonan .xbottom .xb4 {background:#6fba2c; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#shonan .xboxcontent {background:#6fba2c; border:0 solid #6fba2c; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#shonan #clubttle,
+#shonan #bdl{ color:#fff; text-align:center;}
+#shonan #bdl a{ color:#fff; text-decoration:underline;}
+#shonan #clublogo{ background:url(images/img1.gif) no-repeat -80px -44px;}
+#shonan .rank span,
+#shonan .sttle{ color:#6fba2c;}
+#shonan .icon-txt-home a{ background:url(images/icon-t-shonan.gif) no-repeat center 2px;}
+
+/*甲府*/
+#kofu .xb1 {margin:0 5px; background:#005bac;}/*上下のライン*/
+#kofu .xb2,
+#kofu .xb3,
+#kofu .xb4 {background:#005bac; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#kofu .xbottom .xb2,
+#kofu .xbottom .xb3,
+#kofu .xbottom .xb4 {background:#005bac; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#kofu .xboxcontent {background:#005bac; border:0 solid #005bac; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#kofu #clubttle,
+#kofu #bdl{ color:#fff; text-align:center;}
+#kofu #bdl a{ color:#fff; text-decoration:underline;}
+#kofu #clublogo{  background:url(images/img1.gif) no-repeat -120px -44px;}
+#kofu .rank span,
+#kofu .sttle{ color:#005bac;}
+#kofu .icon-txt-home a{ background:url(images/icon-t-kofu.gif) no-repeat center 2px;}
+
+
+/*松本山雅ＦＣ*/
+#matsumoto .xb1 {margin:0 5px; background:#003E1F;}/*上下のライン*/
+#matsumoto .xb2,
+#matsumoto .xb3,
+#matsumoto .xb4 {background:#003E1F; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#matsumoto .xbottom .xb2,
+#matsumoto .xbottom .xb3,
+#matsumoto .xbottom .xb4 {background:#003E1F; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#matsumoto .xboxcontent {background:#003E1F; border:0 solid #003E1F; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#matsumoto #clubttle,
+#matsumoto #bdl{ color:#fff; text-align:center;}
+#matsumoto #bdl a{ color:#fff; text-decoration:underline;}
+#matsumoto #clublogo{  background:url(images/img1.gif) no-repeat -440px -88px;}
+#matsumoto .rank span,
+#matsumoto .sttle{ color:#003E1F;}
+#matsumoto .icon-txt-home a{ background:url(images/icon-t-matsumoto.gif) no-repeat center 2px;}
+
+
+/*新潟*/
+#niigata .xb1 {margin:0 5px; background:#ea5504;}/*上下のライン*/
+#niigata .xb2,
+#niigata .xb3,
+#niigata .xb4 {background:#ea5504; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#niigata .xbottom .xb2,
+#niigata .xbottom .xb3,
+#niigata .xbottom .xb4 {background:#ea5504; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#niigata .xboxcontent {background:#ea5504; border:0 solid #ea5504; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#niigata #clubttle,
+#niigata #bdl{ color:#fff; text-align:center;}
+#niigata #bdl a{ color:#fff; text-decoration:underline;}
+#niigata #clublogo{  background:url(images/img1.gif) no-repeat -160px -44px;}
+#niigata .rank span,
+#niigata .sttle{ color:#ea5504;}
+#niigata .icon-txt-home a{ background:url(images/icon-t-niigata.gif) no-repeat center 2px;}
+
+/*富山*/
+#toyama .xb1 {margin:0 5px; background:#003894;}/*上下のライン*/
+#toyama .xb2,
+#toyama .xb3,
+#toyama .xb4 {background:#003894; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#toyama .xbottom .xb2,
+#toyama .xbottom .xb3,
+#toyama .xbottom .xb4 {background:#003894; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#toyama .xboxcontent {background:#003894; border:0 solid #003894; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#toyama #clubttle,
+#toyama #bdl{ color:#fff; text-align:center;}
+#toyama #bdl a{ color:#fff; text-decoration:underline;}
+#toyama #clublogo{  background:url(images/img1.gif) no-repeat -200px -44px;}
+#toyama .rank span,
+#toyama .sttle{ color:#003894;}
+#toyama .icon-txt-home a{ background:url(images/icon-t-toyama.gif) no-repeat center 2px;}
+
+
+/*清水*/
+#shimizu .xb1 {margin:0 5px; background:#f39800;}/*上下のライン*/
+#shimizu .xb2,
+#shimizu .xb3,
+#shimizu .xb4 {background:#f39800; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#shimizu .xbottom .xb2,
+#shimizu .xbottom .xb3,
+#shimizu .xbottom .xb4 {background:#f39800; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#shimizu .xboxcontent {background:#f39800; border:0 solid #f39800; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#shimizu #clubttle,
+#shimizu #bdl{ color:#fff; text-align:center;}
+#shimizu #bdl a{ color:#fff; text-decoration:underline;}
+#shimizu #clublogo{  background:url(images/img1.gif) no-repeat -240px -44px;}
+#shimizu .rank span,
+#shimizu .sttle{ color:#f39800;}
+#shimizu .icon-txt-home a{ background:url(images/icon-t-shimizu.gif) no-repeat center 2px;}
+
+
+/*磐田*/
+#iwata .xb1 {margin:0 5px; background:#6c9bd2;}/*上下のライン*/
+#iwata .xb2,
+#iwata .xb3,
+#iwata .xb4 {background:#6c9bd2; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#iwata .xbottom .xb2,
+#iwata .xbottom .xb3,
+#iwata .xbottom .xb4 {background:#6c9bd2; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#iwata .xboxcontent {background:#6c9bd2; border:0 solid #6c9bd2; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#iwata #clubttle,
+#iwata #bdl{ color:#fff; text-align:center;}
+#iwata #bdl a{ color:#fff; text-decoration:underline;}
+#iwata #clublogo{  background:url(images/img1.gif) no-repeat -280px -44px;}
+#iwata .rank span,
+#iwata .sttle{ color:#6c9bd2;}
+#iwata .icon-txt-home a{ background:url(images/icon-t-iwata.gif) no-repeat center 2px;}
+
+
+/*名古屋*/
+#nagoya .xb1 {margin:0 5px; background:#d80c18;}/*上下のライン*/
+#nagoya .xb2,
+#nagoya .xb3,
+#nagoya .xb4 {background:#d80c18; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#nagoya .xbottom .xb2,
+#nagoya .xbottom .xb3,
+#nagoya .xbottom .xb4 {background:#d80c18; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#nagoya .xboxcontent {background:#d80c18; border:0 solid #d80c18; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#nagoya #clubttle,
+#nagoya #bdl{ color:#fff; text-align:center;}
+#nagoya #bdl a{ color:#fff; text-decoration:underline;}
+#nagoya #clublogo{  background:url(images/img1.gif) no-repeat -320px -44px;}
+#nagoya .rank span,
+#nagoya .sttle{ color:#d80c18;}
+#nagoya .icon-txt-home a{ background:url(images/icon-t-nagoya.gif) no-repeat center 2px;}
+
+
+/*岐阜阜*/
+#gifu .xb1 {margin:0 5px; background:#00633d;}/*上下のライン*/
+#gifu .xb2,
+#gifu .xb3,
+#gifu .xb4 {background:#00633d; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#gifu .xbottom .xb2,
+#gifu .xbottom .xb3,
+#gifu .xbottom .xb4 {background:#00633d; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#gifu .xboxcontent {background:#00633d; border:0 solid #00633d; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#gifu #clubttle,
+#gifu #bdl{ color:#fff; text-align:center;}
+#gifu #bdl a{ color:#fff; text-decoration:underline;}
+#gifu #clublogo{  background:url(images/img1.gif) no-repeat -360px -44px;}
+#gifu .rank span,
+#gifu .sttle{ color:#00633d;}
+#gifu .icon-txt-home a{ background:url(images/icon-t-gifu.gif) no-repeat center 2px;}
+
+
+/*京都*/
+#kyoto .xb1 {margin:0 5px; background:#920783;}/*上下のライン*/
+#kyoto .xb2,
+#kyoto .xb3,
+#kyoto .xb4 {background:#920783; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#kyoto .xbottom .xb2,
+#kyoto .xbottom .xb3,
+#kyoto .xbottom .xb4 {background:#920783; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#kyoto .xboxcontent {background:#920783; border:0 solid #920783; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#kyoto #clubttle,
+#kyoto #bdl{ color:#fff; text-align:center;}
+#kyoto #bdl a{ color:#fff; text-decoration:underline;}
+#kyoto #clublogo{  background:url(images/img1.gif) no-repeat -400px -44px;}
+#kyoto .rank span,
+#kyoto .sttle{ color:#920783;}
+#kyoto .icon-txt-home a{ background:url(images/icon-t-kyoto.gif) no-repeat center 2px;}
+
+
+/*Ｇ大阪*/
+#gosaka .xb1 {margin:0 5px; background:#004ea2;}/*上下のライン*/
+#gosaka .xb2,
+#gosaka .xb3,
+#gosaka .xb4 {background:#004ea2; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#gosaka .xbottom .xb2,
+#gosaka .xbottom .xb3,
+#gosaka .xbottom .xb4 {background:#004ea2; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#gosaka .xboxcontent {background:#004ea2; border:0 solid #004ea2; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#gosaka #clubttle,
+#gosaka #bdl{ color:#fff; text-align:center;}
+#gosaka #bdl a{ color:#fff; text-decoration:underline;}
+#gosaka #clublogo{  background:url(images/img1.gif) no-repeat -440px -44px;}
+#gosaka .rank span,
+#gosaka .sttle{ color:#004ea2;}
+#gosaka .icon-txt-home a{ background:url(images/icon-t-gosaka.gif) no-repeat center 2px;}
+
+
+/*Ｃ大阪*/
+#cosaka .xb1 {margin:0 5px; background:#e62e8b;}/*上下のライン*/
+#cosaka .xb2,
+#cosaka .xb3,
+#cosaka .xb4 {background:#e62e8b; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#cosaka .xbottom .xb2,
+#cosaka .xbottom .xb3,
+#cosaka .xbottom .xb4 {background:#e62e8b; border-left:1px solid #e62e8b; border-right:1px solid #e62e8b;}/*上下隙間と4隅ライン*/
+#cosaka .xboxcontent {background:#e62e8b; border:0 solid #e62e8b; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#cosaka #clubttle,
+#cosaka #bdl{ color:#fff; text-align:center;}
+#cosaka #bdl a{ color:#fff; text-decoration:underline;}
+#cosaka #clublogo{  background:url(images/img1.gif) no-repeat -480px -44px;}
+#cosaka .rank span,
+#cosaka .sttle{ color:#e62e8b;}
+#cosaka .icon-txt-home a{ background:url(images/icon-t-cosaka.gif) no-repeat center 2px;}
+
+/*神戸*/
+#kobe .xb1 {margin:0 5px; background:#a9002e;}/*上下のライン*/
+#kobe .xb2,
+#kobe .xb3,
+#kobe .xb4 {background:#a9002e; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#kobe .xbottom .xb2,
+#kobe .xbottom .xb3,
+#kobe .xbottom .xb4 {background:#a9002e; border-left:1px solid #a9002e; border-right:1px solid #a9002e;}/*上下隙間と4隅ライン*/
+#kobe .xboxcontent {background:#a9002e; border:0 solid #a9002e; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#kobe #clubttle,
+#kobe #bdl{ color:#fff; text-align:center;}
+#kobe #bdl a{ color:#fff; text-decoration:underline;}
+#kobe #clublogo{  background:url(images/img1.gif) no-repeat -520px -44px;}
+#kobe .rank span,
+#kobe .sttle{ color:#a9002e;}
+#kobe .icon-txt-home a{ background:url(images/icon-t-kobe.gif) no-repeat center 2px;}
+
+/*鳥取*/
+#tottori .xb1 {margin:0 5px; background:#6eb93d;}/*上下のライン*/
+#tottori .xb2,
+#tottori .xb3,
+#tottori .xb4 {background:#6eb93d; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#tottori .xbottom .xb2,
+#tottori .xbottom .xb3,
+#tottori .xbottom .xb4 {background:#6eb93d; border-left:1px solid #66cc33; border-right:1px solid #6eb93d;}/*上下隙間と4隅ライン*/
+#tottori .xboxcontent {background:#6eb93d; border:0 solid #66cc33; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#tottori #clubttle,
+#tottori #bdl{ color:#fff; text-align:center;}
+#tottori #bdl a{ color:#fff; text-decoration:underline;}
+#tottori #clublogo{  background:url(images/img1.gif) no-repeat 0 -88px;}
+#tottori .rank span,
+#tottori .sttle{ color:#6eb93d;}
+#tottori .icon-txt-home a{ background:url(images/icon-t-tottori.gif) no-repeat center 2px;}
+
+/*岡山*/
+#okayama .xb1 {margin:0 5px; background:#b6003d;}/*上下のライン*/
+#okayama .xb2,
+#okayama .xb3,
+#okayama .xb4 {background:#b6003d; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#okayama .xbottom .xb2,
+#okayama .xbottom .xb3,
+#okayama .xbottom .xb4 {background:#b6003d; border-left:1px solid #b6003d; border-right:1px solid #b6003d;}/*上下隙間と4隅ライン*/
+#okayama .xboxcontent {background:#b6003d; border:0 solid #b6003d; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#okayama #clubttle,
+#okayama #bdl{ color:#fff; text-align:center;}
+#okayama #bdl a{ color:#fff; text-decoration:underline;}
+#okayama #clublogo{  background:url(images/img1.gif) no-repeat -40px -88px;}
+#okayama .rank span,
+#okayama .sttle{ color:#b6003d;}
+#okayama .icon-txt-home a{ background:url(images/icon-t-okayama.gif) no-repeat center 2px;}
+
+/*広島*/
+#hiroshima .xb1 {margin:0 5px; background:#51318f;}/*上下のライン*/
+#hiroshima .xb2,
+#hiroshima .xb3,
+#hiroshima .xb4 {background:#51318f; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#hiroshima .xbottom .xb2,
+#hiroshima .xbottom .xb3,
+#hiroshima .xbottom .xb4 {background:#51318f; border-left:1px solid #51318f; border-right:1px solid #51318f;}/*上下隙間と4隅ライン*/
+#hiroshima .xboxcontent {background:#51318f; border:0 solid #51318f; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#hiroshima #clubttle,
+#hiroshima #bdl{ color:#fff; text-align:center;}
+#hiroshima #bdl a{ color:#fff; text-decoration:underline;}
+#hiroshima #clublogo{  background:url(images/img1.gif) no-repeat -80px -88px;}
+#hiroshima .rank span,
+#hiroshima .sttle{ color:#51318f;}
+#hiroshima .icon-txt-home a{ background:url(images/icon-t-hiroshima.gif) no-repeat center 2px;}
+
+/*徳島*/
+#tokushima .xb1 {margin:0 5px; background:#0b318f;}/*上下のライン*/
+#tokushima .xb2,
+#tokushima .xb3,
+#tokushima .xb4 {background:#0b318f; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#tokushima .xbottom .xb2,
+#tokushima .xbottom .xb3,
+#tokushima .xbottom .xb4 {background:#0b318f; border-left:1px solid #0b318f; border-right:1px solid #0b318f;}/*上下隙間と4隅ライン*/
+#tokushima .xboxcontent {background:#0b318f; border:0 solid #0b318f; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#tokushima #clubttle,
+#tokushima #bdl{ color:#fff; text-align:center;}
+#tokushima #bdl a{ color:#fff; text-decoration:underline;}
+#tokushima #clublogo{  background:url(images/img1.gif) no-repeat -120px -88px;}
+#tokushima .rank span,
+#tokushima .sttle{ color:#0b318f;}
+#tokushima .icon-txt-home a{ background:url(images/icon-t-tokushima.gif) no-repeat center 2px;}
+
+/*愛媛*/
+#ehime .xb1 {margin:0 5px; background:#f39800;}/*上下のライン*/
+#ehime .xb2,
+#ehime .xb3,
+#ehime .xb4 {background:#f39800; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#ehime .xbottom .xb2,
+#ehime .xbottom .xb3,
+#ehime .xbottom .xb4 {background:#f39800; border-left:1px solid #f39800; border-right:1px solid #f39800;}/*上下隙間と4隅ライン*/
+#ehime .xboxcontent {background:#f39800; border:0 solid #f39800; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#ehime #clubttle,
+#ehime #bdl{ color:#fff; text-align:center;}
+#ehime #bdl a{ color:#fff; text-decoration:underline;}
+#ehime #clublogo{  background:url(images/img1.gif) no-repeat -160px -88px;}
+#ehime .rank span,
+#ehime .sttle{ color:#f39800;}
+#ehime .icon-txt-home a{ background:url(images/icon-t-ehime.gif) no-repeat center 2px;}
+
+/*福岡*/
+#fukuoka .xb1 {margin:0 5px; background:#003c83;}/*上下のライン*/
+#fukuoka .xb2,
+#fukuoka .xb3,
+#fukuoka .xb4 {background:#003c83; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#fukuoka .xbottom .xb2,
+#fukuoka .xbottom .xb3,
+#fukuoka .xbottom .xb4 {background:#003c83; border-left:1px solid #003c83; border-right:1px solid #003c83;}/*上下隙間と4隅ライン*/
+#fukuoka .xboxcontent {background:#003c83; border:0 solid #003c83; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#fukuoka #clubttle,
+#fukuoka #bdl{ color:#fff; text-align:center;}
+#fukuoka #bdl a{ color:#fff; text-decoration:underline;}
+#fukuoka #clublogo{  background:url(images/img1.gif) no-repeat -200px -88px;}
+#fukuoka .rank span,
+#fukuoka .sttle{ color:#003c83;}
+#fukuoka .icon-txt-home a{ background:url(images/icon-t-fukuoka.gif) no-repeat center 2px;}
+
+/*北九州*/
+#kitakyushu .xb1 {margin:0 5px; background:#fff100;}/*上下のライン*/
+#kitakyushu .xb2,
+#kitakyushu .xb3,
+#kitakyushu .xb4 {background:#fff100; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#kitakyushu .xbottom .xb2,
+#kitakyushu .xbottom .xb3,
+#kitakyushu .xbottom .xb4 {background:#fff100; border-left:1px solid #fff100; border-right:1px solid #fff100;}/*上下隙間と4隅ライン*/
+#kitakyushu .xboxcontent {background:#fff100; border:0 solid #fff100; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#kitakyushu #clubttle,
+#kitakyushu #bdl{ color:#1D2088; text-align:center;}
+#kitakyushu #bdl a{ color:#1D2088; text-decoration:underline;}
+#kitakyushu #clublogo{  background:url(images/img1.gif) no-repeat -240px -88px;}
+#kitakyushu .rank span,
+#kitakyushu .sttle{ color:#1D2088;}
+#kitakyushu .icon-txt-home a{ background:url(images/icon-t-kitakyushu.gif) no-repeat center 2px;}
+
+/*鳥栖*/
+#tosu .xb1 {margin:0 5px; background:#0076c0;}/*上下のライン*/
+#tosu .xb2,
+#tosu .xb3,
+#tosu .xb4 {background:#0076c0; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#tosu .xbottom .xb2,
+#tosu .xbottom .xb3,
+#tosu .xbottom .xb4 {background:#0076c0; border-left:1px solid #0076c0; border-right:1px solid #0076c0;}/*上下隙間と4隅ライン*/
+#tosu .xboxcontent {background:#0076c0; border:0 solid #0076c0; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#tosu #clubttle,
+#tosu #bdl{ color:#fff; text-align:center;}
+#tosu #bdl a{ color:#fff; text-decoration:underline;}
+#tosu #clublogo{  background:url(images/img1.gif) no-repeat -280px -88px;}
+#tosu .rank span,
+#tosu .sttle{ color:#0076c0;}
+#tosu .icon-txt-home a{ background:url(images/icon-t-tosu.gif) no-repeat center 2px;}
+
+/*長崎*/
+#nagasaki .xb1 {margin:0 5px; background:#005bac;}/*上下のライン*/
+#nagasaki .xb2,
+#nagasaki .xb3,
+#nagasaki .xb4 {background:#005bac; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#nagasaki .xbottom .xb2,
+#nagasaki .xbottom .xb3,
+#nagasaki .xbottom .xb4 {background:#005bac; border-left:1px solid #005bac; border-right:1px solid #005bac;}/*上下隙間と4隅ライン*/
+#nagasaki .xboxcontent {background:#005bac; border:0 solid #005bac; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#nagasaki #clubttle,
+#nagasaki #bdl{ color:#fff; text-align:center;}
+#nagasaki #bdl a{ color:#fff; text-decoration:underline;}
+#nagasaki #clublogo{  background:url(images/img1.gif) no-repeat -480px -88px;}
+#nagasaki .rank span,
+#nagasaki .sttle{ color:#005bac;}
+#nagasaki .icon-txt-home a{ background:url(images/icon-t-nagasaki.gif) no-repeat center 2px;}
+
+/*熊本*/
+#kumamoto .xb1 {margin:0 5px; background:#b62013;}/*上下のライン*/
+#kumamoto .xb2,
+#kumamoto .xb3,
+#kumamoto .xb4 {background:#b62013; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#kumamoto .xbottom .xb2,
+#kumamoto .xbottom .xb3,
+#kumamoto .xbottom .xb4 {background:#b62013; border-left:1px solid #b62013; border-right:1px solid #b62013;}/*上下隙間と4隅ライン*/
+#kumamoto .xboxcontent {background:#b62013; border:0 solid #b62013; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#kumamoto #clubttle,
+#kumamoto #bdl{ color:#fff; text-align:center;}
+#kumamoto #bdl a{ color:#fff; text-decoration:underline;}
+#kumamoto #clublogo{  background:url(images/img1.gif) no-repeat -320px -88px;}
+#kumamoto .rank span,
+#kumamoto .sttle{ color:#b62013;}
+#kumamoto .icon-txt-home a{ background:url(images/icon-t-kumamoto.gif) no-repeat center 2px;}
+
+/*大分*/
+#oita .xb1 {margin:0 5px; background:#0b318f;}/*上下のライン*/
+#oita .xb2,
+#oita .xb3,
+#oita .xb4 {background:#0b318f; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#oita .xbottom .xb2,
+#oita .xbottom .xb3,
+#oita .xbottom .xb4 {background:#0b318f; border-left:1px solid #0b318f; border-right:1px solid #0b318f;}/*上下隙間と4隅ライン*/
+#oita .xboxcontent {background:#0b318f; border:0 solid #0b318f; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#oita #clubttle,
+#oita #bdl{ color:#fff; text-align:center;}
+#oita #bdl a{ color:#fff; text-decoration:underline;}
+#oita #clublogo{  background:url(images/img1.gif) no-repeat -360px -88px;}
+#oita .rank span,
+#oita .sttle{ color:#0b318f;}
+#oita .icon-txt-home a{ background:url(images/icon-t-oita.gif) no-repeat center 2px;}
+
+
+/*讃岐*/
+#sanuki .xb1 {margin:0 5px; background:#66aadd;}/*上下のライン*/
+#sanuki .xb2,
+#sanuki .xb3,
+#sanuki .xb4 {background:#66aadd; border-left:1px solid #bbb; border-right:1px solid #bbb;}/*上下隙間と4隅ライン*/
+#sanuki .xbottom .xb2,
+#sanuki .xbottom .xb3,
+#sanuki .xbottom .xb4 {background:#66aadd; border-left:1px solid #66aadd; border-right:1px solid #66aadd;}/*上下隙間と4隅ライン*/
+#sanuki .xboxcontent {background:#66aadd; border:0 solid #66aadd; border-width:0 1px; }/*真ん中背景色と左右ライン*/
+#sanuki #clubttle,
+#sanuki #bdl{ color:#fff; text-align:center;}
+#sanuki #bdl a{ color:#fff; text-decoration:underline;}
+#sanuki #clublogo{  background:url(images/img1.gif) no-repeat -520px -88px;}
+#sanuki .rank span,
+#sanuki .sttle{ color:#66aadd;}
+#sanuki .icon-txt-home a{ background:url(images/icon-t-sanuki.gif) no-repeat center 2px;}
+
+
+
+/*share
+---------------------------------------------------------------*/
+body{ font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
+
+a {color:#3366cc;text-decoration:underline;/*border-bottom:1px dotted #469;_border-bottom:1px solid #469;*/}
+a:visited {color:#3366cc;border-color:#899;}
+a:hover {color:#000066; text-decoration:none;/*border-bottom:1px solid #000066;*/}
+
+a img, a.img:link, a.img:visited, a.img:hover {  border-width:0;border-bottom:none;  }
+  
+a img,
+a.img:link,
+a.img:visited,
+a.img:hover,
+img a,
+img a:hover,
+a.img:active{border-width:0;border-bottom:none;}
+
+
+#clubttle{ padding:0 0 2px 0; font-size:12px; height:16px;}
+#bdl{padding:4px 0 0 0; font-size:12px;}
+#select{ padding:5px 0 0 0; height:33px; width:140px; margin:0 auto;}
+#select select{ margin:0; padding:0; }
+#select .qlink{ font-size:10px; margin:0; padding:0;}
+#footerjlogo{ float:right; width:63px; font-size:10px; position:relative; top:3px; right:3px;}
+#footerjlogo a{ display:block; text-indent:-9999px; height:14px;}
+#clublogo{	width:40px; height:44px; float:left; margin-bottom:2px; }
+#clublogo a{ outline:0; font-size:9px; text-indent:-9999px; display:block;width:40px; height:44px;}
+
+.rank{  width:94px; font-size:10px; text-align:right; line-height:normal; margin:0 0 0 40px; padding:0; position:relative; }
+	.rank span{ font-size:20px; font-weight:bold; font-family:Verdana, Geneva, sans-serif; padding:0 3px;}
+
+#jleague .subbox{ background-image:none; padding:0; clear:both;}
+#jleague .subbox dl{ padding:1px 0;}
+
+.subbox{ padding: 5px 0; margin:0; background:url(images/sttle-bg.gif) repeat-x center top; font-size:11px;	 position:relative; width:100%; line-height:normal; z-index:1; }
+.subbox:after	{	content: "."; 	display: block; 	height: 0; 	clear: both; 	visibility: hidden;}
+*html .subbox{	height:1%;}
+.subbox		{	display:inline-block;}
+
+
+
+.subbox dl{ margin:0; padding:5px 0; background:url(images/icon-dot.gif) repeat-x bottom; line-height:1.2; }
+
+.subbox dt{ padding:1px 0 0 15px; margin:0; font-size:10px;letter-spacing:0.3px; 	_font-size: small;	*font-size: 12px;*letter-spacing:0px;}
+.subbox dd{ margin:0; padding:0 0 0 0.8em; }
+
+.subbox dt.dt-non{ background:url(images/icon-yazi.gif) no-repeat 1px 2px; padding-left:1em;}
+.subbox dt.dt-yn{ background:url(images/dt-yn.gif) no-repeat 1px 2px; padding-left:26px;}
+
+.subbox a.score-y{ /*background:#FF0;*/ background:none;}
+
+.subbox dt.dt-league{  padding-left:24px;_font-size: 11px;_letter-spacing:-1px;}
+
+
+/* J1J2 */
+#sendai .subbox dt.dt-league,
+#kashima .subbox dt.dt-league,
+#urawa .subbox dt.dt-league,
+#omiya .subbox dt.dt-league,
+#kashiwa .subbox dt.dt-league,
+#fctokyo .subbox dt.dt-league,
+#kawasaki .subbox dt.dt-league,
+#yokohamafm .subbox dt.dt-league,
+#kofu .subbox dt.dt-league,
+#niigata .subbox dt.dt-league,
+#shimizu .subbox dt.dt-league,
+#nagoya .subbox dt.dt-league,
+#gosaka .subbox dt.dt-league,
+#cosaka .subbox dt.dt-league,
+#kobe .subbox dt.dt-league,
+#hiroshima .subbox dt.dt-league,
+#tokushima .subbox dt.dt-league,
+#tosu .subbox dt.dt-league { background:url(images/dt-league1.gif) no-repeat 1px 2px;}
+
+#sapporo .subbox dt.dt-league,
+#yamagata .subbox dt.dt-league,
+#mito .subbox dt.dt-league,
+#tochigi .subbox dt.dt-league,
+#kusatsu .subbox dt.dt-league,
+#chiba .subbox dt.dt-league,
+#tokyov .subbox dt.dt-league,
+#yokohamafc .subbox dt.dt-league,
+#shonan .subbox dt.dt-league,
+#matsumoto .subbox dt.dt-league,
+#toyama .subbox dt.dt-league,
+#iwata .subbox dt.dt-league,
+#gifu .subbox dt.dt-league,
+#kyoto .subbox dt.dt-league,
+/*#tottori .subbox dt.dt-league,*/
+#okayama .subbox dt.dt-league,
+#sanuki .subbox dt.dt-league,
+#ehime .subbox dt.dt-league,
+#fukuoka .subbox dt.dt-league,
+#kitakyushu .subbox dt.dt-league,
+#nagasaki .subbox dt.dt-league,
+#kumamoto .subbox dt.dt-league,
+#oita .subbox dt.dt-league { background:url(images/dt-league2.gif) no-repeat 1px 2px;}
+
+
+
+
+.sec{ font-family:Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; padding:0 0 0 0.5em; margin:0; font-size:10px; *font-size: 12px;*letter-spacing:0px; }
+head～/* */body .sec { font-size:11px; } /* IE8向け */
+.sttle{ clear:both; font-family:Verdana, Geneva, sans-serif; font-weight:bold; font-size:10px; padding:1px 0; position:relative; z-index:2;}
+
+.icon-tv-non,
+.icon-tv		{ width:10px; height:12px; position:absolute; right:2px;}
+
+.icon-txt-away,
+.icon-txt-home	{ width:10px; height:12px; position:absolute; right:16px;}
+
+.icon-tv-non	{ display:block; text-indent:-9999px; background:url(images/icon-tv-non.gif) no-repeat;width:10px; height:12px;}
+
+.icon-tv a		{	display:block; position:absolute;  z-index:1;background:url(images/icon-tv.gif) no-repeat; cursor:default; text-decoration:none;width:10px; height:12px;}
+.icon-txt-away a{	display:block; position:absolute;  z-index:1;background:url(images/icon-t.gif) no-repeat center 2px;	text-decoration:none;	width:10px;	height:12px;}
+.icon-txt-home a{	display:block; position:absolute;  z-index:1;text-decoration:none; width:10px; height:12px;}
+
+
+.vs-left{ width:37px; float:left; position:relative; margin:0 auto; text-align:center; padding:0;}
+.vs-right{ width:37px; float:right; position:relative; margin:0 auto; text-align:center;margin:0; padding:0;}
+.vs-left span,
+.vs-right span{ text-align:center;    display:block; white-space:nowrap;}
+
+.vs-center{	font-weight:bold;	text-align:center;	height:44px;	padding-top:7px;	font-size:12px;	line-height:normal;	background:url(images/vs.gif) no-repeat center 1px;}
+.vs-center span{font-size:10px;	text-align:center;	display:block;	font-weight:normal;	white-space:nowrap; position:absolute; top:56px;left:42px; width:62px;}
+	.vs-center span#pk{ font-size:11px;padding: 0; margin:0; position:absolute; top:43px; left:42px; letter-spacing:1.1px;}
+
+.score,
+.live{ /*height:15px;*/}
+.score{ /*font-size:12px; letter-spacing:1.1px; padding-bottom:12px;*/font-weight:normal; }
+.score a,.live a{ font-size:12px; letter-spacing:normal; font-weight:bold;}
+.live a{ background-color:#FF0;}
+
+
+/*tooltip*/
+a.tooltip {  text-decoration:none; }
+
+a:tooltip:hover {background:#fff; text-decoration:none; font-size:11px; border-bottom:0;} /*BG color is a must for IE6*/
+a.tooltip span {display:none; padding:2px 3px; margin:0; font-size:11px; text-decoration:none;  font-weight:normal;}
+
+.icon-tv a.tooltip span{	width:105px;}
+.icon-txt-away a.tooltip span,
+.icon-txt-home a.tooltip span{	width:auto; white-space:nowrap;top:25px;}
+
+a.tooltip:hover span{	display:inline; position:absolute; border:1px solid #ccc; background:#FFFFCC; color:#000;text-decoration:none; top:-7px; right:13px; z-index:9999;}
+	.icon-tv a.tooltip:hover span{top:15px;right:27px;z-index:9999;}
+
+.icon-tv a:hover,
+.icon-txt-away a:hover,
+.icon-txt-home a:hover{	text-decoration:none;position:absolute;visibility:visible;z-index:9999;}
+
+/* -- For IE5.5, IE6 -- */
+* html .icon-tv a		{	position:relative;}
+* html .icon-txt-away a{	position:relative;}
+* html .icon-txt-home a{	position:relative;}
+
+
+
+.more { padding-right:0.5em; text-align:right; font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size:10px; margin:0;  position:absolute; right:0; bottom:0; z-index:1;}
+
+
+/*X-BOX BASE*/
+.xtop, .xbottom {display:block; background:transparent; font-size:1px;}
+.xb1, .xb2, .xb3, .xb4 {display:block; overflow:hidden;}
+.xb1, .xb2, .xb3 {height:1px;}
+.xb2, .xb3, .xb4 {background:#fff; border-left:1px solid #cdcdcd; border-right:1px solid #cdcdcd;}
+.xb1 {margin:0 5px; background:#cdcdcd;}
+.xb2 {margin:0 3px; border-width:0 2px;}
+.xb3 {margin:0 2px;}
+.xb4 {height:2px; margin:0 1px;}
+.xboxcontent p{ /*padding:5px;*/ padding:0; margin:0; font-size:small;}
+.xboxcontent {display:block; background:#fff; border:0 solid #cdcdcd; border-width:0 1px; padding:0 ; margin:0;}
+
+
+/*Y-BOX BASE*/
+.ytop, .ybottom {display:block; background:transparent; font-size:1px;}
+.yb1, .yb2, .yb3, .yb4 {display:block; overflow:hidden;}
+.yb1, .yb2, .yb3 {height:1px;}
+.yb2, .yb3, .yb4 {background:#fff; border-left:1px solid #fff; border-right:1px solid #fff;}
+.yb1 {margin:0 5px; background:#fff;}
+.yb2 {margin:0 3px; border-width:0 2px;}
+.yb3 {margin:0 2px;}
+.yb4 {height:2px; margin:0 1px;}
+.yboxcontent p{ /*padding:5px;*/ padding:0; margin:0; font-size:small;}
+
+.yboxcontent {display:block; background:#fff; border:0 solid #fff; border-width:0 1px; padding:0 1px 20px 0; margin:0; /*height:auto; */font-size:12px; position:relative; }
+
+
+/*Z-BOX BASE*/
+.ztop, .zbottom {display:block; background:transparent; font-size:1px;}
+.zb1, .zb2, .zb3, .zb4 {display:block; overflow:hidden;}
+.zb1, .zb2, .zb3 {height:1px;}
+.zb2, .zb3, .zb4 {background:#fff; border-left:1px solid #bbb; border-right:1px solid #bbb;}
+.zb1 {margin:0 5px; background:#bbb;}
+.zb2 {margin:0 3px; border-width:0 2px;}
+.zb3 {margin:0 2px;}
+.zb4 {height:2px; margin:0 1px;}
+.zboxcontent p{ /*padding:5px;*/ padding:0; margin:0; /*font-size:small;*/ /*あとで修正→*/font-size:12px; line-height:1.3;}
+.zboxcontent {display:block; background:transparent url(images/footer-bg.gif) no-repeat center bottom; border:0 solid #bbb; border-width:0 1px; padding:0; margin:0;}
+
+
+/* J1 PLAY-OFF AND J2JFL 2013.11.20 */
+.more2 { padding-right:0.5em; text-align:right; font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size:10px; margin:0; }
+.titlepo {margin-top: 5px; font-weight: bold; line-height: 1.2; border-top: 2px solid; padding-top: 3px;}
+/* ----- */
+
+
+

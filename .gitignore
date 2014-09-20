@@ -1,0 +1,26 @@
+Downloads
+linuxsetting
+.local
+.mozc
+.kde
+.pki
+.profile
+.gconf
+.git
+.#*
+.xsession-errors
+xmonad-config
+xmonad-config master
+.xdvirc
+.w3m
+txtest
+.texmf-var
+texmf
+Ricty
+.emacs.d
+.dmenu_cache
+.bash_history
+.bash_logout
+*~
+.bashrc
+.aptitude

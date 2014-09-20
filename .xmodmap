@@ -1,0 +1,14 @@
+!keycode 102 = Control_L
+!keycode 100 = Control_L
+keycode 101 = Shift_L
+keycode 108 = Escape
+
+keycode 102 = Henkan
+keycode 100 = Muhenkan
+
+
+
+keycode  66 = Control_L NoSymbol Control_L
+clear Lock
+
+add Control = Control_L
