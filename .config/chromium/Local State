@@ -12,8 +12,8 @@
    "gl_vendor_string": "Intel Open Source Technology Center",
    "gl_version_string": "2.1 Mesa 10.2.6",
    "hardware_acceleration_mode_previous": true,
-   "http_original_content_length": "43125139",
-   "http_received_content_length": "43125139",
+   "http_original_content_length": "43188978",
+   "http_received_content_length": "43188978",
    "local_state": {
       "multiple_profile_prefs_version": 7
    },
@@ -98,7 +98,7 @@
    "profile": {
       "info_cache": {
          "Default": {
-            "active_time": 1411222268.684428,
+            "active_time": 1411223863.54241,
             "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_0",
             "background_apps": false,
             "is_ephemeral": false,
@@ -109,7 +109,7 @@
             "user_name": ""
          }
       },
-      "last_active_profiles": [ "Default" ],
+      "last_active_profiles": [  ],
       "last_used": "Default",
       "preference_hashes": {
          "/home/arch/.config/chromium/Default": {
@@ -146,12 +146,12 @@
             },
             "search_provider_overrides": "1E1EBA3A4DC28A23BEFCF6ED5D71CE71E9814DD587A305F6B14F72E834AF75DD",
             "session": {
-               "restore_on_startup": "F9BD26F5D1AA6AB5258754888529CB2A82AE68D1703BCC2A97DEAEE5DDDA190E",
+               "restore_on_startup": "FF7E6D4A0C00443182E8326EE564F803943764462F88443412193C73C8E5046B",
                "startup_urls": "8BB8DBC1D7CA5C58F821C38254FB2B9C874F8EE9B9905B57DE48C731C6C91837"
             }
          },
          "hash_of_hashes": {
-            "/home/arch/.config/chromium/Default": "37876FFD4FF8A0A319FCAFE2F4E6DD43E5A49A5499FB2BE95DDDB6AF84A22B66"
+            "/home/arch/.config/chromium/Default": "F168690981A0C76311C72077DC983DC58EFDC01E6F3ABB4B1152533301A2EEC2"
          },
          "store_versions": {
             "/home/arch/.config/chromium/Default": 2
@@ -160,9 +160,9 @@
    },
    "show-first-run-bubble-option": 0,
    "shutdown": {
-      "num_processes": 0,
-      "num_processes_slow": 0,
-      "type": 0
+      "num_processes": 3,
+      "num_processes_slow": 1,
+      "type": 1
    },
    "uninstall_metrics": {
       "installation_date2": "1411180905",
@@ -177,10 +177,10 @@
          "crash_count": 0,
          "debugger_not_present": 4,
          "debugger_present": 0,
-         "execution_phase": 500,
-         "exited_cleanly": false,
+         "execution_phase": 700,
+         "exited_cleanly": true,
          "incomplete_session_end_count": 0,
-         "last_timestamp_sec": "1411222607",
+         "last_timestamp_sec": "1411223882",
          "launch_count": 4,
          "launch_time_sec": "1411217807",
          "page_load_count": 0,
