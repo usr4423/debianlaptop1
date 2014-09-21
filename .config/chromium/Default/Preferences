@@ -17,7 +17,7 @@
          "bottom": 766,
          "left": 2,
          "maximized": false,
-         "right": 1364,
+         "right": 681,
          "top": 18,
          "work_area_bottom": 768,
          "work_area_left": 0,
@@ -56,10 +56,6 @@
       "show_welcome_page": false,
       "skip_first_run_ui": true
    },
-   "dns_prefetching": {
-      "host_referral_list": [ 2, [ "http://3pypromo.blog.fc2.com/", [ "http://blog-imgs-1.fc2.com/", 1.9116543432291524, "http://counter1-cdn.fc2.com/", 4.411510022836504, "http://googleads.g.doubleclick.net/", 2.744939569764937, "http://media.fc2.com/", 1.9116543432291524, "http://pagead2.googlesyndication.com/", 2.467177827586342, "http://platform.twitter.com/", 1.9116543432291524, "http://rcm-jp.amazon.co.jp/", 2.1894160854077476, "http://static.fc2.com/", 5.800318733729479, "http://www.j-league.or.jp/", 1.9116543432291524, "https://www.facebook.com/", 1.9116543432291524 ] ], [ "http://ad.adlantis.jp/", [ "http://ecx.images-amazon.com/", 1.9116543432291524 ] ], [ "http://ad.turn.com/", [ "http://cdn.turn.com/", 1.0246642615991062 ] ], [ "http://ads.yahoo.com/", [ "http://a248.e.akamai.net/", 2.5394767300920633, "http://cdn.c-team.jp/", 2.5394767300920633, "http://img.ll.impact-ad.jp/", 2.2535753763730892, "http://nw.ads.doko.jp/", 1.967674022654115 ] ], [ "http://ameblo.jp/", [ "http://bpc.idea-unlimited.com/", 2.084686339270529, "http://bpf.iu-bpm.info/", 2.084686339270529, "http://googleads.g.doubleclick.net/", 2.387589482583341, "http://pagead2.googlesyndication.com/", 2.387589482583341, "http://s.thebrighttag.com/", 2.084686339270529, "http://stat.blogskin.ameba.jp/", 2.084686339270529, "http://stat100.ameba.jp/", 12.686296355218941, "http://sy.ameblo.jp/", 2.690492625896153, "http://tpc.googlesyndication.com/", 2.084686339270529, "http://www.gstatic.com/", 2.084686339270529 ] ], [ "http://cdn.turn.com/", [ "http://cs.genieessp-a.com/", 1.9116543432291524, "http://cs.genieessp.jp/", 1.9116543432291524, "http://cs.genieesspv.jp/", 1.9116543432291524, "http://cs.gssprt.jp/", 2.1894160854077476, "http://d.gssp-a.com/", 1.9116543432291524, "http://d.href.asia/", 1.9116543432291524, "http://e.nexac.com/", 2.1894160854077476, "http://jp-u.openx.net/", 2.1894160854077476, "http://r.turn.com/", 2.467177827586342, "http://ums.adtechjp.com/", 2.1894160854077476 ] ], [ "http://disqus.com/", [ "http://a.disquscdn.com/", 5.1137177723986476, "http://b.scorecardresearch.com/", 2.690492625896153, "http://disqus.com/", 2.084686339270529, "http://referrer.disqus.com/", 2.084686339270529 ] ], [ "http://en.wikipedia.org/", [ "http://bits.wikimedia.org/", 3.7910122641276733, "http://login.wikimedia.org/", 2.025335319191497, "http://meta.wikimedia.org/", 2.319614810014193, "http://upload.wikimedia.org/", 7.322366154000026 ] ], [ "http://googleads.g.doubleclick.net/", [ "http://googleads.g.doubleclick.net/", 0.6809920203344373, "http://p4-a5kgmukoyfhzi-7ksxa2sgi7vllagm-if-v6exp3-v4.metric.gstatic.com/", 0.15800578253313177, "http://pagead2.googlesyndication.com/", 1.7159074083139847, "http://www.gstatic.com/", 0.5928535350730045, "https://googleads.g.doubleclick.net/", 0.9026589638358996, "https://www.google.com/", 0.9026589638358996 ] ], [ "http://iine.blog.ameba.jp/", [ "http://stat100.ameba.jp/", 2.9933957692089646 ] ], [ "http://ja.wikipedia.org/", [ "http://bits.wikimedia.org/", 4.379571245773065, "http://ja.wikipedia.org/", 2.319614810014193, "http://login.wikimedia.org/", 2.025335319191497, "http://meta.wikimedia.org/", 2.6138943008368893, "http://upload.wikimedia.org/", 4.379571245773065 ] ], [ "http://p4-a5kgmukoyfhzi-7ksxa2sgi7vllagm-if-v6exp3-v4.metric.gstatic.com/", [ "http://p4-a5kgmukoyfhzi-7ksxa2sgi7vllagm-if-v6exp3-v4.metric.gstatic.com/", 1.9116543432291524 ] ], [ "http://platform.twitter.com/", [ "http://cdn.api.twitter.com/", 1.5645950098440529, "https://syndication.twitter.com/", 1.5645950098440529 ] ], [ "http://rcm-fe.amazon-adsystem.com/", [ "http://ecx.images-amazon.com/", 1.0246642615991062, "http://fls-fe.amazon-adsystem.com/", 1.0246642615991062 ] ], [ "http://rcm-jp.amazon.co.jp/", [ "http://ecx.images-amazon.com/", 1.747917759681925, "http://fls-fe.amazon-adsystem.com/", 1.747917759681925 ] ], [ "http://spdmg-backend.i-mobile.co.jp/", [ "http://spdmg.i-mobile.co.jp/", 2.1894160854077476 ] ], [ "http://spnet2-1.i-mobile.co.jp/", [ "http://spcdnpc.i-mobile.co.jp/", 0.8701141617036637 ] ], [ "http://spnet33.i-mobile.co.jp/", [ "http://spcdnpc.i-mobile.co.jp/", 0.9506586359310882 ] ], [ "http://www.axfc.net/", [ "http://googleads.g.doubleclick.net/", 2.467177827586342, "http://pagead2.googlesyndication.com/", 2.744939569764937, "http://www.axfc.net/", 2.1894160854077476, "http://www.google.com/", 2.1894160854077476, "http://www.gstatic.com/", 1.9116543432291524 ] ], [ "http://www.dotup.org/", [ "http://ad.adlantis.jp/", 2.1894160854077476, "http://www.dotup.org/", 4.6892717650151, "http://www.google-analytics.com/", 2.1894160854077476 ] ], [ "http://www.j-league.or.jp/", [ "http://www.j-league.or.jp/", 3.300463054122126 ] ], [ "http://www.kaoriya.net/", [ "http://clients1.google.com/", 2.084686339270529, "http://disqus.com/", 2.084686339270529, "http://googleads.g.doubleclick.net/", 2.387589482583341, "http://pagead2.googlesyndication.com/", 2.9933957692089646, "http://www.google-analytics.com/", 2.387589482583341, "http://www.google.com/", 5.416620915711458, "http://www.kaoriya.net/", 4.507911485773024, "https://accounts.google.com/", 2.084686339270529, "https://apis.google.com/", 2.690492625896153, "https://www.googleapis.com/", 2.084686339270529 ] ], [ "http://www.nicovideo.jp/", [ "http://ecx.images-amazon.com/", 4.205008342460212, "http://res.nimg.jp/", 14.200812071783, "http://tn-skr2.smilevideo.jp/", 2.084686339270529, "http://tn-skr3.smilevideo.jp/", 2.084686339270529, "http://urc.nicovideo.jp/", 2.084686339270529, "http://widgets.twimg.com/", 2.084686339270529, "http://www.google-analytics.com/", 2.387589482583341 ] ], [ "http://www1.axfc.net/", [ "http://51600.y.kau.li/", 2.1894160854077476, "http://cs.adingo.jp/", 2.744939569764937, "http://cs.gssprt.jp/", 3.0227013119435315, "http://i.adingo.jp/", 1.9116543432291524, "http://ox-d.openx.jp/", 4.13374828065791, "http://rcm-fe.amazon-adsystem.com/", 1.9116543432291524, "http://rt.gsspat.jp/", 2.744939569764937, "http://spnet33.i-mobile.co.jp/", 1.9116543432291524, "http://u.openx.net/", 2.1894160854077476, "http://xid.i-mobile.co.jp/", 1.9116543432291524 ] ], [ "https://accounts.google.com/", [ "https://accounts.youtube.com/", 0.3760171145331317, "https://apis.google.com/", 0.6097578099700808, "https://mail.google.com/", 0.5940284465331316, "https://oauth.googleusercontent.com/", 0.6097578099700808, "https://ssl.gstatic.com/", 1.596593663742014 ] ], [ "https://apis.google.com/", [ "https://apis.google.com/", 2.266019184260531, "https://fonts.gstatic.com/", 0.7925426959167037 ] ], [ "https://clients5.google.com/", [ "https://accounts.google.com/", 2.2733802, "https://clients5.google.com/", 1.6006037391870893, "https://googleads.g.doubleclick.net/", 0.7347825147524326, "https://www.google.com/", 0.7347825147524326 ] ], [ "https://clients6.google.com/", [ "https://apis.google.com/", 1.1842289417918768, "https://clients6.google.com/", 1.1842289417918768 ] ], [ "https://forums.ubuntulinux.jp/", [ "https://forums.ubuntulinux.jp/", 10.323651837379009 ] ], [ "https://github.com/", [ "https://assets-cdn.github.com/", 1.322941999164545, "https://collector-cdn.github.com/", 0.3077677567500852, "https://collector.githubapp.com/", 0.3077677567500852, "https://github.com/", 0.4639484094292328, "https://www.google-analytics.com/", 0.4639484094292328 ] ], [ "https://mail.google.com/", [ "https://apis.google.com/", 1.3166886914826024, "https://clients2.google.com/", 1.0747026616966109, "https://clients5.google.com/", 0.9537096468036149, "https://lh5.googleusercontent.com/", 1.7680019063755978, "https://mail-attachment.googleusercontent.com/", 1.7680019063755978, "https://mail.google.com/", 12.517095504206319, "https://plus.google.com/", 0.832716631910619, "https://ssl.gstatic.com/", 17.402849061638232, "https://www.google.com/", 1.0747026616966109, "https://www.gstatic.com/", 1.7680019063755978 ] ], [ "https://plus.google.com/", [ "https://apis.google.com/", 0.36302887432045905, "https://plus.google.com/", 0.897800521378292, "https://ssl.gstatic.com/", 0.4141480194714427 ] ], [ "https://twitter.com/", [ "https://abs.twimg.com/", 3.8559865384793155, "https://stats.g.doubleclick.net/", 1.9116543432291524, "https://www.google-analytics.com/", 2.1894160854077476 ] ], [ "https://www.facebook.com/", [ "https://fbstatic-a.akamaihd.net/", 2.050820902994737 ] ], [ "https://www.gmail.com/", [ "https://accounts.google.com/", 2.2419745432291522, "https://apis.google.com/", 4.066220369764937, "https://fonts.googleapis.com/", 2.8500564854077473, "https://fonts.gstatic.com/", 3.127818227586342, "https://ssl.google-analytics.com/", 3.458138427586342, "https://www.gmail.com/", 8.322793965015098, "https://www.google.com/", 6.498548138479315 ] ], [ "https://www.google.co.jp/", [ "https://apis.google.com/", 0.7515620689629281, "https://id.google.co.jp/", 0.99028441512, "https://ssl.gstatic.com/", 0.7515620689629281, "https://www.google.co.jp/", 5.022171442976125, "https://www.google.com/", 0.5836817326830372, "https://www.gstatic.com/", 0.7515620689629281 ] ], [ "https://www.google.com/", [ "https://apis.google.com/", 2.1457765990453503, "https://csi.gstatic.com/", 2.1457765990453503, "https://ssl.gstatic.com/", 0.3508380426197673, "https://translate.google.com/", 0.1137229899201689, "https://translate.googleapis.com/", 0.3931948367461914, "https://www.google.com/", 7.961903807103195, "https://www.gstatic.com/", 0.4071483880074716 ] ], [ "https://www.youtube.com/", [ "https://i.ytimg.com/", 1.9116543432291524, "https://s.ytimg.com/", 3.0227013119435315, "https://www.google.com/", 1.9116543432291524 ] ] ],
-      "startup_list": [ 1, "https://1.gravatar.com/", "https://apis.google.com/", "https://assets-cdn.github.com/", "https://avatars1.githubusercontent.com/", "https://github.com/", "https://id.google.co.jp/", "https://www.google-analytics.com/", "https://www.google.co.jp/", "https://www.google.com/", "https://www.gstatic.com/" ]
-   },
    "download": {
       "directory_upgrade": true
    },
@@ -69,7 +65,7 @@
       },
       "autoupdate": {
          "last_check": "13055690529315961",
-         "next_check": "13055765113726702"
+         "next_check": "13055791204743087"
       },
       "chrome_url_overrides": {
          "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
@@ -433,11 +429,6 @@
                   "port": 443,
                   "protocol_str": "quic"
                },
-               "settings": {
-                  "4": 100,
-                  "5": 32,
-                  "6": 0
-               },
                "supports_spdy": true
             },
             "accounts.google.com:443": {
@@ -447,7 +438,7 @@
                },
                "settings": {
                   "4": 100,
-                  "5": 35,
+                  "5": 32,
                   "6": 0
                },
                "supports_spdy": true
@@ -456,11 +447,6 @@
                "alternate_protocol": {
                   "port": 443,
                   "protocol_str": "quic"
-               },
-               "settings": {
-                  "4": 100,
-                  "5": 32,
-                  "6": 0
                },
                "supports_spdy": true
             },
@@ -471,7 +457,7 @@
                },
                "settings": {
                   "4": 100,
-                  "5": 51,
+                  "5": 32,
                   "6": 0
                },
                "supports_spdy": true
@@ -503,11 +489,6 @@
                   "port": 443,
                   "protocol_str": "quic"
                },
-               "settings": {
-                  "4": 100,
-                  "5": 15,
-                  "6": 0
-               },
                "supports_spdy": true
             },
             "clients2.google.com:443": {
@@ -517,7 +498,7 @@
                },
                "settings": {
                   "4": 100,
-                  "5": 126,
+                  "5": 22,
                   "6": 0
                },
                "supports_spdy": true
@@ -526,11 +507,6 @@
                "alternate_protocol": {
                   "port": 443,
                   "protocol_str": "quic"
-               },
-               "settings": {
-                  "4": 100,
-                  "5": 58,
-                  "6": 0
                },
                "supports_spdy": true
             },
@@ -541,7 +517,7 @@
                },
                "settings": {
                   "4": 100,
-                  "5": 81,
+                  "5": 39,
                   "6": 0
                },
                "supports_spdy": true
@@ -582,18 +558,9 @@
                   "port": 443,
                   "protocol_str": "quic"
                },
-               "settings": {
-                  "4": 100,
-                  "5": 32,
-                  "6": 0
-               },
                "supports_spdy": true
             },
             "fbstatic-a.akamaihd.net:443": {
-               "settings": {
-                  "4": 20,
-                  "7": 65536
-               },
                "supports_spdy": true
             },
             "fonts.googleapis.com:443": {
@@ -601,22 +568,12 @@
                   "port": 443,
                   "protocol_str": "quic"
                },
-               "settings": {
-                  "4": 100,
-                  "5": 22,
-                  "6": 5
-               },
                "supports_spdy": true
             },
             "fonts.gstatic.com:443": {
                "alternate_protocol": {
                   "port": 443,
                   "protocol_str": "quic"
-               },
-               "settings": {
-                  "4": 100,
-                  "5": 25,
-                  "6": 0
                },
                "supports_spdy": true
             },
@@ -634,7 +591,7 @@
                },
                "settings": {
                   "4": 100,
-                  "5": 15,
+                  "5": 32,
                   "6": 0
                },
                "supports_spdy": true
@@ -658,22 +615,12 @@
                   "port": 443,
                   "protocol_str": "quic"
                },
-               "settings": {
-                  "4": 100,
-                  "5": 32,
-                  "6": 0
-               },
                "supports_spdy": true
             },
             "lh5.googleusercontent.com:443": {
                "alternate_protocol": {
                   "port": 443,
                   "protocol_str": "quic"
-               },
-               "settings": {
-                  "4": 100,
-                  "5": 32,
-                  "6": 0
                },
                "supports_spdy": true
             },
@@ -684,7 +631,7 @@
                },
                "settings": {
                   "4": 10,
-                  "5": 15,
+                  "5": 32,
                   "6": 0
                },
                "supports_spdy": true
@@ -696,8 +643,8 @@
                },
                "settings": {
                   "4": 10,
-                  "5": 70,
-                  "6": 0
+                  "5": 5,
+                  "6": 3
                },
                "supports_spdy": true
             },
@@ -708,7 +655,7 @@
                },
                "settings": {
                   "4": 100,
-                  "5": 32,
+                  "5": 23,
                   "6": 0
                },
                "supports_spdy": true
@@ -762,7 +709,7 @@
                },
                "settings": {
                   "4": 100,
-                  "5": 70,
+                  "5": 32,
                   "6": 0
                },
                "supports_spdy": true
@@ -779,22 +726,12 @@
                   "port": 443,
                   "protocol_str": "quic"
                },
-               "settings": {
-                  "4": 100,
-                  "5": 57,
-                  "6": 0
-               },
                "supports_spdy": true
             },
             "ssl.google-analytics.com:443": {
                "alternate_protocol": {
                   "port": 443,
                   "protocol_str": "quic"
-               },
-               "settings": {
-                  "4": 100,
-                  "5": 15,
-                  "6": 33
                },
                "supports_spdy": true
             },
@@ -805,7 +742,7 @@
                },
                "settings": {
                   "4": 100,
-                  "5": 151,
+                  "5": 13,
                   "6": 0
                },
                "supports_spdy": true
@@ -815,12 +752,21 @@
                   "port": 443,
                   "protocol_str": "quic"
                },
-               "settings": {
-                  "4": 100,
-                  "5": 32,
-                  "6": 0
-               },
                "supports_spdy": true
+            },
+            "storage.googleapis.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "supports_spdy": false
+            },
+            "support.google.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "supports_spdy": false
             },
             "syndication.twitter.com:443": {
                "supports_spdy": true
@@ -844,20 +790,12 @@
                   "port": 443,
                   "protocol_str": "quic"
                },
-               "settings": {
-                  "4": 100,
-                  "5": 32,
-                  "6": 0
-               },
                "supports_spdy": true
             },
             "translate.googleapis.com:443": {
                "alternate_protocol": {
                   "port": 443,
                   "protocol_str": "quic"
-               },
-               "settings": {
-                  "4": 100
                },
                "supports_spdy": true
             },
@@ -872,11 +810,6 @@
                   "port": 443,
                   "protocol_str": "quic"
                },
-               "settings": {
-                  "4": 10,
-                  "5": 53,
-                  "6": 0
-               },
                "supports_spdy": true
             },
             "www.google-analytics.com:443": {
@@ -886,7 +819,7 @@
                },
                "settings": {
                   "4": 100,
-                  "5": 9,
+                  "5": 32,
                   "6": 0
                },
                "supports_spdy": true
@@ -905,7 +838,7 @@
                },
                "settings": {
                   "4": 100,
-                  "5": 32,
+                  "5": 33,
                   "6": 0
                },
                "supports_spdy": true
@@ -917,8 +850,8 @@
                },
                "settings": {
                   "4": 100,
-                  "5": 43,
-                  "6": 12
+                  "5": 32,
+                  "6": 0
                },
                "supports_spdy": true
             },
@@ -943,7 +876,7 @@
                },
                "settings": {
                   "4": 100,
-                  "5": 38,
+                  "5": 63,
                   "6": 0
                },
                "supports_spdy": true
@@ -959,11 +892,6 @@
                "alternate_protocol": {
                   "port": 443,
                   "protocol_str": "quic"
-               },
-               "settings": {
-                  "4": 100,
-                  "5": 32,
-                  "6": 0
                },
                "supports_spdy": true
             }
@@ -985,7 +913,7 @@
          },
          "pref_version": 1
       },
-      "exit_type": "SessionEnded",
+      "exit_type": "Crashed",
       "exited_cleanly": true,
       "local_profile_id": 427069,
       "managed_user_id": "",
@@ -995,6 +923,9 @@
 
       },
       "recently_selected_encodings": "ISO-2022-JP,EUC-JP,Shift_JIS"
+   },
+   "selectfile": {
+      "last_directory": "/media/usb0/etc/apt"
    },
    "session": {
       "restore_on_startup": 1,
