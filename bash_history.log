@@ -331,3 +331,86 @@
   331  ifup wlan0
   332  sudo aptitude search '~i'
   333  history > bash_history.log
+  334  git add .
+  335  git commit -m "bashlog"
+  336  git push -u origin master
+  337  nano .gitignore
+  338  git add .
+  339  git commit -m "test"
+  340  git push -u origin master
+  341  ip link
+  342  sudo reboot
+  343  git push -u origin master
+  344  sudo aptitude search mondo rescue
+  345  sudo emacs -nw /etc/apt/sources.list
+  346  sudo aptitude update
+  347  sudo emacs -nw /etc/apt/sources.list
+  348  sudo aptitude update
+  349  ping -c 3 www.google.com
+  350  sudo aptitude update
+  351  sudo emacs -nw /etc/apt/sources.list
+  352  wget ftp://ftp.mondorescue.org/debian/7/mondorescue.sources.list
+  353  sudo mv mondorescue.sources.list /etc/apt/sources.list.d/
+  354  aptitude udpate
+  355  sudo aptitude update
+  356  sudo aptitude search mondo
+  357  sudo aptitude update
+  358  cd /var/lib/apt/lists/
+  359  ls -al
+  360  cd ~
+  361  mkdir apt
+  362  cd /var/lib/apt/lists/
+  363  sudo mv -R -d * ~/apt/
+  364  sudo mv -d * ~/apt/
+  365  sudo mv * ~/apt/
+  366  ls -al
+  367  cd ..
+  368  cd aptitude/
+  369  ls -al
+  370  cd ~
+  371  cd apt/
+  372  cd ..
+  373  mkdir aptitude
+  374  cd /var/lib/apt/lists/
+  375  cd ../
+  376  cd ..
+  377  cd aptitude/
+  378  ls -al
+  379  sudo aptitude update
+  380  sudo aptitude search mondo
+  381  nano /etc/apt/sources.list
+  382  sudonano /etc/apt/sources.list
+  383  sudo nano /etc/apt/sources.list
+  384  sudo aptitude update
+  385  sudo aptitude search mondo
+  386  sudo apt-get update
+  387  sudo apt-cache search mondo
+  388  cd ~
+  389  sudo reboot
+  390  sudo shutdown -h now
+  391  sudo emacs -nw /etc/apt/sources.list
+  392  sudo aptitude update
+  393  sudo aptitude search mondo
+  394  sudo nano /etc/apt/sources.list
+  395  sudo emacs /etc/apt/sources.list
+  396  cd Downloads/
+  397  ls -al
+  398  sudo cp /etc/apt/sources.list /etc/apt/sources.list.org2
+  399  sudo cp -f sources.list /etc/apt/
+  400  sudo aptitude update
+  401  sudo aptitude search
+  402  sudo aptitude search mondo
+  403  sudo aptitude install mondo
+  404  sudo aptitude install mondo
+  405  sudo reboot
+  406  mondoarchive
+  407  sudo aptitude search policy
+  408  sudo aptitude search mindi mindi-busybox
+  409  mondoarchive -Oi -9 -d "/root/" -E "/root/" -p backupdebianlaptop
+  410  man mondoarchive
+  411  sudo mondoarchive
+  412  mondoarchive -Oi -9 -d "/root/" -E "/root/" -p backupdebianlaptop
+  413  sudo mondoarchive -Oi -9 -d "/root/" -E "/root/" -p backupdebianlaptop
+  414  less /var/log/mondoarchive.log 
+  415  ls -la
+  416  history > bash_history.log

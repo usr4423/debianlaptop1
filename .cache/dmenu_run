@@ -748,6 +748,10 @@ localectl
 localedef
 locate
 lockfile
+lockfile-check
+lockfile-create
+lockfile-remove
+lockfile-touch
 logger
 login
 loginctl
@@ -798,8 +802,11 @@ machinectl
 mag
 mail
 Mail
+mail-lock
 mailq
 mailstat
+mail-touchlock
+mail-unlock
 mailx
 make
 make-first-existing-target
@@ -1030,6 +1037,7 @@ plog
 pltotf
 pmap
 pm-is-supported
+pmount
 pmpost
 pod2html
 pod2man
@@ -1093,6 +1101,7 @@ ptex
 ptex2pdf
 ptftopl
 ptx
+pumount
 pwd
 pwdx
 pxdvi-xaw
