@@ -12,3 +12,7 @@ keycode  66 = Control_L NoSymbol Control_L
 clear Lock
 
 add Control = Control_L
+
+clear mod3
+add mod3 = Hiragana_Katakana
+

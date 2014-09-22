@@ -377,6 +377,7 @@ fakeroot-sysv
 fakeroot-tcp
 fallocate
 false
+fbterm
 fc-cache
 fc-cat
 fc-list
@@ -394,6 +395,7 @@ find2perl
 findaffix
 findhyph
 findmnt
+firefox
 flock
 fmt
 fmtutil

@@ -56,6 +56,10 @@
       "show_welcome_page": false,
       "skip_first_run_ui": true
    },
+   "dns_prefetching": {
+      "host_referral_list": [ 2, [ "https://accounts.google.com/", [ "https://apis.google.com/", 1.7880338633659603, "https://oauth.googleusercontent.com/", 1.7880338633659603, "https://ssl.gstatic.com/", 1.7880338633659603 ] ], [ "https://clients5.google.com/", [ "https://accounts.google.com/", 2.2733802, "https://clients5.google.com/", 1.8407427498215336, "https://googleads.g.doubleclick.net/", 2.2733802, "https://www.google.com/", 2.2733802 ] ], [ "https://clients6.google.com/", [ "https://apis.google.com/", 1.7880338633659603, "https://clients6.google.com/", 1.7880338633659603 ] ], [ "https://mail.google.com/", [ "https://mail-attachment.googleusercontent.com/", 1.7880338633659603, "https://mail.google.com/", 5.0407823596337185 ] ], [ "https://plus.google.com/", [ "https://apis.google.com/", 0.7809856584830601, "https://csi.gstatic.com/", 0.9653002717622122, "https://plus.google.com/", 1.4824722129200654, "https://ssl.gstatic.com/", 1.1091877508822123 ] ], [ "https://support.google.com/", [ "https://fonts.googleapis.com/", 2.2733802, "https://fonts.gstatic.com/", 2.6037003999999997, "https://lh5.googleusercontent.com/", 2.2733802, "https://ssl.gstatic.com/", 2.6037003999999997, "https://storage.googleapis.com/", 2.2733802, "https://www.google.com/", 2.6037003999999997, "https://www.gstatic.com/", 3.2643407999999994 ] ], [ "https://www.google.co.jp/", [ "https://apis.google.com/", 2.2733802, "https://clients5.google.com/", 2.2733802, "https://id.google.co.jp/", 1.4577136633659602, "https://lh5.googleusercontent.com/", 2.2733802, "https://ssl.gstatic.com/", 1.7880338633659603, "https://www.google.co.jp/", 2.7960337243458135, "https://www.gstatic.com/", 1.7880338633659603 ] ] ],
+      "startup_list": [ 1, "https://1.gravatar.com/", "https://assets-cdn.github.com/", "https://avatars1.githubusercontent.com/", "https://clients5.google.com/", "https://github.com/", "https://mail.google.com/", "https://www.google-analytics.com/", "https://www.google.co.jp/", "https://www.google.com/", "https://www.gstatic.com/" ]
+   },
    "download": {
       "directory_upgrade": true
    },
@@ -742,7 +746,7 @@
                },
                "settings": {
                   "4": 100,
-                  "5": 12,
+                  "5": 15,
                   "6": 0
                },
                "supports_spdy": true
@@ -913,7 +917,7 @@
          },
          "pref_version": 1
       },
-      "exit_type": "Crashed",
+      "exit_type": "Normal",
       "exited_cleanly": true,
       "local_profile_id": 427069,
       "managed_user_id": "",
