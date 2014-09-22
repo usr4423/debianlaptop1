@@ -17,7 +17,7 @@
          "bottom": 766,
          "left": 2,
          "maximized": false,
-         "right": 681,
+         "right": 1364,
          "top": 18,
          "work_area_bottom": 768,
          "work_area_left": 0,
@@ -64,8 +64,8 @@
          "initialized": true
       },
       "autoupdate": {
-         "last_check": "13055690529315961",
-         "next_check": "13055791204743087"
+         "last_check": "13055791204797854",
+         "next_check": "13055808019132997"
       },
       "chrome_url_overrides": {
          "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
@@ -317,7 +317,7 @@
             },
             "initial_keybindings_set": true,
             "install_time": "13055654508853616",
-            "lastpingday": "13055670000611371",
+            "lastpingday": "13055756401018247",
             "location": 10,
             "manifest": {
                "app": {
@@ -498,7 +498,7 @@
                },
                "settings": {
                   "4": 100,
-                  "5": 22,
+                  "5": 15,
                   "6": 0
                },
                "supports_spdy": true
@@ -517,7 +517,7 @@
                },
                "settings": {
                   "4": 100,
-                  "5": 39,
+                  "5": 18,
                   "6": 0
                },
                "supports_spdy": true
@@ -643,8 +643,8 @@
                },
                "settings": {
                   "4": 10,
-                  "5": 5,
-                  "6": 3
+                  "5": 81,
+                  "6": 0
                },
                "supports_spdy": true
             },
@@ -742,7 +742,7 @@
                },
                "settings": {
                   "4": 100,
-                  "5": 13,
+                  "5": 12,
                   "6": 0
                },
                "supports_spdy": true
