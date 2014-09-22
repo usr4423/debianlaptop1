@@ -430,8 +430,12 @@ gcc-nm
 gcc-nm-4.9
 gcc-ranlib
 gcc-ranlib-4.9
+gconf-merge-tree
+gconftool
+gconftool-2
 gcov
 gcov-4.9
+gcr-viewer
 gdialog
 gem
 gem2.1
@@ -463,6 +467,12 @@ git-receive-pack
 git-shell
 git-upload-archive
 git-upload-pack
+gksu
+gksudo
+gksu-properties
+gnome-keyring
+gnome-keyring-3
+gnome-keyring-daemon
 gnome-session-xmonad
 gnome-www-browser
 gold
@@ -505,6 +515,8 @@ gs
 gsbj
 gsdj
 gsdj500
+gsettings-data-convert
+gsettings-schema-convert
 gsftopk
 gslj
 gslp
@@ -943,12 +955,6 @@ nice
 nisdomainname
 nl
 nm
-nmcli
-nm-online
-nmtui
-nmtui-connect
-nmtui-edit
-nmtui-hostname
 nohup
 nproc
 nroff
@@ -994,6 +1000,7 @@ otp2ocp
 outocp
 ovf2ovp
 ovp2ovf
+p11-kit
 pager
 paperconf
 parsechangelog
@@ -1472,6 +1479,7 @@ transset
 troff
 true
 truncate
+trust
 tryaffix
 tset
 tsort
@@ -1514,6 +1522,7 @@ update-alternatives
 updatedb
 updatedb.mlocate
 update-desktop-database
+update-gconf-defaults
 update-mime-database
 update-mime-database.real
 update-perl-sax-parsers
@@ -1568,6 +1577,8 @@ whiptail
 who
 whoami
 whois
+wicd-client
+wicd-gtk
 wish
 wish8.6
 wmname
