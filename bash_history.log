@@ -414,3 +414,296 @@
   414  less /var/log/mondoarchive.log 
   415  ls -la
   416  history > bash_history.log
+  417  cat bash_history.log 
+  418  git add .
+  419  cd apt
+  420  ls -al
+  421  sudo rm *
+  422  sudo rm -d *
+  423  ls -al
+  424  cd ..
+  425  sudo rm -d apt
+  426  ls -al
+  427  git add .
+  428  git commit -m "add log"
+  429  git push -u origin master
+  430  sudo reboot
+  431  sudo shutdown -h now
+  432  ping -c 3 www.google.com
+  433  sudo reboot
+  434  ping -c 3 www.google.com
+  435  sudo shutdowm -h now
+  436  sudo shutdown -h now
+  437  sudo shutdowon -h now
+  438  sudo shutdown -h now
+  439  mail
+  440  sudo aptitude install lxde
+  441  w3m
+  442  w3m http://www.google.co.jp
+  443  ping www.google.com
+  444  sudo reboot
+  445  dpkg --get-selections
+  446  echp dpkg --get-selections > dpkg.log
+  447  echo "dpkg --get-selections" > dpkg.log
+  448  dpkg --get-selections >> dpkg.log
+  449  echo "kakidashi 'dpkg --set-selections'" >> dpkg.log 
+  450  git add .
+  451  git commit -m "dpkg package installed log"
+  452  git push -u origin master
+  453  lspci | grep -i nVidia
+  454  sudo lspci | grep -i nVidia
+  455  emacs -nw .gitignore 
+  456  git add .
+  457  git commit -m "ignore cache"
+  458  emacs -nw .gitignore 
+  459  git add .
+  460  git commit -m "ignore #files"
+  461  git status
+  462  git add .
+  463  git commit -m "ignore #files"
+  464  git push -u origin master
+  465  sudo reboot
+  466  cd txtest/
+  467  emacs test.tex
+  468  exit
+  469  sudo chmod u+s /usr/bin/fbterm
+  470  fbterm
+  471  exit
+  472  cd txtest/
+  473  sudo nano /etc/default/keyboard 
+  474  sudo /etc/init.d/keyboard-setup reload
+  475  emacs test.tex
+  476  emacs --debug-init
+  477  nano /etc/default/keyboard 
+  478  sudo nano /etc/default/keyboard 
+  479  emacs -nw
+  480  sudo /etc/init.d/keyboard-setup reload
+  481  emacs -nw
+  482  EMACS -NW
+  483  emacs -nw
+  484  history
+  485  EXIT
+  486  exit
+  487  mail
+  488  ls -la
+  489  hisotory
+  490  history
+  491  emacs /etc/dpkg/dpkg.cfg
+  492  ls -al
+  493  cd txtest/
+  494  ls -al
+  495  latexmk -c
+  496  ls -al
+  497  emacs test.tex
+  498  ls
+  499  rm \#test.tex# 
+  500  ls -al
+  501  sudo aptitude install fbterm
+  502  ls -al
+  503  cd ..
+  504  nano .fbterm
+  505  ls -al | grep fbterm
+  506  nano .fbtermrc
+  507  mv .fbterm .fbtermrc
+  508  ls -al | grep fbterm
+  509  sudo fbterm
+  510  fbterm
+  511  sudo reboot
+  512  emacs -nw
+  513  fbterm
+  514  ls -al
+  515  emacs -nw
+  516  ls -al
+  517  dir
+  518  ls
+  519  ls -al aptitude
+  520  ls -al | grep aptitude
+  521  ip link
+  522  ls -al
+  523  cd texmf/
+  524  ls -al
+  525  exit
+  526  sudo exec xmonad
+  527  sudo ecex xmonad
+  528  exit
+  529  ls -al
+  530  fbterm
+  531  exit
+  532  man shutdown
+  533  man halt
+  534  shutdown -k now
+  535  sudo shutdown -k now
+  536  man logout
+  537  exit
+  538  sudo logout
+  539  man shutdown
+  540  sudo shutdown -r now
+  541  sudo emacs
+  542  emacs
+  543  sudo aptitude search fbterm
+  544  sudo aptitude search xwindow-system
+  545  shutdown -h now
+  546  sudo shutdown -h now
+  547  fbterm
+  548  helm
+  549  sudo updatedb
+  550  ls -al
+  551  emacs .latexmkrc 
+  552  sudo reboot
+  553  xmodmap .xmodmap 
+  554  cd .xmonad/
+  555  ls -al
+  556  rm xmonad.hs
+  557  ls -al
+  558  sudo aptitude saearch rvxt
+  559  sudo aptitude search rvxt
+  560  locate xmonad.hs
+  561  sudo locate xmonad.hs
+  562  sudo updatedb
+  563  sudo locate man
+  564  locate man/xmonad.hs
+  565  man xmonad
+  566  xev
+  567  cd ..
+  568  xmodmap .xmodmap 
+  569  sudo reboot
+  570  sudo shutdown -r now
+  571  SSSSSSsxsxsxsxsxsxsxscscscscscsd
+  572  ls -al
+  573  sudo reboot
+  574  exit
+  575  ping -c 3 www.google.com
+  576  ip link
+  577  sudo shutdown -r now
+  578  sudo emacs /etc/locale.gen 
+  579  sudo aptitude search wicd
+  580  sudo aptitude search network manager
+  581  sudo aptitude search network | grep  manager
+  582  sudo aptitude search network | grep manager
+  583  sudo aptitude remove network-manager
+  584  sudo aptitude install wicd
+  585  sudo adduser arch netdev
+  586  /etc/init.d/dbus reload
+  587  sudo /etc/init.d/dbus reload
+  588  /etc/init.d/wicd start
+  589  sudo /etc/init.d/wicd start
+  590  wicd-client -n
+  591  sudo aptitude search ibus
+  592  git add .
+  593  gti commit -m "log"
+  594  git commit -m "log"
+  595  git push -u origin master
+  596  sudo shutdown -h now
+  597  sudo shutdown -r now
+  598  sudo updatedb
+  599  locate xmonad
+  600  locate xmonad.hs
+  601  ccat .xmonad/xmonad.hs
+  602  cat .xmonad/xmonad.hs
+  603  xev
+  604  xmodmap .xmodmap 
+  605  sudo shutdown -h now
+  606  exit
+  607  sudo locate plugin | grep firefox
+  608  sudo locate plugin | grep chromium
+  609  cd Downloads/
+  610  ls -al
+  611  sudo cp libflashplayer.so /usr/lib/chromium/plugins/
+  612  sudo cp -r usr/* /usr
+  613  ./flashplayer
+  614  sh ./flashplayer
+  615  cd usr/
+  616  ls -al
+  617  locate flashplayer
+  618  sudo nano /etc/apt/sources.list
+  619  sudo aptitude update
+  620  sudo aptitude -y update;sudo aptitude search flashplugin
+  621  sudo aptitude installl flashplugin-nonfree
+  622  sudo aptitude install flashplugin-nonfree
+  623  sudo aptitude install range
+  624  sudo aptitude install ranger
+  625  ranger
+  626  cd Downloads/
+  627  ls -al
+  628  tar zxvf install_flash_player_11_linux.i386.tar.gz 
+  629  nano readme.txt 
+  630  sudo nano /etc/apt/sources.list
+  631  sudo emacs -nw /etc/apt/sources.list
+  632  sudo emacs /etc/apt/sources.list
+  633  sudo aptitude update
+  634  sudo aptitude install pepperflashplugin-nonfree
+  635  sudo reboot
+  636  sudo aptitude insatll alsa
+  637  sudo aptitude install alsa
+  638  sudo aptitude search alsa
+  639  sudo aptitude search alsa | less
+  640  sudo aptitude install alsa-base
+  641  sudo alsaconf
+  642  man alsaconf
+  643  su
+  644  sudo aptitude search alsa | less
+  645  sudo aptitude install alsa-utils
+  646  sudo alsaconf
+  647  amixer
+  648  amixergui
+  649  alsamixer
+  650  lscpi
+  651  lspci
+  652  cat /proc/asound/card0/codec* | grep -i code
+  653  lsusb
+  654  alsaconf
+  655  sudo alsaconf
+  656  lsmod
+  657  sudo aptitude install pulseaudio pavucontrol
+  658  pulseaudio
+  659  sudo pulseaudio
+  660  pavucontrol
+  661  ping -c 3 www.google.com
+  662  sudo reboot
+  663  sudo aptitude search usbmount
+  664  dmseg  | tail
+  665  dpkg -l | grep bash-completion
+  666  dmesg
+  667  fdisk -l
+  668  df -h
+  669  sudo cd /media/usb0/MEDIAGO/
+  670  cd /media/usb0/MEDIAGO/
+  671  ls -al
+  672  cd ~
+  673  sudo fdisk -l
+  674  fdisk /dev/sdb
+  675  sudo fdisk /dev/sdb
+  676  fdisk -l
+  677  sudo fdisk -l
+  678  sudo fdisk -l /dev/sdb
+  679  mkfs.ext3 /dev/sdb1
+  680  sudo mkfs.ext4 /dev/sdb1
+  681  sudo fdisk -l
+  682  df -h
+  683  cd /media/usb0/MEDIAGO/
+  684  ls -al
+  685  cd ..
+  686  ls -a
+  687  sudo rm -d *
+  688  sudo rm -d -R *
+  689  ls -al
+  690  sudo cp ~/*
+  691  sudo cp ~/.*
+  692  cd ~
+  693  ls -al
+  694  sudo cp -f * /media/usb0/
+  695  cd /media/usb0/
+  696  ls -al
+  697  cd ~
+  698  cp -rp * /media/usb0/
+  699  sudo cp -rp * /media/usb0/
+  700  su
+  701  sudo cp -rpa * /media/usb0/
+  702  sudo mkfs.ext3 /dev/sdb1
+  703  ls hw
+  704  lshw
+  705  sudo lshw
+  706  emacs commandmemo.txt
+  707  pavucontrol
+  708  alsaconf
+  709  history > bash_history.log 

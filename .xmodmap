@@ -1,6 +1,3 @@
-!keycode 102 = Control_L
-!keycode 100 = Control_L
-keycode 101 = Shift_L
 keycode 108 = Escape
 
 keycode 102 = Henkan
@@ -13,6 +10,6 @@ clear Lock
 
 add Control = Control_L
 
-clear mod3
-add mod3 = Hiragana_Katakana
+clear mod4
+add mod4 = Hiragana_Katakana
 

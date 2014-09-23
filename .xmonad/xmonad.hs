@@ -56,3 +56,4 @@ ppOutput = hPutStrLn h
 -- ((modm,xK_F4),kill)
 -- ((modm,xK_f),spawn "firefox")
 -- ]
+
