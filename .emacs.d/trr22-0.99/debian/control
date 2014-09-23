@@ -1,0 +1,13 @@
+Source: trr22
+Priority: optional
+Section: text
+Maintainer: Shuji Narazaki <shuji.narazaki@gmail.com>
+Standards-Version: 1.0
+
+Package: trr22
+Architecture: amd64
+Priority: optional
+Depends: emacs22
+Section: text
+Description: type traning program on Emacs 22
+

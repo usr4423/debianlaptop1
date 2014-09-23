@@ -1,0 +1,5 @@
+
+((digest . "206e139bfb02c9317304375a0d21877c") (undo-list nil ("!keycode 102 = Control_L
+!keycode 100 = Control_L
+!keycode 101 = Shift_L
+" . -1) (t 21536 55226 624853 785000) ((marker) . -25) ((marker) . -25) ((marker) . -50) ((marker) . -50) ((marker) . -73) ((marker) . -73) nil (232 . 233) nil ("3" . -232) nil (241 . 242) nil ("3" . -241) nil (239 . 242) nil ("k" . -239) nil ("d" . -240) nil (238 . 241) nil ("k" . -238) nil ("e" . -239) nil ("y" . -240) nil ("c" . -241) nil ("o" . -242) nil ("d" . -243) nil ("e" . -244) nil (" " . -245) nil ("1" . -246) nil ("0" . -247) nil ("1" . -248) nil (253 . 269) nil ("I" . -253) nil (252 . 254) nil ("mod3" . 252) (t 21536 54431 460910 779000) ((marker . 1) . -4) nil (252 . 256) nil undo-tree-canary))

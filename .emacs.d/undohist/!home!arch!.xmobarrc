@@ -1,0 +1,22 @@
+
+((digest . "949b7ae74e1e4adaccf442685c233a46") (undo-list nil (nil rear-nonsticky nil 554 . 555) (nil fontified nil 549 . 555) (nil fontified nil 548 . 549) (nil fontified nil 547 . 548) (nil fontified nil 546 . 547) (nil fontified nil 540 . 546) (540 . 555) nil (539 . 541) (t 21536 25682 35501 955000) nil (94 . 95) nil ("8" . -94) (t 21536 25657 123378 422000) ((marker . 94) . -1) nil (nil rear-nonsticky nil 453 . 454) (nil fontified nil 452 . 454) (nil fontified nil 451 . 452) (nil fontified nil 450 . 451) (nil fontified nil 445 . 450) (nil fontified nil 444 . 445) (nil fontified nil 436 . 444) (nil fontified nil 435 . 436) (nil fontified nil 428 . 435) (nil fontified nil 427 . 428) (nil fontified nil 417 . 427) (nil fontified nil 416 . 417) (nil fontified nil 412 . 416) (nil fontified nil 411 . 412) (nil fontified nil 407 . 411) (nil fontified nil 406 . 407) (nil fontified nil 403 . 406) (nil fontified nil 402 . 403) (nil fontified nil 398 . 402) (nil fontified nil 397 . 398) (nil fontified nil 396 . 397) (nil fontified nil 390 . 396) (nil fontified nil 389 . 390) (nil fontified nil 382 . 389) (nil fontified nil 381 . 382) (nil fontified nil 378 . 381) (nil fontified nil 377 . 378) (nil fontified nil 376 . 377) (nil fontified nil 373 . 376) (nil fontified nil 372 . 373) (nil fontified nil 371 . 372) (nil fontified nil 366 . 371) (nil fontified nil 365 . 366) (nil fontified nil 357 . 365) (nil fontified nil 356 . 357) (nil fontified nil 349 . 356) (nil fontified nil 348 . 349) (nil fontified nil 338 . 348) (nil fontified nil 337 . 338) (nil fontified nil 333 . 337) (nil fontified nil 332 . 333) (nil fontified nil 328 . 332) (nil fontified nil 327 . 328) (nil fontified nil 324 . 327) (nil fontified nil 323 . 324) (nil fontified nil 319 . 323) (nil fontified nil 318 . 319) (nil fontified nil 317 . 318) (nil fontified nil 311 . 317) (nil fontified nil 310 . 311) (nil fontified nil 303 . 310) (nil fontified nil 302 . 303) (nil fontified nil 299 . 302) (nil fontified nil 298 . 299) (nil fontified nil 297 . 298) (297 . 454) nil (297 . 298) (t 21536 25440 494304 217000) nil (416 . 417) nil (nil rear-nonsticky nil 415 . 416) (nil fontified nil 1 . 416) (1 . 416) nil ("Config { font = \"-misc-fixed-*-*-*-*-10-*-*-*-*-*-*-*\"
+, bgColor = \"black\"
+, fgColor = \"grey\"
+, position = Top
+, lowerOnStart = True
+, commands = [ Run Weather \"EGPF\" [\"-t\",\": C\",\"-L\",\"18\",\"-H\",\"25\",\"--normal\",\"green\",\"--high\",\"red\",\"--low\",\"lightblue\"] 36000
+, Run Network \"eth0\" [\"-L\",\"0\",\"-H\",\"32\",\"--normal\",\"green\",\"--high\",\"red\"] 10
+, Run Network \"eth1\" [\"-L\",\"0\",\"-H\",\"32\",\"--normal\",\"green\",\"--high\",\"red\"] 10
+, Run Cpu [\"-L\",\"3\",\"-H\",\"50\",\"--normal\",\"green\",\"--high\",\"red\"] 10
+, Run Memory [\"-t\",\"Mem: %\"] 10
+, Run Swap [] 10
+, Run Com \"uname\" [\"-s\",\"-r\"] \"\" 36000
+, Run Date \"%a %b %_d %Y %H:%M:%S\" \"date\" 10
+, Run StdinReader
+]
+, sepChar = \"%\"
+, alignSep = \"}{\"
+, template = \"%StdinReader% }{ %cpu% | %memory% * %swap% | %eth0% - %eth1% %date%| %EGPF%| %uname%\"
+}
+" . -1) (t 21536 13152 502924 233000) nil ("
+" . -763) nil ("#" . -764) nil ("#" . -765) (t 21536 13136 730846 24000) nil (764 . 766) nil ("-" . -764) nil ("-" . -765) nil (764 . 766) nil (" " . -764) (763 . 764) nil (" " . 749) nil ("%" . 749) nil ("1" . 749) nil ("n" . 749) nil ("a" . 749) nil ("l" . 749) nil ("w" . 749) nil ("%" . 749) nil (" " . 749) nil ("-" . 749) nil (" " . 749) nil ("%" . 749) nil ("0" . 749) nil ("n" . 749) nil ("a" . 749) nil ("l" . 749) nil ("w" . 749) nil ("%" . 749) (t 21536 12259 766497 392000) nil (764 . 765) nil ("0" . -764) nil (nil rear-nonsticky nil 765 . 766) (nil fontified nil 759 . 766) (759 . 766) nil (757 . 759) (t 21536 12245 430426 303000) nil (750 . 755) nil (749 . 751) nil (749 . 750) nil (749 . 750) nil (" " . -755) nil (" " . -756) nil (756 . 757) nil (755 . 756) (t 21536 11576 119107 368000) nil (776 . 777) nil ("       " . -775) ("       " . -674) ("       " . -656) ("       " . -640) ("                    " . -638) ("                    " . -620) ("                    " . -575) ("                    " . -536) ("                    " . -519) ("                    " . -487) ("                    " . -419) ("                    " . -340) ("                    " . -261) ("       " . -134) ("       " . -112) ("       " . -95) ("       " . -76) ("       " . -56) (nil rear-nonsticky nil 1018 . 1019) (nil fontified nil 1 . 1019) (1 . 1019) (t 0 0 0 -1000)))

@@ -1,0 +1,557 @@
+ find . -name "*.el" | xargs grep helm-source* 
+ ./helm-elisp-package.el:(defvar helm-source-list-el-package
+ ./helm-elisp-package.el:  (helm :sources 'helm-source-list-el-package
+ ./helm-eval.el:(defvar helm-source-evaluation-result
+ ./helm-eval.el:(defvar helm-source-calculation-result
+ ./helm-eval.el:  "Preconfigured helm for `helm-source-evaluation-result'."
+ ./helm-eval.el:  (helm :sources 'helm-source-evaluation-result
+ ./helm-eval.el:  "Preconfigured helm for `helm-source-evaluation-result' with `eldoc' support. "
+ ./helm-eval.el:  "Preconfigured helm for `helm-source-calculation-result'."
+ ./helm-eval.el:  (helm-other-buffer 'helm-source-calculation-result "*helm calcul*"))
+ ./helm-firefox.el:(defvar helm-source-firefox-bookmarks
+ ./helm-firefox.el:  (helm-other-buffer 'helm-source-firefox-bookmarks
+ ./helm-apt.el:(defvar helm-source-apt
+ ./helm-apt.el:    (helm :sources 'helm-source-apt
+ ./helm-w3m.el:(defvar helm-source-w3m-bookmarks
+ ./helm-w3m.el:  (helm-other-buffer 'helm-source-w3m-bookmarks
+ ./helm-eshell.el:(defvar helm-source-esh
+ ./helm-eshell.el:(defvar helm-source-eshell-history
+ ./helm-eshell.el:              ;; Same comment as in `helm-source-esh'
+ ./helm-eshell.el:               (helm :sources 'helm-source-esh
+ ./helm-eshell.el:           (helm :sources 'helm-source-eshell-history
+ ./helm-gentoo.el:(defvar helm-source-gentoo
+ ./helm-gentoo.el:(defvar helm-source-use-flags
+ ./helm-gentoo.el:  (helm-other-buffer '(helm-source-gentoo
+ ./helm-gentoo.el:                       helm-source-use-flags)
+ ./helm-buffers.el:(defvar helm-source-buffers-list
+ ./helm-buffers.el:(defvar helm-source-buffer-not-found
+ ./helm-buffers.el:(defvar helm-source-ido-virtual-buffers
+ ./helm-buffers.el:  "Run kill buffer action from `helm-source-buffers-list'."
+ ./helm-buffers.el:  "Run Grep action from `helm-source-buffers-list'."
+ ./helm-buffers.el:  "Run Grep action from `helm-source-buffers-list'."
+ ./helm-buffers.el:  "Run Query replace regexp action from `helm-source-buffers-list'."
+ ./helm-buffers.el:  "Run Query replace action from `helm-source-buffers-list'."
+ ./helm-buffers.el:  "Run switch to other window action from `helm-source-buffers-list'."
+ ./helm-buffers.el:  "Run switch to other frame action from `helm-source-buffers-list'."
+ ./helm-buffers.el:  "Run switch to elscreen  action from `helm-source-buffers-list'."
+ ./helm-buffers.el:  "Run ediff action from `helm-source-buffers-list'."
+ ./helm-buffers.el:  "Run ediff action from `helm-source-buffers-list'."
+ ./helm-buffers.el:  "Multi occur action for `helm-source-buffers-list'.
+ ./helm-buffers.el:                                   helm-source-buffers-list)))
+ ./helm-buffers.el:                        helm-source-buffers-list t)
+ ./helm-buffers.el:                        helm-source-buffers-list t))
+ ./helm-buffers.el:  (helm :sources '(helm-source-buffers-list
+ ./helm-buffers.el:                   helm-source-ido-virtual-buffers
+ ./helm-buffers.el:                   helm-source-buffer-not-found)
+ ./helm-sys.el:(defvar helm-source-top
+ ./helm-sys.el:(defvar helm-source-xrandr-change-resolution
+ ./helm-sys.el:(defvar helm-source-emacs-process
+ ./helm-sys.el:    (helm :sources 'helm-source-top
+ ./helm-sys.el:  (helm-other-buffer 'helm-source-emacs-process "*helm process*"))
+ ./helm-sys.el:  (helm :sources 'helm-source-xrandr-change-resolution
+ ./helm-elscreen.el:(defvar helm-source-elscreen
+ ./helm-elscreen.el:  (helm-other-buffer 'helm-source-elscreen "*Helm Elscreen*"))
+ ./helm-color.el:  "Initialize buffer for `helm-source-customize-face'."
+ ./helm-color.el:(defvar helm-source-customize-face
+ ./helm-color.el:(defvar helm-source-colors
+ ./helm-color.el:   '(helm-source-colors helm-source-customize-face)
+ ./helm-call-tree.el:(defvar helm-source-simple-call-tree-functions-callers
+ ./helm-call-tree.el:(defvar helm-source-simple-call-tree-callers-functions
+ ./helm-call-tree.el:   '(helm-source-simple-call-tree-functions-callers
+ ./helm-call-tree.el:     helm-source-simple-call-tree-callers-functions)
+ ./helm-bookmark.el:(defvar helm-source-bookmarks
+ ./helm-bookmark.el:(defvar helm-source-bookmark-set
+ ./helm-bookmark.el:(defvar helm-source-pp-bookmarks
+ ./helm-bookmark.el:(defvar helm-source-bookmark-w3m
+ ./helm-bookmark.el:(defvar helm-source-bookmark-images
+ ./helm-bookmark.el:(defvar helm-source-bookmark-man
+ ./helm-bookmark.el:(defvar helm-source-bookmark-gnus
+ ./helm-bookmark.el:(defvar helm-source-bookmark-info
+ ./helm-bookmark.el:(defvar helm-source-bookmark-files&dirs
+ ./helm-bookmark.el:(defvar helm-source-bookmark-addressbook
+ ./helm-bookmark.el:(defvar helm-source-bookmark-uncategorized
+ ./helm-bookmark.el:  (helm :sources '(helm-source-bookmarks
+ ./helm-bookmark.el:                   helm-source-bookmark-set)
+ ./helm-bookmark.el:  (helm :sources '(helm-source-pp-bookmarks
+ ./helm-bookmark.el:                   helm-source-bookmark-set)
+ ./helm-bookmark.el:Optional source `helm-source-bookmark-addressbook' is loaded
+ ./helm-bookmark.el:  (helm :sources (append '(helm-source-bookmark-files&dirs
+ ./helm-bookmark.el:                           helm-source-bookmark-info
+ ./helm-bookmark.el:                           helm-source-bookmark-gnus
+ ./helm-bookmark.el:                           helm-source-bookmark-man
+ ./helm-bookmark.el:                           helm-source-bookmark-images
+ ./helm-bookmark.el:                           helm-source-bookmark-w3m)
+ ./helm-bookmark.el:                              (list 'helm-source-bookmark-addressbook))
+ ./helm-bookmark.el:                         (list helm-source-bookmark-uncategorized
+ ./helm-bookmark.el:                               'helm-source-bookmark-set))
+ ./helm-ring.el:  "Minimum length of a candidate to be listed by `helm-source-kill-ring'."
+ ./helm-ring.el:(defvar helm-source-kill-ring
+ ./helm-ring.el:    (if (not (eq (helm-attr 'last-command helm-source-kill-ring) 'yank))
+ ./helm-ring.el:(defvar helm-source-mark-ring
+ ./helm-ring.el:(defvar helm-source-global-mark-ring
+ ./helm-ring.el:(defvar helm-source-register
+ ./helm-ring.el:  "Preconfigured `helm' for `helm-source-mark-ring'."
+ ./helm-ring.el:  (helm :sources 'helm-source-mark-ring
+ ./helm-ring.el:  "Preconfigured `helm' for `helm-source-global-mark-ring'."
+ ./helm-ring.el:  (helm :sources 'helm-source-global-mark-ring
+ ./helm-ring.el:  "Preconfigured `helm' for `helm-source-global-mark-ring' and \
+ ./helm-ring.el:`helm-source-mark-ring'."
+ ./helm-ring.el:  (helm :sources '(helm-source-mark-ring
+ ./helm-ring.el:                   helm-source-global-mark-ring)
+ ./helm-ring.el:  (helm :sources 'helm-source-register
+ ./helm-ring.el:  (helm :sources helm-source-kill-ring
+ ./helm-tags.el:helm-source-ctags-select."
+ ./helm-tags.el:  "Run switch to other window action from `helm-source-etags-select'."
+ ./helm-tags.el:  "Run switch to other frame action from `helm-source-etags-select'."
+ ./helm-tags.el:(defvar helm-source-ctags
+ ./helm-tags.el:(defvar helm-source-etags-select
+ ./helm-tags.el:      (helm :sources 'helm-source-etags-select
+ ./helm-config.el:          #'(lambda () (helm-attrset 'follow 1 helm-source-buffers-list)))
+ ./helm-config.el:This will enable `helm-follow-mode' automatically in `helm-source-buffers-list'.
+ ./helm-config.el:Contain also `helm-source-google-suggest'.
+ ./helm-config.el:Preconfigured helm for `helm-source-evaluation-result'.
+ ./helm-config.el:Preconfigured helm for `helm-source-evaluation-result' with `eldoc' support. 
+ ./helm-config.el:Preconfigured helm for `helm-source-calculation-result'.
+ ./helm-config.el:(defvar helm-buffer-mode-line-string '("Buffer(s)" "\\<helm-buffer-map>\\[helm-buffer-help]:Help \\<helm-map>\\[helm-select-action]:Act \\[helm-exit-minibuffer]/\\[helm-select-2nd-action-or-end-of-line]/\\[helm-select-3rd-action]:NthAct" "String displayed in mode-line in `helm-source-buffers-list'"))
+ ./helm-config.el:(defvar helm-buffers-ido-virtual-mode-line-string '("Killed Buffer(s)" "\\<helm-buffers-ido-virtual-map>\\[helm-buffers-ido-virtual-help]:Help \\<helm-map>\\[helm-select-action]:Act \\[helm-exit-minibuffer]/\\[helm-select-2nd-action-or-end-of-line]/\\[helm-select-3rd-action]:NthAct" "String displayed in mode-line in `helm-source-buffers-list'"))
+ ./helm-config.el:String displayed in mode-line in `helm-source-find-files'")
+ ./helm-config.el:String displayed in mode-line in `helm-source-find-files'.")
+ ./helm-config.el:String displayed in mode-line in `helm-source-buffers-list'")
+ ./helm-config.el:Preconfigured `helm' for `helm-source-mark-ring'.
+ ./helm-config.el:Preconfigured `helm' for `helm-source-global-mark-ring'.
+ ./helm-config.el:Preconfigured `helm' for `helm-source-global-mark-ring' and `helm-source-mark-ring'.
+ ./helm-semantic.el:(defvar helm-source-semantic
+ ./helm-semantic.el:    (helm :sources 'helm-source-semantic
+ ./helm-semantic.el:                     'helm-source-semantic
+ ./helm-semantic.el:                     'helm-source-imenu))
+ ./helm-semantic.el:         (imenu-p (eq source 'helm-source-imenu))
+ ./helm-autoloads.el:          #'(lambda () (helm-attrset 'follow 1 helm-source-buffers-list)))
+ ./helm-autoloads.el:This will enable `helm-follow-mode' automatically in `helm-source-buffers-list'.
+ ./helm-autoloads.el:Optional source `helm-source-bookmark-addressbook' is loaded
+ ./helm-autoloads.el:Preconfigured helm for `helm-source-evaluation-result'.
+ ./helm-autoloads.el:Preconfigured helm for `helm-source-evaluation-result' with `eldoc' support. 
+ ./helm-autoloads.el:Preconfigured helm for `helm-source-calculation-result'.
+ ./helm-autoloads.el:(defvar helm-buffer-mode-line-string '("Buffer(s)" "\\<helm-buffer-map>\\[helm-buffer-help]:Help \\<helm-map>\\[helm-select-action]:Act \\[helm-exit-minibuffer]/\\[helm-select-2nd-action-or-end-of-line]/\\[helm-select-3rd-action]:NthAct" "String displayed in mode-line in `helm-source-buffers-list'"))
+ ./helm-autoloads.el:(defvar helm-buffers-ido-virtual-mode-line-string '("Killed Buffer(s)" "\\<helm-buffers-ido-virtual-map>\\[helm-buffers-ido-virtual-help]:Help \\<helm-map>\\[helm-select-action]:Act \\[helm-exit-minibuffer]/\\[helm-select-2nd-action-or-end-of-line]/\\[helm-select-3rd-action]:NthAct" "String displayed in mode-line in `helm-source-buffers-list'"))
+ ./helm-autoloads.el:String displayed in mode-line in `helm-source-find-files'")
+ ./helm-autoloads.el:String displayed in mode-line in `helm-source-find-files'.")
+ ./helm-autoloads.el:String displayed in mode-line in `helm-source-buffers-list'")
+ ./helm-autoloads.el:Preconfigured `helm' for `helm-source-mark-ring'.
+ ./helm-autoloads.el:Preconfigured `helm' for `helm-source-global-mark-ring'.
+ ./helm-autoloads.el:Preconfigured `helm' for `helm-source-global-mark-ring' and `helm-source-mark-ring'.
+ ./helm-bbdb.el:  "Action transformer for `helm-source-bbdb'.
+ ./helm-bbdb.el:(defvar helm-source-bbdb
+ ./helm-bbdb.el:  (helm-other-buffer 'helm-source-bbdb "*helm bbdb*"))
+ ./helm.el:(defcustom helm-sources-using-default-as-input '(helm-source-imenu
+ ./helm.el:                                                 helm-source-semantic
+ ./helm.el:                                                 helm-source-info-elisp
+ ./helm.el:                                                 helm-source-etags-select)
+ ./helm.el:(defface helm-source-header
+ ./helm.el:ATTRIBUTES are the same as attributes for `helm-sources'.
+ ./helm.el:(defvar helm-source-filter nil
+ ./helm.el:This hook is run before init functions in `helm-sources'.")
+ ./helm.el:    helm-source-filter
+ ./helm.el:    helm-source-in-each-line-flag
+ ./helm.el:    helm-sources)
+ ./helm.el:(defvar helm-source-in-each-line-flag nil
+ ./helm.el:  "Non-nil means add helm-source text-property in each candidate.
+ ./helm.el:  "Functions to compile elements of `helm-sources' (plug-in).")
+ ./helm.el:  "Compiled version of `helm-sources'.")
+ ./helm.el:(defvar helm-sources nil
+ ./helm.el:(defvar helm-source-name nil)
+ ./helm.el:function 'async-byte-compile-file to source `helm-source-find-files'
+ ./helm.el:                              helm-source-find-files
+ ./helm.el:  "Set the value of `helm-source-filter' to SOURCES and update.
+ ./helm.el:    (setq helm-source-filter sources)
+ ./helm.el:    (helm-log-eval helm-source-filter)
+ ./helm.el:          helm-sources sources)
+ ./helm.el:    (helm-log-eval helm-compiled-sources helm-sources))
+ ./helm.el:  "Return compiled `helm-sources', which is memoized.
+ ./helm.el:     helm-sources)
+ ./helm.el:                helm-sources helm-compile-source-functions))
+ ./helm.el:         ;; This happen only when `helm-source-in-each-line-flag'
+ ./helm.el:         (get-text-property (point) 'helm-source)
+ ./helm.el:  (let ((helm-source-name (assoc-default 'name source))
+ ./helm.el:    (helm-log-eval helm-source-name functions args)
+ ./helm.el:        (t helm-sources)))
+ ./helm.el:It will be referenced in `helm-sources' as a whole alist.
+ ./helm.el:\(helm :sources 'helm-source-buffers-list
+ ./helm.el:means starting helm session with `helm-source-buffers'
+ ./helm.el:                        thereis (memq s helm-sources-using-default-as-input)))))
+ ./helm.el:               (let (;; `helm-source-name' is non-nil
+ ./helm.el:                     helm-source-name
+ ./helm.el:                   'helm-sources (get-buffer any-buffer))
+ ./helm.el:                 helm-sources
+ ./helm.el:  (setq helm-sources (helm-normalize-sources any-sources))
+ ./helm.el:  (helm-log "sources = %S" helm-sources)
+ ./helm.el:   'init (and helm-source-filter
+ ./helm.el:                                            helm-source-filter))
+ ./helm.el:      (make-local-variable 'helm-sources)
+ ./helm.el:           (first-src (car helm-sources))
+ ./helm.el:          (helm-source-name (assoc-default 'name source))
+ ./helm.el:    (and (or (not helm-source-filter)
+ ./helm.el:             (member (assoc-default 'name source) helm-source-filter))
+ ./helm.el:      (when helm-source-in-each-line-flag
+ ./helm.el:        (put-text-property start (point-at-eol) 'helm-source source))
+ ./helm.el:    (put-text-property start (point) 'face 'helm-source-header)))
+ ./helm.el:    (set (make-local-variable 'helm-sources)
+ ./helm.el:    (set (make-local-variable 'helm-source-filter) nil)
+ ./helm.el:                               helm-source-name))
+ ./helm.el:                              helm-source-name
+ ./helm.el:                                  (cons (cons helm-source-name create-or-buffer)
+ ./helm.el:                                        (delete (assoc helm-source-name
+ ./helm.el:                              (helm-aif (assoc-default helm-source-name
+ ./helm.el:          #'(lambda () (helm-attrset 'follow 1 helm-source-buffers-list)))
+ ./helm.el:This will enable `helm-follow-mode' automatically in `helm-source-buffers-list'."
+ ./helm.el:           (sym      (cl-loop for s in helm-sources
+ ./helm-info.el:`helm-source-info-<NAME>' and BUFFER a string buffer name."
+ ./helm-info.el:  "Define helm sources named helm-source-info-<NAME>.
+ ./helm-info.el:                                   (intern (concat "helm-source-info-" str)))
+ ./helm-info.el:  '(helm-source-info-elisp
+ ./helm-info.el:    helm-source-info-cl
+ ./helm-info.el:    helm-source-info-eieio
+ ./helm-info.el:    helm-source-info-pages)
+ ./helm-info.el:(defvar helm-source-info-pages
+ ./helm-man.el:(defvar helm-source-man-pages
+ ./helm-man.el:  (helm-other-buffer 'helm-source-man-pages "*Helm man woman*"))
+ ./helm-imenu.el:(defvar helm-source-imenu
+ ./helm-imenu.el:    (helm :sources 'helm-source-imenu
+ ./helm-emms.el:(defvar helm-source-emms-streams
+ ./helm-emms.el:(defvar helm-source-emms-dired
+ ./helm-emms.el:(defvar helm-source-emms-files
+ ./helm-emms.el:  (helm :sources '(helm-source-emms-streams
+ ./helm-emms.el:                   helm-source-emms-files
+ ./helm-emms.el:                   helm-source-emms-dired)
+ ./helm-help.el:    "String displayed in mode-line in `helm-source-buffers-list'"))
+ ./helm-help.el:    "String displayed in mode-line in `helm-source-buffers-list'"))
+ ./helm-help.el:  "String displayed in mode-line in `helm-source-find-files'")
+ ./helm-help.el:  "String displayed in mode-line in `helm-source-find-files'.")
+ ./helm-help.el:  "String displayed in mode-line in `helm-source-buffers-list'")
+ ./helm-help.el:  `helm-sources'.")
+ ./helm-help.el:  e.g `helm-source-find-files'.
+ ./helm-elisp.el:    (helm :sources '(helm-source-info-elisp
+ ./helm-elisp.el:                     helm-source-info-cl
+ ./helm-elisp.el:                     helm-source-info-eieio)
+ ./helm-elisp.el:(defvar helm-source-advice
+ ./helm-elisp.el:  (helm-other-buffer 'helm-source-advice "*helm advice*"))
+ ./helm-elisp.el:(defvar helm-source-locate-library
+ ./helm-elisp.el:  (helm :sources 'helm-source-locate-library
+ ./helm-elisp.el:(defvar helm-source-absolute-time-timers
+ ./helm-elisp.el:(defvar helm-source-idle-time-timers
+ ./helm-elisp.el:  (helm-other-buffer '(helm-source-absolute-time-timers
+ ./helm-elisp.el:                       helm-source-idle-time-timers)
+ ./helm-elisp.el:(defvar helm-source-complex-command-history
+ ./helm-elisp.el:  (helm :sources 'helm-source-complex-command-history
+ ./helm-misc.el:(defcustom helm-mini-default-sources '(helm-source-buffers-list
+ ./helm-misc.el:                                       helm-source-recentf
+ ./helm-misc.el:                                       helm-source-buffer-not-found)
+ ./helm-misc.el:(defvar helm-source-latex-math
+ ./helm-misc.el:(defvar helm-source-fixme
+ ./helm-misc.el:(defvar helm-source-rd-headline
+ ./helm-misc.el:(defvar helm-source-oddmuse-headline
+ ./helm-misc.el:(defvar helm-source-emacs-source-defun
+ ./helm-misc.el:(defvar helm-source-emacs-lisp-expectations
+ ./helm-misc.el:(defvar helm-source-emacs-lisp-toplevels
+ ./helm-misc.el:(defvar helm-source-eev-anchor
+ ./helm-misc.el:(defvar helm-source-jabber-contacts
+ ./helm-misc.el:(defvar helm-source-time-world
+ ./helm-misc.el:(defvar helm-source-lacarte (helm-create-lacarte-source "Lacarte")
+ ./helm-misc.el:  (helm :sources 'helm-source-lacarte :buffer "*helm lacarte*"))
+ ./helm-misc.el:(defvar helm-source-minibuffer-history
+ ./helm-misc.el:(defvar helm-source-comint-input-ring
+ ./helm-misc.el:(defvar helm-source-ratpoison-commands
+ ./helm-misc.el:(defvar helm-source-stumpwm-commands
+ ./helm-misc.el:  (helm-other-buffer 'helm-source-time-world "*helm world time*"))
+ ./helm-misc.el:  (helm-other-buffer 'helm-source-latex-math "*helm latex*"))
+ ./helm-misc.el:  (helm-other-buffer 'helm-source-eev-anchor "*Helm eev anchors*"))
+ ./helm-misc.el:  (helm-other-buffer 'helm-source-ratpoison-commands
+ ./helm-misc.el:  (helm-other-buffer 'helm-source-stumpwm-commands
+ ./helm-misc.el:    (helm-other-buffer 'helm-source-minibuffer-history
+ ./helm-misc.el:    (helm :sources 'helm-source-comint-input-ring
+ ./helm-dabbrev.el:(defvar helm-source-dabbrev
+ ./helm-dabbrev.el:          (helm :sources 'helm-source-dabbrev
+ ./helm-aliases.el:(defvaralias 'helm-c-source-time-world 'helm-source-time-world)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-time-world 'helm-source-time-world "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-man-pages 'helm-source-man-pages)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-man-pages 'helm-source-man-pages "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-bookmark-info 'helm-source-bookmark-info)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-bookmark-info 'helm-source-bookmark-info "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-bookmarks-local 'helm-source-bookmarks-local)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-bookmarks-local 'helm-source-bookmarks-local "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-session 'helm-source-session)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-session 'helm-source-session "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-org-headline 'helm-source-org-headline)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-org-headline 'helm-source-org-headline "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-minibuffer-history 'helm-source-minibuffer-history)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-minibuffer-history 'helm-source-minibuffer-history "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-files-in-current-dir 'helm-source-files-in-current-dir)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-files-in-current-dir 'helm-source-files-in-current-dir "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-etags-select 'helm-source-etags-select)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-etags-select 'helm-source-etags-select "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-apt 'helm-source-apt)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-apt 'helm-source-apt "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-xfonts 'helm-source-xfonts)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-xfonts 'helm-source-xfonts "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-kill-ring 'helm-source-kill-ring)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-kill-ring 'helm-source-kill-ring "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-latex-math 'helm-source-latex-math)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-latex-math 'helm-source-latex-math "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-bookmark-files&dirs 'helm-source-bookmark-files&dirs)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-bookmark-files&dirs 'helm-source-bookmark-files&dirs "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-emms-dired 'helm-source-emms-dired)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-emms-dired 'helm-source-emms-dired "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-firefox-bookmarks 'helm-source-firefox-bookmarks)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-firefox-bookmarks 'helm-source-firefox-bookmarks "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-ratpoison-commands 'helm-source-ratpoison-commands)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-ratpoison-commands 'helm-source-ratpoison-commands "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-register 'helm-source-register)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-register 'helm-source-register "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-locate 'helm-source-locate)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-locate 'helm-source-locate "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-advice 'helm-source-advice)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-advice 'helm-source-advice "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-yaoddmuse-emacswiki-edit-or-view 'helm-source-yaoddmuse-emacswiki-edit-or-view)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-yaoddmuse-emacswiki-edit-or-view 'helm-source-yaoddmuse-emacswiki-edit-or-view "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-yahoo-suggest 'helm-source-yahoo-suggest)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-yahoo-suggest 'helm-source-yahoo-suggest "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-org-keywords 'helm-source-org-keywords)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-org-keywords 'helm-source-org-keywords "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-lacarte 'helm-source-lacarte)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-lacarte 'helm-source-lacarte "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-evaluation-result 'helm-source-evaluation-result)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-evaluation-result 'helm-source-evaluation-result "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-occur 'helm-source-occur)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-occur 'helm-source-occur "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-calculation-result 'helm-source-calculation-result)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-calculation-result 'helm-source-calculation-result "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-ido-virtual-buffers 'helm-source-ido-virtual-buffers)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-ido-virtual-buffers 'helm-source-ido-virtual-buffers "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-yaoddmuse-emacswiki-post-library 'helm-source-yaoddmuse-emacswiki-post-library)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-yaoddmuse-emacswiki-post-library 'helm-source-yaoddmuse-emacswiki-post-library "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-top 'helm-source-top)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-top 'helm-source-top "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-colors 'helm-source-colors)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-colors 'helm-source-colors "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-file-cache 'helm-source-file-cache)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-file-cache 'helm-source-file-cache "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-complex-command-history 'helm-source-complex-command-history)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-complex-command-history 'helm-source-complex-command-history "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-simple-call-tree-callers-functions 'helm-source-simple-call-tree-callers-functions)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-simple-call-tree-callers-functions 'helm-source-simple-call-tree-callers-functions "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-ucs 'helm-source-ucs)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-ucs 'helm-source-ucs "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-customize-face 'helm-source-customize-face)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-customize-face 'helm-source-customize-face "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-bookmarks-ssh 'helm-source-bookmarks-ssh)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-bookmarks-ssh 'helm-source-bookmarks-ssh "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-bmkext-addressbook 'helm-source-bmkext-addressbook)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-bmkext-addressbook 'helm-source-bmkext-addressbook "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-ctags 'helm-source-ctags)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-ctags 'helm-source-ctags "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-eev-anchor 'helm-source-eev-anchor)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-eev-anchor 'helm-source-eev-anchor "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-imenu 'helm-source-imenu)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-imenu 'helm-source-imenu "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-bookmark-man 'helm-source-bookmark-man)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-bookmark-man 'helm-source-bookmark-man "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-stumpwm-commands 'helm-source-stumpwm-commands)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-stumpwm-commands 'helm-source-stumpwm-commands "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-idle-time-timers 'helm-source-idle-time-timers)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-idle-time-timers 'helm-source-idle-time-timers "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-bookmark-set 'helm-source-bookmark-set)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-bookmark-set 'helm-source-bookmark-set "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-file-name-history 'helm-source-file-name-history)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-file-name-history 'helm-source-file-name-history "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-jabber-contacts 'helm-source-jabber-contacts)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-jabber-contacts 'helm-source-jabber-contacts "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-moccur 'helm-source-moccur)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-moccur 'helm-source-moccur "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-w3m-bookmarks 'helm-source-w3m-bookmarks)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-w3m-bookmarks 'helm-source-w3m-bookmarks "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-bookmarks-su 'helm-source-bookmarks-su)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-bookmarks-su 'helm-source-bookmarks-su "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-emms-streams 'helm-source-emms-streams)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-emms-streams 'helm-source-emms-streams "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-files-in-all-dired 'helm-source-files-in-all-dired)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-files-in-all-dired 'helm-source-files-in-all-dired "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-eshell-history 'helm-source-eshell-history)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-eshell-history 'helm-source-eshell-history "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-absolute-time-timers 'helm-source-absolute-time-timers)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-absolute-time-timers 'helm-source-absolute-time-timers "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-findutils 'helm-source-findutils)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-findutils 'helm-source-findutils "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-find-files 'helm-source-find-files)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-find-files 'helm-source-find-files "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-recentf 'helm-source-recentf)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-recentf 'helm-source-recentf "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-picklist 'helm-source-picklist)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-picklist 'helm-source-picklist "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-buffer-not-found 'helm-source-buffer-not-found)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-buffer-not-found 'helm-source-buffer-not-found "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-xrandr-change-resolution 'helm-source-xrandr-change-resolution)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-xrandr-change-resolution 'helm-source-xrandr-change-resolution "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-bookmark-w3m 'helm-source-bookmark-w3m)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-bookmark-w3m 'helm-source-bookmark-w3m "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-semantic 'helm-source-semantic)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-semantic 'helm-source-semantic "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-mark-ring 'helm-source-mark-ring)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-mark-ring 'helm-source-mark-ring "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-fixme 'helm-source-fixme)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-fixme 'helm-source-fixme "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-gentoo 'helm-source-gentoo)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-gentoo 'helm-source-gentoo "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-bookmarks 'helm-source-bookmarks)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-bookmarks 'helm-source-bookmarks "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-elisp-library-scan 'helm-source-elisp-library-scan)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-elisp-library-scan 'helm-source-elisp-library-scan "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-info-pages 'helm-source-info-pages)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-info-pages 'helm-source-info-pages "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-bookmark-gnus 'helm-source-bookmark-gnus)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-bookmark-gnus 'helm-source-bookmark-gnus "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-elscreen 'helm-source-elscreen)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-elscreen 'helm-source-elscreen "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-emacs-source-defun 'helm-source-emacs-source-defun)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-emacs-source-defun 'helm-source-emacs-source-defun "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-emacs-lisp-toplevels 'helm-source-emacs-lisp-toplevels)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-emacs-lisp-toplevels 'helm-source-emacs-lisp-toplevels "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-google-suggest 'helm-source-google-suggest)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-google-suggest 'helm-source-google-suggest "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-ff-file-name-history 'helm-source-ff-file-name-history)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-ff-file-name-history 'helm-source-ff-file-name-history "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-buffers-list 'helm-source-buffers-list)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-buffers-list 'helm-source-buffers-list "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-simple-call-tree-functions-callers 'helm-source-simple-call-tree-functions-callers)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-simple-call-tree-functions-callers 'helm-source-simple-call-tree-functions-callers "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-emacs-lisp-expectations 'helm-source-emacs-lisp-expectations)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-emacs-lisp-expectations 'helm-source-emacs-lisp-expectations "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-rd-headline 'helm-source-rd-headline)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-rd-headline 'helm-source-rd-headline "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-tracker-search 'helm-source-tracker-search)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-tracker-search 'helm-source-tracker-search "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-emacs-process 'helm-source-emacs-process)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-emacs-process 'helm-source-emacs-process "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-esh 'helm-source-esh)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-esh 'helm-source-esh "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-global-mark-ring 'helm-source-global-mark-ring)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-global-mark-ring 'helm-source-global-mark-ring "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-bbdb 'helm-source-bbdb)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-bbdb 'helm-source-bbdb "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-regexp 'helm-source-regexp)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-regexp 'helm-source-regexp "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-bookmark-images 'helm-source-bookmark-images)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-bookmark-images 'helm-source-bookmark-images "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-mac-spotlight 'helm-source-mac-spotlight)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-mac-spotlight 'helm-source-mac-spotlight "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-oddmuse-headline 'helm-source-oddmuse-headline)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-oddmuse-headline 'helm-source-oddmuse-headline "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-use-flags 'helm-source-use-flags)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-use-flags 'helm-source-use-flags "1.5.1")
+ ./helm-aliases.el:(defvaralias 'helm-c-source-emms-files 'helm-source-emms-files)
+ ./helm-aliases.el:(make-obsolete-variable 'helm-c-source-emms-files 'helm-source-emms-files "1.5.1")
+ ./helm-locate.el:    (helm :sources 'helm-source-locate
+ ./helm-locate.el:  "Initialize async locate process for `helm-source-locate'."
+ ./helm-locate.el:(defvar helm-source-locate
+ ./helm-plugin.el:  (defvar helm-source-info-wget '((info-index . \"wget\"))")
+ ./helm-plugin.el:  See `helm-source-info-screen'.")
+ ./helm-plugin.el:  \(defvar helm-source-test-file
+ ./helm-regexp.el:(defvar helm-source-regexp
+ ./helm-regexp.el:(defvar helm-source-occur nil)
+ ./helm-regexp.el:  (unless helm-source-occur
+ ./helm-regexp.el:    (setq helm-source-occur (copy-alist helm-source-moccur))
+ ./helm-regexp.el:    (helm-attrset 'name "Occur" helm-source-occur)))
+ ./helm-regexp.el:  "Format line for `helm-source-moccur'."
+ ./helm-regexp.el:  "Run goto line other window action from `helm-source-moccur'."
+ ./helm-regexp.el:  "Run goto line new frame action from `helm-source-moccur'."
+ ./helm-regexp.el:      (setq helm-source-moccur
+ ./helm-regexp.el:            (remove (assoc 'no-matchplugin helm-source-moccur)
+ ./helm-regexp.el:                    helm-source-moccur)
+ ./helm-regexp.el:            helm-source-occur helm-source-moccur)
+ ./helm-regexp.el:      (helm-attrset 'no-matchplugin nil helm-source-moccur)
+ ./helm-regexp.el:      (setq helm-source-occur helm-source-moccur)))
+ ./helm-regexp.el:(defvar helm-source-moccur
+ ./helm-regexp.el:  "`filter-one-by-one' function for `helm-source-moccur'."
+ ./helm-regexp.el:  "Main function to call `helm-source-moccur' with BUFFERS list."
+ ./helm-regexp.el:  (helm :sources 'helm-source-moccur
+ ./helm-regexp.el:    (helm :sources helm-source-regexp
+ ./helm-regexp.el:  (helm :sources 'helm-source-occur
+ ./helm-regexp.el:        :preselect (and (memq 'helm-source-occur helm-sources-using-default-as-input)
+ ./helm-regexp.el:    (helm :sources 'helm-source-occur
+ ./helm-font.el:(defvar helm-source-xfonts
+ ./helm-font.el:(defvar helm-source-ucs
+ ./helm-font.el:  (helm-other-buffer 'helm-source-xfonts "*helm select* xfont"))
+ ./helm-font.el:  (helm :sources 'helm-source-ucs
+ ./helm-org.el:(defvar helm-source-org-headline
+ ./helm-org.el:  (defvar helm-source-org-keywords
+ ./helm-org.el:  (helm-other-buffer 'helm-source-org-keywords "*org keywords*"))
+ ./helm-org.el:  (helm-other-buffer 'helm-source-org-headline "*org headlines*"))
+ ./helm-yaoddmuse.el:(defvar helm-source-yaoddmuse-emacswiki-edit-or-view
+ ./helm-yaoddmuse.el:(defvar helm-source-yaoddmuse-emacswiki-post-library
+ ./helm-yaoddmuse.el:  (helm :sources 'helm-source-yaoddmuse-emacswiki-edit-or-view))
+ ./helm-yaoddmuse.el:  (helm :sources 'helm-source-yaoddmuse-emacswiki-post-library))
+ ./helm-grep.el:(defvar helm-source-grep nil)
+ ./helm-grep.el:                      (assoc-default 'follow helm-source-grep))))
+ ./helm-grep.el:    (setq helm-source-grep
+ ./helm-grep.el:    (and follow (helm-attrset 'follow follow helm-source-grep))
+ ./helm-grep.el:     :sources '(helm-source-grep)
+ ./helm-files.el:  '(helm-source-buffers-list
+ ./helm-files.el:    helm-source-recentf
+ ./helm-files.el:    helm-source-bookmarks
+ ./helm-files.el:    helm-source-file-cache
+ ./helm-files.el:    helm-source-files-in-current-dir
+ ./helm-files.el:    helm-source-locate)
+ ./helm-files.el:(defvar helm-source-find-files
+ ./helm-files.el:  "Generic function for creating actions from `helm-source-find-files'.
+ ./helm-files.el:  "Run Switch to history action from `helm-source-find-files'."
+ ./helm-files.el:  "Run Grep action from `helm-source-find-files'."
+ ./helm-files.el:  "Run Pdfgrep action from `helm-source-find-files'."
+ ./helm-files.el:  "Run Grep action from `helm-source-find-files'."
+ ./helm-files.el:  "Run Copy file action from `helm-source-find-files'."
+ ./helm-files.el:  "Run Rename file action from `helm-source-find-files'."
+ ./helm-files.el:  "Run Byte compile file action from `helm-source-find-files'."
+ ./helm-files.el:  "Run Load file action from `helm-source-find-files'."
+ ./helm-files.el:  "Run eshell command on file action from `helm-source-find-files'."
+ ./helm-files.el:  "Run Ediff file action from `helm-source-find-files'."
+ ./helm-files.el:  "Run Ediff merge file action from `helm-source-find-files'."
+ ./helm-files.el:  "Run Symlink file action from `helm-source-find-files'."
+ ./helm-files.el:  "Run Hardlink file action from `helm-source-find-files'."
+ ./helm-files.el:  "Run Delete file action from `helm-source-find-files'."
+ ./helm-files.el:  "Run complete file name action from `helm-source-find-files'."
+ ./helm-files.el:  "Run switch to eshell action from `helm-source-find-files'."
+ ./helm-files.el:  "Run switch to other window action from `helm-source-find-files'."
+ ./helm-files.el:  "Run switch to other frame action from `helm-source-find-files'."
+ ./helm-files.el:  "Run open file externally command action from `helm-source-find-files'."
+ ./helm-files.el:  "Run open file externally command action from `helm-source-find-files'."
+ ./helm-files.el:  "Run locate action from `helm-source-find-files'."
+ ./helm-files.el:  "Run gnus attach files command action from `helm-source-find-files'."
+ ./helm-files.el:  "Run Etags command action from `helm-source-find-files'."
+ ./helm-files.el:  "Run Print file action from `helm-source-find-files'."
+ ./helm-files.el:  "Create candidate list for `helm-source-find-files'."
+ ./helm-files.el:  "Sort function for `helm-source-find-files'.
+ ./helm-files.el:  "`filter-one-by-one' Transformer function for `helm-source-find-files'."
+ ./helm-files.el:  "Action transformer for `helm-source-find-files'."
+ ./helm-files.el:    (helm :sources 'helm-source-find-files
+ ./helm-files.el:                      (assoc-default 'name helm-source-find-files))
+ ./helm-files.el:(defvar helm-source-files-in-all-dired
+ ./helm-files.el:(defvar helm-source-file-cache
+ ./helm-files.el:(defvar helm-source-file-name-history
+ ./helm-files.el:                     helm-source-locate)))))
+ ./helm-files.el:(defvar helm-source--ff-file-name-history
+ ./helm-files.el:    (helm :sources 'helm-source--ff-file-name-history
+ ./helm-files.el:(defvar helm-source-recentf
+ ./helm-files.el:                     helm-source-locate))))
+ ./helm-files.el:(defvar helm-source-session
+ ./helm-files.el:                     helm-source-locate))))
+ ./helm-files.el:(defvar helm-source-files-in-current-dir
+ ./helm-files.el:(defvar helm-source-tracker-search
+ ./helm-files.el:(defvar helm-source-mac-spotlight
+ ./helm-files.el:(defvar helm-source-picklist
+ ./helm-files.el:(defvar helm-source-findutils
+ ./helm-files.el:                     'action helm-source-locate)))
+ ./helm-files.el:  (helm :sources 'helm-source-findutils
+ ./helm-files.el:    (helm-other-buffer 'helm-source-recentf "*helm recentf*")))
+ ./helm-net.el:(defvar helm-source-google-suggest
+ ./helm-net.el:(defvar helm-source-yahoo-suggest
+ ./helm-net.el:(defvar helm-source-wikipedia-suggest
+ ./helm-net.el:  (helm-other-buffer 'helm-source-google-suggest "*helm google*"))
+ ./helm-net.el:  (helm-other-buffer 'helm-source-yahoo-suggest "*helm yahoo*"))
+ ./helm-net.el:  (helm-other-buffer 'helm-source-wikipedia-suggest "*helm wikipedia*"))

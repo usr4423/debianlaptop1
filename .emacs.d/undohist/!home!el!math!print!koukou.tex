@@ -1,0 +1,358 @@
+
+((digest . "d41d8cd98f00b204e9800998ecf8427e") (undo-list nil ("%#!latexmk -dvi -pvc -src-specials -file-line-error koukou.tex
+\\documentclass[11pt,b4j,landscape,twocolumn]{jsarticle}
+
+% ■　ファイルのありかは下記のとおり（2013年9月現在）
+%
+% jsarticle.cls		http://oku.edu.mie-u.ac.jp/~okumura/jsclasses/ の jsclasses-130514.zip
+% b4tate.sty		http://unilab.gbb60166.jp/tex/b4tate.zip
+% furikana.sty		http://homepage3.nifty.com/xymtex/fujitas2/texlatex/index.html#tategumi
+% emathP.sty		http://homepage3.nifty.com/emath/
+%
+\\usepackage{ascmac,b4tate,furikana}
+
+\\usepackage[dvipdfmx]{graphicx}
+
+\\usepackage{tikz}%（これで、pgfとpgfforが読み込まれます。）
+\\usetikzlibrary{calc,intersections,through,backgrounds}
+
+\\textwidth=315mm \\textheight=220mm \\columnseprule=0pt \\topmargin=-25mm \\oddsidemargin=-15mm
+
+\\begin{document}
+%
+%  ===========================以下本文===============================
+%
+\\def\\namae{%
+{\\Large\\bf 数学I \\quad 授業プリント \\# 38}\\hfill
+年\\hskip8ex 組\\hskip8ex 号 \\hskip5ex
+
+\\hfill 
+\\underline{氏名\\rule[-2ex]{0cm}{6ex}\\hskip30ex}}
+
+\\namae
+
+\\vskip2ex
+
+{\\large\\bf ■　2次関数のグラフと2次方程式}
+
+\\def\\arraystretch{1.5}
+\\def\\mb#1{\\makebox[3ex]{#1}}
+\\def\\bbox{\\raisebox{-1.5ex}{\\framebox(7,7){}}}
+\\unitlength=1mm
+
+\\def\\siki{y=x^2-4x+3}
+
+\\fbox{例題1}　
+\\begin{minipage}[t]{0.28\\textwidth}
+　\\( \\siki \\) のグラフをかくと次のようになり，$x$軸と2点で交わる。
+
+　このときグラフと$x$軸との交点の$y$座標は0だから，交点の$x$座標を求める
+には\\(y=x^2-4x+3\\)で$y=0$とおいた式，つまり「\\(x^2-4x+3=0\\)」を解けば
+良い。
+
+\\bigskip
+
+\\hspace*{8zw}\\(x^2-4x+3=0\\)
+
+因数分解して\\hskip1zw \\((x-1)(x-3)=0\\)
+
+\\hspace*{10zw}\\(x=1,3\\)
+
+\\end{minipage}
+
+
+\\vskip-15zh
+\\mbox{}\\hfill
+\\begin{tikzpicture}[scale=0.6, >=stealth, baseline=(current bounding box.north)]
+\\draw[->](-1,0) -- (5,0);
+\\draw[->](0,-1) -- (0,4);
+%\\foreach \\x in {-4,...,4}{\\foreach \\y in {-6,...,6}{\\fill (\\x,\\y) circle (2pt);}}
+\\draw(-0.3,-0.3) node {\\footnotesize O};
+\\draw(5,-0.3) node {\\footnotesize $x$};
+\\draw(-0.3,4) node {\\footnotesize $y$};
+%\\foreach \\x in {5,-5}{\\draw(-0.3,\\x) node {\\tiny $\\x$};}
+%\\draw(5,-0.3) node {\\tiny $5$};
+\\draw($ (-0.2,{(-0.2)^2-4*(-0.2)+3}) $) parabola bend (2,-1) (4,3);
+\\foreach \\x in {1,...,4}{\\draw(\\x,-0.05)--(\\x,0.05);}
+\\foreach \\x in {1,...,4}{\\draw(-0.05,\\x)--(0.05,\\x);}
+%\\draw(-1.2,-0.5) node {\\tiny \\( \\scriptstyle {3-\\sqrt{17}\\over 4} \\)};
+%\\draw(2.5,-0.5) node {\\tiny \\( \\scriptstyle {3+\\sqrt{17}\\over 4} \\)};
+\\end{tikzpicture}
+
+\\vspace*{12mm}
+
+\\begin{center}
+\\begin{minipage}[t]{0.4\\textwidth}
+\\begin{shadebox}
+\\vspace*{1ex}
+
+\\hspace*{7zw}\\fbox{\\begin{minipage}[c]{9zw}
+\\(y=ax^2+bx+c\\)\\\\
+のグラフと$x$軸との\\\\
+交点の$x$座標
+\\end{minipage}}
+=
+\\fbox{\\begin{minipage}[c]{8zw}
+2次方程式\\\\
+\\(ax^2+bx+c=0\\)\\\\
+の解
+\\end{minipage}}
+
+\\vspace*{1ex}
+
+\\end{shadebox}
+\\end{minipage}
+\\end{center}
+
+
+
+\\toi 次の2次関数のグラフと$x$軸との交点の$x$座標を
+求めなさい。
+
+\\nidangumi{\\subtoi \\( y=x^2+4x+3 \\) }
+			{\\subtoi  \\(  y=x^2-3x+2 \\) }
+
+\\vskip-1zh
+\\hspace*{45mm}
+\\begin{tikzpicture}[scale=0.6, >=stealth, baseline=(current bounding box.north)]
+\\draw[->](-5,0) -- (1,0);
+\\draw[->](0,-1) -- (0,4);
+%\\foreach \\x in {-4,...,4}{\\foreach \\y in {-6,...,6}{\\fill (\\x,\\y) circle (2pt);}}
+\\draw(-0.3,-0.3) node {\\footnotesize O};
+\\draw(1,-0.3) node {\\tiny $x$};
+\\draw(-0.3,4) node {\\tiny $y$};
+%\\foreach \\x in {5,-5}{\\draw(-0.3,\\x) node {\\tiny $\\x$};}
+%\\draw(5,-0.3) node {\\tiny $5$};
+\\draw($ (-4.1,{(-4.1)^2+4*(-4.1)+3}) $) parabola bend (-2,-1) ($ (0.1,{(0.1)^2+4*(0.1)+3}) $);
+\\foreach \\x in {-5,...,-1}{\\draw(\\x,-0.05)--(\\x,0.05);}
+\\foreach \\x in {1,...,3}{\\draw(-0.05,\\x)--(0.05,\\x);}
+%\\draw(-1.2,-0.5) node {\\tiny \\( \\scriptstyle {3-\\sqrt{17}\\over 4} \\)};
+%\\draw(2.5,-0.5) node {\\tiny \\( \\scriptstyle {3+\\sqrt{17}\\over 4} \\)};
+\\end{tikzpicture}
+%
+\\hspace*{45mm}
+%
+\\begin{tikzpicture}[scale=0.6, >=stealth, baseline=(current bounding box.north)]
+\\draw[->](-1,0) -- (3,0);
+\\draw[->](0,-1) -- (0,4);
+%\\foreach \\x in {-4,...,4}{\\foreach \\y in {-6,...,6}{\\fill (\\x,\\y) circle (2pt);}}
+\\draw(-0.3,-0.3) node {\\footnotesize O};
+\\draw(3,-0.3) node {\\tiny $x$};
+\\draw(-0.3,4) node {\\tiny $y$};
+%\\foreach \\x in {5,-5}{\\draw(-0.3,\\x) node {\\tiny $\\x$};}
+%\\draw(5,-0.3) node {\\tiny $5$};
+%\\draw ($ (-1,{2*(-1)^2-3*(-1)-1}) $) parabola bend ($ ({-(b)/(2*a)},{(-(b)^2+4*a*(c))/(4*a)}) $) ($ (2.5,{2*(2.5)^2-3*(2.5)-1}) $);
+\\draw($ (-0.2,{(-0.2)^2-3*(-0.2)+2}) $) parabola bend (1.5,-0.75) ($ (3.2,{(3.2)^2-3*(3.2)+2}) $);
+\\foreach \\x in {1,...,2}{\\draw(\\x,-0.05)--(\\x,0.05);}
+\\foreach \\x in {1,...,3}{\\draw(-0.05,\\x)--(0.05,\\x);}
+%\\draw(-1.2,-0.5) node {\\tiny \\( \\scriptstyle {3-\\sqrt{17}\\over 4} \\)};
+%\\draw(2.5,-0.5) node {\\tiny \\( \\scriptstyle {3+\\sqrt{17}\\over 4} \\)};
+\\end{tikzpicture}
+
+\\vfill
+
+\\nidangumi{\\subtoi \\( y=x^2+3x-10 \\) }
+			{\\subtoi  \\(  y=x^2+x  \\) }
+
+\\vskip-1zh
+\\hspace*{50mm}
+\\begin{tikzpicture}[scale=0.25, >=stealth, baseline=(current bounding box.north)]
+\\draw[->](-6,0) -- (3,0);
+\\draw[->](0,-12) -- (0,2);
+%\\foreach \\x in {-4,...,4}{\\foreach \\y in {-6,...,6}{\\fill (\\x,\\y) circle (2pt);}}
+\\draw(-1,-1) node {\\footnotesize O};
+\\draw(3,-1) node {\\tiny $x$};
+\\draw(-1,2) node {\\tiny $y$};
+%\\foreach \\x in {5,-5}{\\draw(-0.3,\\x) node {\\tiny $\\x$};}
+%\\draw(5,-0.3) node {\\tiny $5$};
+%\\draw ($ (-1,{2*(-1)^2-3*(-1)-1}) $) parabola bend ($ ({-(b)/(2*a)},{(-(b)^2+4*a*(c))/(4*a)}) $) ($ (2.5,{2*(2.5)^2-3*(2.5)-1}) $);
+\\draw($ (-5.2,{(-5.2)^2+3*(-5.2)-10}) $) parabola bend ($ ({-(3)/(2*1)},{(-(3)^2+4*1*(-10))/(4*1)}) $) ($ (2.2,{(2.2)^2+3*(2.2)-10}) $);
+\\foreach \\x in {-5,...,2}{\\draw(\\x,-0.05)--(\\x,0.05);}
+\\foreach \\x in {-11,...,1}{\\draw(-0.05,\\x)--(0.05,\\x);}
+%\\draw(-1.2,-0.5) node {\\tiny \\( \\scriptstyle {3-\\sqrt{17}\\over 4} \\)};
+%\\draw(2.5,-0.5) node {\\tiny \\( \\scriptstyle {3+\\sqrt{17}\\over 4} \\)};
+\\end{tikzpicture}
+%
+\\hspace*{55mm}
+%
+\\begin{tikzpicture}[scale=0.6, >=stealth, baseline=(current bounding box.north)]
+\\draw[->](-2,0) -- (2,0);
+\\draw[->](0,-1) -- (0,3);
+%\\foreach \\x in {-4,...,4}{\\foreach \\y in {-6,...,6}{\\fill (\\x,\\y) circle (2pt);}}
+\\draw(0.3,-0.3) node {\\footnotesize O};
+\\draw(2,-0.3) node {\\tiny $x$};
+\\draw(-0.3,3) node {\\tiny $y$};
+%\\foreach \\x in {5,-5}{\\draw(-0.3,\\x) node {\\tiny $\\x$};}
+%\\draw(5,-0.3) node {\\tiny $5$};
+\\draw($ (-2.3,{(-2.3)^2+(-2.3)}) $) parabola bend ($ ({-1/2},{-1/4}) $) ($ (1.3,{(1.3)^2+(1.3)}) $);
+\\foreach \\x in {-1,...,1}{\\draw(\\x,-0.05)--(\\x,0.05);}
+\\foreach \\x in {1,...,2}{\\draw(-0.05,\\x)--(0.05,\\x);}
+%\\draw(-1.2,-0.5) node {\\tiny \\( \\scriptstyle {3-\\sqrt{17}\\over 4} \\)};
+%\\draw(2.5,-0.5) node {\\tiny \\( \\scriptstyle {3+\\sqrt{17}\\over 4} \\)};
+\\end{tikzpicture}
+
+\\vfill
+
+
+\\newpage%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+{\\large\\bf ■　2次不等式}
+
+\\bigskip
+
+\\def\\siki{x^2-4x+3}
+
+\\fbox{例題2}
+　\\(y=\\siki\\)と$x$軸との交点の座標は，例題1より\\(x=1,~3\\)である。
+
+\\vskip2zh
+
+\\begin{minipage}[t]{0.21\\textwidth}
+{\\large ■　\\( \\siki >0\\)の場合}\\\\[1zh]
+　\\( \\siki >0\\)は『$x$軸より上』なので，$x$の範囲は\\(x<1,~~3<x\\)となる。
+\\end{minipage}
+\\hfill
+\\begin{minipage}[t]{0.21\\textwidth}
+{\\large ■　\\( \\siki <0\\)の場合}\\\\[1zh]
+　\\( \\siki <0\\)は『$x$軸より下』なので，$x$の範囲は\\(1<x<3\\)となる。
+\\end{minipage}
+
+\\vskip2zh
+
+\\mbox{}\\hskip5zw
+\\begin{tikzpicture}[scale=0.7, >=stealth, line width=1pt, baseline=(current bounding box.north)]
+%\\draw[red, line width=3pt](-2.25,4.0625) parabola bend (0,-1) (2.25,4.0625);
+\\draw[red, line width=3pt] ($ (-2.25,{(-2.25)^2-1}) $) parabola bend ($ ({-(0)/(2*1)},{(-(0)^2+4*1*(-1))/(4*1)}) $) ($ (2.25,{(2.25)^2-1}) $);
+\\fill[fill=white] (-1.1,0) rectangle (1.1,-1.1);
+\\draw(-1,0) parabola bend (0,-1) (1,0);
+\\draw[blue, line width=3pt](-2.2,0)--(-1,0);
+\\draw[->,blue, line width=3pt](1,0)--(2.4,0);
+\\draw(-1,0)--(1,0);
+\\filldraw[blue, fill=white](-1,0) circle (3pt);
+\\filldraw[blue, fill=white](1,0) circle (3pt);
+\\draw[->,red] (1.25,0.56)--(1.25,0.1);
+\\draw[->,red] (1.5,1.25)--(1.5,0.1);
+\\draw[->,red] (1.75,2.06)--(1.75,0.1);
+\\draw[->,red] (2,3)--(2,0.1);
+\\draw[->,red] (2.25,4.06)--(2.25,0.1);
+\\draw[->,red] (-1.25,0.56)--(-1.25,0.1);
+\\draw[->,red] (-1.5,1.25)--(-1.5,0.1);
+\\draw[->,red] (-1.75,2.06)--(-1.75,0.1);
+\\draw[->,red] (-2,3)--(-2,0.1);
+\\draw[->,red] (-2.25,4.06)--(-2.25,0.1);
+\\draw(-1,-0.5) node{\\footnotesize $1$};
+\\draw(1,-0.5) node{\\footnotesize $3$};
+\\draw(2.2,-0.3) node{\\footnotesize $x$};
+\\end{tikzpicture}
+\\hfill
+\\begin{tikzpicture}[scale=0.7, >=stealth, line width=1pt, baseline=(current bounding box.north)]
+%\\draw(-2.25,4.0625) parabola bend (0,-1) (2.25,4.0625);
+\\draw($ (-2.25,{(-2.25)^2-1}) $) parabola bend ($ ({-(0)/(2*1)},{(-(0)^2+4*1*(-1))/(4*1)}) $) ($ (2.25,{(2.25)^2-1}) $);
+\\draw[red, line width=3pt](-1,0) parabola bend (0,-1) (1,0);
+\\draw[->](-2.2,0)--(2.4,0);
+\\filldraw[red](-1,0) circle (3pt);
+\\filldraw[red](1,0) circle (3pt);
+\\draw[->,red] (-0.75,-0.44)--(-0.75,-0.1);
+\\draw[->,red] (-0.5,-0.75)--(-0.5,-0.1);
+\\draw[->,red] (-0.25,-0.94)--(-0.25,-0.1);
+\\draw[->,red] (0,-1)--(0,-0.1);
+\\draw[->,red] (0.25,-0.94)--(0.25,-0.1);
+\\draw[->,red] (0.5,-0.75)--(0.5,-0.1);
+\\draw[->,red] (0.75,-0.44)--(0.75,-0.1);
+\\draw(-1,-0.5) node{\\footnotesize $1$};
+\\draw(1,-0.5) node{\\footnotesize $3$};
+\\draw(2.2,-0.3) node{\\footnotesize $x$};
+\\draw[blue, line width=3pt](-1,0)--(1,0);
+\\filldraw[blue, fill=white](-1,0) circle (3pt);
+\\filldraw[blue, fill=white](1,0) circle (3pt);
+\\end{tikzpicture}
+\\hskip5zw\\mbox{}
+
+\\bigskip
+
+\\begin{minipage}[t]{0.22\\textwidth}
+\\( \\siki >0\\)の解は\\(x<1,~~3<x\\)
+\\end{minipage}
+\\hfill
+\\begin{minipage}[t]{0.22\\textwidth}
+\\( \\siki <0\\)の解は\\(1<x<3\\)
+\\end{minipage}
+
+\\bigskip
+
+
+\\toi 次の2次不等式を解きなさい。
+
+\\nidangumi{\\subtoi \\( (x-1)(x-4)>0 \\) }
+			{\\subtoi  \\(  (x-1)(x-4)<0  \\) }\\vfill
+
+\\nidangumi{\\subtoi \\( x^2-5x+6>0 \\) }
+			{\\subtoi  \\(  x^2-5x+6<0  \\) }\\vfill
+
+
+\\newpage
+
+\\def\\siki{2x^2+5x-3}
+
+\\fbox{例題3}　
+\\begin{minipage}[t]{0.28\\textwidth}
+　\\( \\siki >0\\) を解いてみよう。
+
+\\bigskip
+
+\\(\\siki\\)を因数分解すると\\((x+3)(2x-1)\\)となるので
+
+\\bigskip
+
+\\hspace*{8zw}\\(\\siki=0\\)
+
+因数分解して\\hskip1zw \\((x+3)(2x-1)=0\\)
+
+\\hskip5zw \\(x+3=0\\)\\hskip1zw または\\hskip1zw \\(2x-1=0\\)
+
+\\hspace*{10zw}\\(x=-3,~~{\\,1\\, \\over 2}\\)
+
+\\bigskip
+
+よって\\( \\siki >0\\)の解は，
+グラフより\\(x<-3,~~{\\,1\\, \\over 2}<x\\)であることが分かる。
+
+\\end{minipage}
+
+
+\\vskip-15zh
+\\mbox{}\\hfill
+\\begin{tikzpicture}[scale=0.6, >=stealth, baseline=(current bounding box.north)]
+\\draw[->](-4,0) -- (2,0);
+\\draw[->](0,-8) -- (0,1);
+%\\foreach \\x in {-4,...,4}{\\foreach \\y in {-6,...,6}{\\fill (\\x,\\y) circle (2pt);}}
+\\draw(-0.3,-0.3) node {\\footnotesize O};
+\\draw(2,0.3) node {\\footnotesize $x$};
+\\draw(-0.3,1) node {\\footnotesize $y$};
+%\\foreach \\x in {5,-5}{\\draw(-0.3,\\x) node {\\tiny $\\x$};}
+%\\draw(5,-0.3) node {\\tiny $5$};
+\\draw ($ (-3.1,{2*(-3.1)^2+5*(-3.1)-3}) $) parabola bend ($ ({-(5)/(2*2)},{(-(5)^2+4*2*(-3))/(4*2)}) $) ($ (0.6,{2*(0.6)^2+5*(0.6)-3}) $);
+\\foreach \\x in {-2,...,1}{\\draw(\\x,-0.05)--(\\x,0.05);}
+\\foreach \\x in {-7,...,-1}{\\draw(-0.05,\\x)--(0.05,\\x);}
+\\draw(-3.5,-0.5) node {\\tiny \\( \\scriptstyle -3 \\)};
+\\draw(0.8,-0.5) node {\\tiny \\( \\scriptstyle {\\,1\\,\\over2} \\)};
+\\end{tikzpicture}
+
+\\bigskip
+
+\\toi 次の2次不等式を解きなさい。
+
+\\nidangumi{\\subtoi \\( x^2+x-2>0 \\) }
+			{\\subtoi  \\( x^2+x-12<0 \\) }\\vfill
+
+\\nidangumi{\\subtoi \\( x^2-4<0 \\) }
+			{\\subtoi  \\(  x^2-3x>0  \\) }\\vfill
+
+\\nidangumi{\\subtoi \\( 3x^2+5x-2>0 \\) }
+			{\\subtoi  \\(  -x^2+6x+7>0 \\)\\\\
+\\hspace*{0zw}$\\bullet$\\hskip0.8zw$x^2$の前がマイナスの数字の場合は，\\\\
+\\hspace*{1.2zw}両辺に$-1$をかけ算して，\\\\
+\\hspace*{1.2zw}\\( x^2-6x-7<0 \\)としてから解く。}\\vfill
+
+\\end{document}
+" . -1) (t 21399 1303 386812 366000) ((marker . 1) . -10934) ((marker) . -10919) ((marker) . -10919) ((marker) . -10709) ((marker) . -10709) ((marker) . -10710) ((marker) . -10710) ((marker) . -10783) ((marker) . -10783) ((marker) . -10839) ((marker) . -10839) ((marker*) . 10882) ((marker) . -58) ((marker . 1) . -1207) ((marker . 1) . -1316) ((marker . 1) . -1316) ((marker . 1) . -10671) ((marker) . -10671) ((marker) . -10671) ((marker) . -10918) ((marker) . -10918) ((marker*) . 10510) ((marker) . -429) ((marker*) . 10931) ((marker) . -10) ((marker) . -10749) ((marker) . -10749) ((marker*) . 4484) ((marker) . -6452) ((marker*) . 4191) ((marker) . -6745) ((marker*) . 4173) ((marker) . -6763) ((marker) . -10871) ((marker) . -10871) nil ("\\" . -873) nil ("(" . -874) nil ("\\" . -875) nil (")" . -876) nil (874 . 877) nil (873 . 874) (t 21396 2043 660509 732000) nil (53 . 59) nil ("p" . -53) nil ("r" . -54) nil ("i" . -55) nil ("n" . -56) nil ("t" . -57) nil ("2" . -58) nil (nil rear-nonsticky nil 62 . 63) (nil fontified nil 1 . 63) (1 . 63) nil (" " . -2) nil (" " . -3) nil (" " . -4) nil (" " . -5) nil (" " . -6) nil (" " . -7) nil (" " . -8) nil (" " . -9) nil (1 . 10) (t 21396 1951 929942 653000) nil undo-tree-canary))

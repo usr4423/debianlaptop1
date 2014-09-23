@@ -1,0 +1,370 @@
+
+((digest . "5033fd7b4bf871e51036870bb1b4677e") (undo-list nil ("\\" . -656) nil ("い" . -657) nil (656 . 658) nil ("\\" . -656) nil (656 . 657) (t 21310 47500 943076 88000) nil ("\\" . -1) nil ("t" . -2) nil ("e" . -3) nil ("x" . -4) nil ("t" . -5) nil ("b" . -6) nil ("f" . -7) nil ("{" . -8) nil ("}" . -9) nil (1 . 10) (t 21310 46633 269463 434000) nil ("
+
+
+
+
+" . -741) nil (655 . 656) (t 21310 46550 427652 844000) nil ("/home/el/math/2014zemi/2-2/" . 648) nil (647 . 681) nil (641 . 647) nil (639 . 641) nil (" \\begin{prop}
+ 実数を係数とする(変数)$X$の多項式(整式)全体の集合$\\dps\\R[X]\\left\\{\\sum_{i=0}^{n}
+ a_{i}X^{i} \\middle| \\fora a_{i}\\in \\R, \\fora n\\in\\N\\right\\}$は通常の
+ 加法と乗法に関して単位元を持つ可換環である. 
+ \\end{prop}
+ \\begin{proof}
+  (R1)\\\\
+  \\par(G1)
+  $\\R[X]$の任意な元
+  $\\dps f_{1}(X)={a}_{0}+{a}_{1}X+\\cdots+{a}_{n}X^{n}=\\sum_{i=0}^{n}a_{i}X^{i},
+  f_{2}(X)={b}_{0}+{b}_{1}X+\\cdots+{b}_{m}X^{m}=\\sum_{i=0}^{m}b_{i}X^{i},
+  f_{3}(X)={c}_{0}+{c}_{1}X+\\cdots+{c}_{l}X^{l}=\\sum_{i=0}^{l}c_{i}X^{i}(a_{1},
+  a_{2}, \\cdots,a_{n}, b_{1}, b_{2},
+  \\cdots,b_{m}, c_{1}, c_{2}, \\cdots,c_{l}\\in\\R)$を取る. 議論の便宜上,
+  例えば$n< m$なとき, $a_{m-n}=\\cdots=a_{m}=0$等とする. このとき,
+  \\begin{align*}
+   (f_{1}(X)+f_{2}(X))+f_{3}(X)&=
+   \\left(\\sum_{i=0}^{n}a_{i}X^{i}+\\sum_{i=0}^{m}b_{i}X^{i}\\right)+\\sum_{i=0}^{l}c_{i}X^{i}\\\\
+   &=\\sum_{i=0}^{\\max{(n, m)}}(a_{i}+b_{i})X^{i}+\\sum_{i=0}^{l}c_{i}X^{i}\\\\
+   &=\\sum_{i=0}^{\\max{(n,m,l)}}((a_{i}+b_{i})+c_{i})X^{i}
+   \\intertext{であり, 実数はとくに加法に関して結合法則が成り立つので, }
+   &=\\sum_{i=0}^{\\max{(n,m,l)}}(a_{i}+(b_{i}+c_{i}))X^{i}\\\\
+   &=\\sum_{i=0}^{n}a_{i}X^{i}+\\left(\\sum_{i=0}^{\\max{(m,l)}}(b_{i}+c_{i})X^{i}\\right)\\\\
+   &=\\sum_{i=0}^{n}a_{i}X^{i}+\\left(\\sum_{i=0}^{m}b_{i}X^{i}+\\sum_{i=0}^{l}c_{i}X^{i}\\right)
+  \\end{align*}
+  である. よって加法に関する結合法則が成り立つ.
+  \\par(A1)
+  $\\R[X]$の任意な元
+  $\\dps f_{1}(X)=\\sum_{i=0}^{n}a_{i}X^{i},
+  f_{2}(X)=\\sum_{i=0}^{m}b_{i}X^{i},
+  (a_{1},
+  a_{2}, \\cdots,a_{n}, b_{1}, b_{2},
+  \\cdots,b_{m}, \\in\\R)$を取る. 議論の便宜上,
+  例えば$n< m$なとき, $a_{m-n}=\\cdots=a_{m}=0$等とする. このとき,
+  \\begin{align*}
+   f_{1}(X)+f_{2}(X)&=\\sum_{i=0}^{n}a_{i}X^{i}+\\sum_{i=0}^{m}b_{i}X^{i}\\\\
+   &=\\sum_{i=0}^{\\max{(n, m)}}(a_{i}+b_{i})X^{i}
+   \\intertext{であり, ここで実数が加法に関して可換であることに気を付けれ
+   ば, }
+   &=\\sum_{i=0}^{\\max{(n, m)}}(b_{i}+a_{i})X^{i}\\\\
+   &=\\sum_{i=0}^{m}b_{i}X^{i}+\\sum_{i=0}^{n}a_{i}X^{i}\\\\
+   &=f_{1}(X)+f_{2}(X)
+  \\end{align*}
+  であるので, 加法に関して$\\R[X]$は可換である.
+ \\par(G2)$g(X)=0$を考えると$0\\in \\R$より, $g(X)\\in \\R[X]$である. このとき
+  $\\R[X]$の任意の元$\\dps f(X)=\\sum_{i=0}^{n}a_{i}X^{i}$に対して,
+  \\begin{align*}
+   f(X)+g(X)&=\\sum_{i=0}^{n}a_{i}X^{i}+0\\\\
+   &=\\sum_{i=0}^{n}a_{i}X^{i}\\\\
+   &=f(X)
+  \\end{align*}
+  であるので, $g(X)$は$\\R[X]$の零元である.
+  \\par(G3)$\\R[X]$の任意な元$\\dps f(X)=\\sum_{i=0}^{n}a_{i}X^{i}$に対して,
+  $\\dps g(X)=\\sum_{i=0}^{n}(-a_{i})X^{i}$と置くと, $a_{i}\\in \\R$であったので,
+  $\\R$が加法に関する逆元を持つことに注意すれば, $-a_{i}\\in \\R$である. よっ
+  て$\\dps g(X)=\\sum_{i=0}^{n}(-a_{i})X^{i}\\in\\R[X]$である. ここで
+  \\begin{align*}
+   f(X)+g(X)&=\\sum_{i=0}^{n}a_{i}X^{i}+\\sum_{i=0}^{n}(-a_{i})X^{i}\\\\
+   &=\\sum_{i=0}^{n}(a_{i}+(-a_{i}))X^{i}\\\\
+   &=0
+  \\end{align*}
+  であるので, $g(X)$は$f(X)$の逆元である.
+  \\par (R2)$\\R[X]$の任意な元
+  $\\dps f_{1}(X)=\\sum_{i=0}^{n}a_{i}X^{i},
+  f_{2}(X)=\\sum_{i=0}^{m}b_{i}X^{i},
+  f_{3}(X)=\\sum_{i=0}^{l}c_{i}X^{i}(a_{1},
+  a_{2}, \\cdots,a_{n}, b_{1}, b_{2},
+  \\cdots,b_{m}, c_{1}, c_{2}, \\cdots,c_{l}\\in\\R)$を取る. 議論の便宜上,
+  例えば$n< m$なとき, $a_{m-n}=\\cdots=a_{m}=0$等とする. このとき,
+  \\begin{align*}
+    (f_{1}(X)f_{2}(X))f_{3}(X)&=\\left(\\left(\\sum_{i=0}^{n}a_{i}X^{i}\\right)
+   \\left(\\sum_{i=0}^{m}b_{i}X^{i}\\right)\\right)
+   \\left(\\sum_{i=0}^{l}c_{i}X^{i}\\right)\\\\
+   &=\\left(\\sum_{i=0}^{n+m}(\\sum_{j+k=i}a_{j}b_{k})X^{i}\\right)
+   \\left(\\sum_{i=0}^{l}c_{i}X^{i}\\right)
+  \\end{align*}
+  \\begin{align*}
+   (f_{1}(X)+f_{2}(X))+f_{3}(X)&=
+   \\left(\\sum_{i=0}^{n}a_{i}X^{i}+\\sum_{i=0}^{m}b_{i}X^{i}\\right)+\\sum_{i=0}^{l}c_{i}X^{i}\\\\
+   &=\\sum_{i=0}^{\\max{(n, m)}}(a_{i}+b_{i})X^{i}+\\sum_{i=0}^{l}c_{i}X^{i}\\\\
+   &=\\sum_{i=0}^{\\max{(n,m,l)}}((a_{i}+b_{i})+c_{i})X^{i}
+   \\intertext{であり, 実数はとくに加法に関して結合法則が成り立つので, }
+   &=\\sum_{i=0}^{\\max{(n,m,l)}}(a_{i}+(b_{i}+c_{i}))X^{i}\\\\
+   &=\\sum_{i=0}^{n}a_{i}X^{i}+\\left(\\sum_{i=0}^{\\max{(m,l)}}(b_{i}+c_{i})X^{i}\\right)\\\\
+   &=\\sum_{i=0}^{n}a_{i}X^{i}+\\left(\\sum_{i=0}^{m}b_{i}X^{i}+\\sum_{i=0}^{l}c_{i}X^{i}\\right)
+  \\end{align*}
+  である. よって加法に関する結合法則が成り立つ.
+ \\end{proof}
+" . 641) (t 21310 46011 109128 466000) nil (2921 . 2926) (t 21310 45982 936988 764000) nil (2802 . 2807) (t 21310 45930 344727 980000) nil ("/" . -635) nil ("h" . -636) nil ("o" . -637) nil ("m" . -638) nil ("e" . -639) nil ("/" . -640) nil ("e" . -641) nil ("l" . -642) nil ("/" . -643) nil ("m" . -644) nil ("a" . -645) nil ("t" . -646) nil ("h" . -647) nil ("/" . -648) nil ("2" . -649) nil ("0" . -650) nil ("1" . -651) nil ("4" . -652) nil ("z" . -653) nil ("e" . -654) nil ("m" . -655) nil ("i" . -656) nil ("/" . -657) nil ("2" . -658) nil ("-" . -659) nil ("2" . -660) nil ("/" . -661) nil (634 . 666) nil (628 . 634) nil (627 . 628) nil (795 . 796) (628 . 630) nil (" \\begin{ex}
+ 整数環$\\Z$は整域である. 
+ \\end{ex}
+ \\begin{proof}
+  $\\Z$が整域でないと仮定する. このとき零元以外の元, すなわち$0\\neq a,
+  b\\in\\Z$で$ab=0$を充すのもが存在する. 適当に両辺にマイナスをかけること
+  により, $a, b$を自然数としても一般性を失わない. このとき環の分配法則を
+  くりかえし用いれば,
+  \\begin{align*}
+   ab&=(\\overbrace{1+1+\\cdots+1}^{a\\text{個
+   }})(\\overbrace{1+1+\\cdots+1}^{b\\text{個}})\\\\
+   &=\\overbrace{1+1+\\cdots+1}^{ab\\text{個}}\\\\
+   &=0
+  \\end{align*}
+ となる. これは$\\Z=\\Z/ab\\Z$であったり, そもそも$\\Z$の定義の前の(零を含む)自
+  然数の定義のときに, $1$を足す操作で$0$になるような自然数$a$は存在しな
+  いことがある. 背理法より$\\Z$は整域であることが分かった. 
+ \\end{proof}
+ 個人的にはこの証明は$1=0$を導いて, $\\Z$は零環ではないので矛盾という方針
+ かと思っていたのだが, どうも違ったらしい.
+" . -628) nil ("/home/el/math/2014zemi/2-2/" . -622) nil (621 . 653) nil (615 . 621) nil (613 . 615) nil ("/" . -609) nil ("h" . -610) nil ("o" . -611) nil ("m" . -612) nil ("e" . -613) nil ("/" . -614) nil ("e" . -615) nil ("l" . -616) nil ("/" . -617) nil ("m" . -618) nil ("a" . -619) nil ("t" . -620) nil ("h" . -621) nil ("/" . -622) nil ("2" . -623) nil ("0" . -624) nil ("1" . -625) nil ("4" . -626) nil ("z" . -627) nil ("e" . -628) nil ("m" . -629) nil ("i" . -630) nil ("/" . -631) nil ("2" . -632) nil ("-" . -633) nil ("2" . -634) nil ("/" . -635) nil (608 . 640) nil (602 . 608) nil (600 . 602) nil (631 . 632) (601 . 603) nil (" \\begin{ex}
+ 数直線上の区間$I:=\\{x\\mid 0\\leq x\\leq 1\\}$で定義された実数値関数全体の
+ 集合を$F$とする. $\\fora f, g\\in F$に対し,
+ \\begin{equation}
+  \\begin{array}{l}
+   (f+g)(x)=(f)(x)+(g)(x)\\\\
+   (fg)(x)=(f)(x)g(x)\\\\
+  \\end{array}
+  \\quad(\\fora x\\in I)
+  \\label{014025_3Apr14}
+ \\end{equation}
+ と定める. また, $(f)(x)=f(x), (g)(x)=g(x)$などと略記する場合がある. こ
+ のとき, $F$は式(\\ref{014025_3Apr14})で定めた演算によって整域でない可換環と
+ なる. 
+ \\end{ex}
+\\begin{lem}
+ 上で定められた集合$F$は, (\\ref{014025_3Apr14})式で定められた演算によっ
+ て可換環となる. 
+\\end{lem}
+\\label{225550_3Apr14}
+ \\begin{proof}\\lev\\\\
+  (R1)\\\\
+  (G1)$\\fora f, g, h\\in F$とする. このとき, $F$の元に対する和の定義より,
+  $I$の任意な元$x$に対し,
+  \\begin{align*}
+   ((f+g)+h)(x)&=(f+g)(x)+h(x)\\\\
+   &=(f(x)+g(x))+h(x)\\\\
+   \\intertext{であり, $\\R$は和に関して結合法則を充すので, }
+   &=f(x)+(g(x)+h(x))\\\\
+   &=f(x)+(g+h)(x)\\\\
+   &=(f+(g+h))(x)
+  \\end{align*}
+  が成り立つ. すなわち$(f+g)+h=f+(g+h)$である.\\\\
+  (A1)$F$の任意な元$f, g$に対して, $F$の元に対する和の定義より,
+  \\begin{align*}
+   (f+g)(x)&=f(x)+g(x)
+   \\intertext{となるが, $\\R$は加法に関して可換であるので, }
+   &=g(x)+f(x)\\\\
+   &=(g+f)(x)
+  \\end{align*}
+  が$I$の任意の元$x$に対して成り立つ. すなわち$F$は加法に関して可換であ
+  る. 
+  \\\\
+  (G2)$f_{0}:I\\rightarrow \\R$を$(f_{0})(x)=-f(x)(\\fora x\\in I)$で定めると,
+  $f_{0}\\in F$であり, $F$の和の定義から
+  \\[
+  (f_{0}+f)(x)=f_{0}(x)+(f)(x)=0+f(x)=f(x)
+  \\]
+  であるので, $f'=f^{-1}$である. よって$F$は加法に関して逆元を持つ. \\\\
+  
+  (G3)
+  $f':I\\rightarrow \\R$を$(f')(x)=-f(x)(\\fora x\\in I)$で定めると,
+  $f'\\in F$であり, $F$の和の定義から
+  \\[
+  (f'+f)(x)=(f')(x)+(f)(x)=-f(x)+f(x)=0
+  \\]
+  であるので, 逆元の一意性から$f'=-f$である. よって$F$は加法に関して逆元を持つ. \\\\
+  (R2)$\\R$は乗法に関して結合法則を充すので, $F$の任意な元$f, g, h$に対し
+  て,
+  \\begin{align*}
+   (f(gh))(x)&=f(x)gh(x)\\\\
+   &=f(x)(g(x)h(x))\\\\
+   &=(f(x)g(x))h(x)\\\\
+   &=(fg(x))h(x)\\\\
+   &=((fg)h)(x)
+  \\end{align*}
+  が$I$の任意な元$x$に対して成り立つので, $f(gh)=(fg)h$である.\\\\
+  (A2)$F$の任意な元$f, g$に対し, $\\R$が可換であることに注意すれば, 
+  \\begin{align*}
+   (fg)(x)&=f(x)g(x)\\\\
+   &=g(x)f(x)\\\\
+   &=(gf)(x)
+  \\end{align*}
+  が任意の$I$の元$x$に対して成り立つ. よって$fg=gf$である. 
+  \\\\
+  (R3)
+  %2014/04/03 02:09:35
+  %2014/04/03 22:44:11
+  $F$の任意な元$f, g, h$を考える. このとき$\\R$は環であるので, 分配法則が
+  成り立つことに注意すれば, 
+  \\begin{align*}
+   (f(g+h))(x)&=f(x)(g+h)(x)\\\\
+   &=f(x)(g(x)+h(x))\\\\
+   &=f(x)g(x)+f(x)h(x)\\\\
+   &=(fg)(x)+(fh)(x)\\\\
+   &=(fg+fh)(x)
+  \\end{align*}
+  が任意の$I$の元$x$に対して成り立つので, $f(g+h)=fg+fh$が成り立つ. \\\\
+  以上より$F$は可換環であることが分かった. 
+ \\end{proof}
+ なお$\\iota:I\\rightarrow \\R, \\iota(x)=1(\\fora x\\in I)$を考えると, 任意な
+ $F$の元$f$に対し,
+ \\begin{align*}
+  (f\\iota)(x)&=f(x)\\cdot1\\\\
+  &=f(x)
+ \\end{align*}
+ となるので, $\\iota$は$F$の単位元であるとが分かる. 
+\\begin{lem}
+ \\label{225604_3Apr14}
+ $F$は整域ではない. 
+\\end{lem}
+ \\begin{proof}
+  page.\\pageref{014025_3Apr14}の\\textsc{Lemma}~\\ref{014025_3Apr14}より
+  $F$の零元は$f_{0}(x)=0(\\fora x\\in I)$を充す$F$の元$f_{0}$であった. さ
+  て, $F$のある元$p, q$を
+  \\[
+   p(x)=
+  \\begin{cases}
+   0&\\dps0\\leq x\\leq \\frac{1}{2}\\\\
+   1&\\dps\\frac{1}{2}< x\\leq 1
+  \\end{cases}
+  , 
+  \\qquad
+  q(x)=
+  \\begin{cases}
+   1&\\dps0\\leq x\\leq \\frac{1}{2}\\\\
+   0&\\dps\\frac{1}{2}< x\\leq 1
+  \\end{cases}
+  \\]
+  で定めると, $p(x), q(x)\\not\\equiv0$であるので, $p\\neq f_{0},
+  q\\neq f_{0}$であるが, $p, q$の定義から$(pq)(x)=p(x)q(x)=0\\quad(\\fora x\\in I)$
+  であるので, $pq=f_{0}$である. $F$が可換環であることに注意すれば, $p,
+  q$は$F$の零でない零因子である. よって$F$は整域ではない. 
+ \\end{proof}
+ 以上より$F$が整域ではないことが分かった.
+" . -601) (t 21310 45737 255770 495000) nil (974 . 975) (600 . 602) nil ("\\begin{ex}
+ \\label{231945_3Apr14}
+  $R$を環として, $R$係数の2次行列$M_{2}(R)$を考える. このとき$M_{2}(R)$は
+  整域ではない.
+\\end{ex}
+ \\begin{proof}
+ $M_{2}(R)$任
+ 意の元
+  $
+  \\dps\\begin{pmatrix}
+  a&b\\\\
+  d&c
+  \\end{pmatrix}(\\exe a, b, c, d\\in R)
+  $
+ に対し,
+\\[
+  \\begin{pmatrix}
+   a&b\\\\
+   c&d
+  \\end{pmatrix}
+  +
+  \\begin{pmatrix}
+     0&0\\\\
+     0&0
+  \\end{pmatrix}
+  =
+  \\begin{pmatrix}
+   0&0\\\\
+   0&0
+  \\end{pmatrix}
+   +
+  \\begin{pmatrix}
+   a&b\\\\
+   c&d
+  \\end{pmatrix}
+  =
+  \\begin{pmatrix}
+     a&b\\\\
+     c&d
+  \\end{pmatrix}
+ \\]
+   であるので, $M_{2}(R)$の零元は$
+  \\dps O:=
+  \\begin{pmatrix}
+    0&0\\\\
+    0&0
+  \\end{pmatrix}
+  $である. さて, 
+ \\[
+  A=\\begin{pmatrix}
+     1&0\\\\
+     1&0
+    \\end{pmatrix}, \\quad
+ B=\\begin{pmatrix}
+    0&0\\\\
+    1&1
+   \\end{pmatrix}
+ \\]
+ とすると, $A, B(\\neq O)$であるが,
+ \\[
+  AB=
+ \\begin{pmatrix}
+  1&0\\\\
+  1&0
+ \\end{pmatrix}
+ \\begin{pmatrix}
+  0&0\\\\
+  1&1
+ \\end{pmatrix}
+ =
+ \\begin{pmatrix}
+  0&0\\\\
+  0&0
+ \\end{pmatrix}
+ =O
+ \\]
+ であるので, $A, B$はそれぞれ左零因子, 右零因子である. また$\\dps
+ C:=
+ \\begin{pmatrix}
+  1&-1\\\\
+  -1&1
+ \\end{pmatrix}
+$を考えると.
+\\[
+ CA=
+ \\begin{pmatrix}
+  1&-1\\\\
+  -1&1
+ \\end{pmatrix}
+ \\begin{pmatrix}
+  1&0\\\\
+  1&0
+ \\end{pmatrix}
+=O
+\\]
+\\[
+ BC=
+ \\begin{pmatrix}
+  0&0\\\\
+  1&1
+ \\end{pmatrix}
+ \\begin{pmatrix}
+  1&-1\\\\
+  -1&1
+ \\end{pmatrix}
+=O
+\\]
+ であるので, $A, B$はそれぞれ右零因子, 左零因子でもある.
+ \\end{proof}
+ さて, そもそも整域とは`可換'な環に対して定義されるものであった. よって
+ 可換ではないことを証明できれば, その環が整域でないことがわかる
+ \\begin{lem}
+  \\label{001257_4Apr14}
+  $n$次正方行列環$M_{n}$は$n\\geq 2$のとき非可換な環である. 
+ \\end{lem}
+ \\begin{proof}
+  環であることと, 非可換であることは2-1節で既に示した.
+ \\end{proof}
+ この\\textsc{Lemma}~\\ref{001257_4Apr14}を用いれば$M_{2}(R)$が非可換であ
+ ることが直ちに導かれる.
+ 
+ \\begin{proof}[Another Proof of \\textsc{Example}~\\ref{231945_3Apr14}]
+  \\textsc{Lemma}~\\ref{001257_4Apr14}より$M_{n}(R)$は$n\\geq 2$のとき非可
+  換である. よって$M_{2}(R)$は整域でない, 
+ \\end{proof}
+ この証明から次が直ちに導かれる.
+ \\begin{cor}
+  $R$を環として, $R$係数の$n$次行列$M_{n}(R)$を考える(但し$n\\geq2$とす
+  る). このとき$M_{n}(R)$は整域ではない.
+ \\end{cor}
+" . -600) nil (9168 . 9170) (t 21309 41754 352922 163000) nil (9205 . 9209) nil (9100 . 9104) (t 21309 41671 272510 186000) nil (9130 . 9136) (t 21309 41639 156350 931000) nil (9045 . 9051) nil (9046 . 9050) nil ("%" . -8980) (t 21309 41522 971774 802000) nil (8980 . 8982) 9123 (t 21309 41474 987536 869000) nil (nil rear-nonsticky nil 9118 . 9119) (nil fontified nil 9118 . 9119) (nil fontified nil 9117 . 9118) (nil fontified nil 9113 . 9117) (nil fontified nil 9112 . 9113) (nil fontified nil 9108 . 9112) (nil fontified nil 9107 . 9108) (nil fontified nil 9104 . 9107) (nil fontified nil 9101 . 9104) (nil fontified nil 9095 . 9101) (9095 . 9119) nil (9094 . 9096) nil (9089 . 9094) nil ("(" . -9089) nil (")" . -9090) nil ("\\sum_{i=0}^{l}c_{i}X^{i}" . -9090) (t 21309 41447 531400 721000) nil ("(" . -9045) nil (nil fontified nil 9043 . 9044) (nil fontified nil 9042 . 9043) (nil fontified nil 9038 . 9042) (nil fontified nil 9037 . 9038) (nil fontified nil 9033 . 9037) (nil fontified nil 9032 . 9033) (nil fontified nil 9029 . 9032) (nil fontified nil 9026 . 9029) (nil fontified nil 9020 . 9026) (9020 . 9044) nil (9019 . 9021) nil (9014 . 9019) nil ("(" . -9014) nil (")" . -9015) nil ("\\sum_{i=0}^{n}a_{i}X^{i}" . 9015) nil (9071 . 9077) nil (")" . -9071) nil (nil rear-nonsticky nil 9070 . 9071) (nil fontified nil 9070 . 9071) (nil fontified nil 9069 . 9070) (nil fontified nil 9065 . 9069) (nil fontified nil 9064 . 9065) (nil fontified nil 9060 . 9064) (nil fontified nil 9059 . 9060) (nil fontified nil 9056 . 9059) (nil fontified nil 9053 . 9056) (nil fontified nil 9047 . 9053) (9047 . 9071) nil (9046 . 9048) nil (9041 . 9046) nil ("\\sum_{i=0}^{m}b_{i}X^{i}" . 9041) nil (nil rear-nonsticky nil 9065 . 9066) (nil fontified nil 9065 . 9066) (nil fontified nil 9064 . 9065) (nil fontified nil 9063 . 9064) (nil fontified nil 9059 . 9063) (nil fontified nil 9058 . 9059) (nil fontified nil 9054 . 9058) (nil fontified nil 9053 . 9054) (nil fontified nil 9050 . 9053) (nil fontified nil 9047 . 9050) (nil fontified nil 9041 . 9047) (nil fontified nil 9039 . 9041) (nil fontified nil 9038 . 9039) (nil fontified nil 9037 . 9038) (nil fontified nil 9033 . 9037) (nil fontified nil 9032 . 9033) (nil fontified nil 9028 . 9032) (nil fontified nil 9027 . 9028) (nil fontified nil 9024 . 9027) (nil fontified nil 9021 . 9024) (nil fontified nil 9015 . 9021) (nil fontified nil 9014 . 9015) (9014 . 9066) nil (9013 . 9021) nil (9008 . 9013) nil ("(" . -9008) nil (")" . -9009) nil ("(\\sum_{i=0}^{n}a_{i}X^{i})(\\sum_{i=0}^{m}b_{i}X^{i})" . 9009) (t 21309 41327 138803 718000) nil (9182 . 9188) nil (nil fontified nil 9181 . 9182) (nil fontified nil 9180 . 9181) (nil fontified nil 9176 . 9180) (nil fontified nil 9175 . 9176) (nil fontified nil 9171 . 9175) (nil fontified nil 9170 . 9171) (nil fontified nil 9167 . 9170) (nil fontified nil 9164 . 9167) (nil fontified nil 9158 . 9164) (9158 . 9182) nil (9157 . 9159) nil (9152 . 9157) nil ("(" . -9152) nil (")" . -9153) nil ("\\sum_{i=0}^{l}c_{i}X^{i}" . -9153) nil (nil rear-nonsticky nil 9144 . 9145) (nil fontified nil 9144 . 9145) (nil fontified nil 9143 . 9144) (nil fontified nil 9140 . 9143) (nil fontified nil 9139 . 9140) (nil fontified nil 9135 . 9139) (nil fontified nil 9130 . 9135) (nil fontified nil 9129 . 9130) (nil fontified nil 9121 . 9129) (nil fontified nil 9118 . 9121) (nil fontified nil 9102 . 9118) (9102 . 9145) nil (9102 . 9108) nil (9096 . 9101) nil undo-tree-canary))

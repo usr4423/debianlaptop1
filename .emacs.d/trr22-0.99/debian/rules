@@ -1,0 +1,63 @@
+#!/usr/bin/make -f
+
+package=trr22
+docdir=/share/doc/$(package)
+root=debian/tmp
+
+build:
+	$(checkdir)
+
+clean:
+	rm -fr *~ $(root) debian/*~ debin/files* debian/substvars
+
+binary-indep:	checkroot build
+	$(checkdir)
+
+binary-arch:	checkroot build
+	rm -f debian/files
+	rm -fr $(root)
+	make -f Makefile.debian clean
+	make -f Makefile.debian all
+	install -d $(root)/DEBIAN\
+		-d $(root)/usr$(docdir)\
+		-d $(root)/usr/share/emacs/site-lisp\
+		-d $(root)/usr/share/emacs/site-lisp/$(package)\
+		-d $(root)/usr/lib/emacsen-common/packages/install/\
+		-d $(root)/usr/lib/emacsen-common/packages/remove/\
+		-d $(root)/etc/emacs/site-start.d\
+		-d $(root)/var/lib/trr22/\
+		-d $(root)/var/lib/trr22/record
+	cp t*.el $(root)/usr/share/emacs/site-lisp/$(package)/.
+	cp trr_format.sh $(root)/usr/share/emacs/site-lisp/$(package)/trr_format
+	cp trr_update $(root)/usr/share/emacs/site-lisp/$(package)/.
+	cp CONTENTS $(root)/var/lib/trr22/.
+	cp -r text  $(root)/var/lib/trr22/.
+	cp -r record  $(root)/var/lib/trr22/.
+	# make clean
+	cp debian/60trr.el $(root)/etc/emacs/site-start.d
+	cp debian/install $(root)/usr/lib/emacsen-common/packages/install/$(package)
+	chmod 755 $(root)/usr/lib/emacsen-common/packages/install/$(package)
+	cp debian/remove $(root)/usr/lib/emacsen-common/packages/remove/$(package)
+	chmod 755 $(root)/usr/lib/emacsen-common/packages/remove/$(package)
+	install -m 755 debian/postinst $(root)/DEBIAN
+	cp debian/copyright $(root)/usr/share/doc/$(package)
+	cp debian/changelog $(root)/usr/share/doc/$(package)/changelog.Debian
+	cp ChangeLog $(root)/usr/share/doc/$(package)/changelog
+	gzip $(root)/usr/share/doc/$(package)/changelog*
+	dpkg-gencontrol
+	chown -R root.root $(root)
+	chmod -R g-ws $(root)
+	dpkg --build $(root) ..
+	rm -fr $(root)
+
+define checkdir
+	test -f debian/rules
+endef
+
+binary:	binary-indep binary-arch
+
+checkroot:
+	$(checkdir)
+	test root = "`whoami`"
+
+.PHONY:	binary binary-arch binary-indep clean checkroot

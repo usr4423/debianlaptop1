@@ -1,0 +1,30 @@
+
+((digest . "62a9ef7386baf43eebb06d5408b4f576") (undo-list ("
+" . 335) (232 . 336) ("
+" . 232) ((marker . 232) . -1) ((marker . 232) . -1) ("
+" . 232) ("(setq YaTeX::usepackage-alist-private '(
+(\"tikz\")
+(\"setspace\")
+(\"amsthm\")
+(\"mathrsfs\")
+))" . -233) (t 21379 8221 26082 594000) ("
+" . 232) (122 . 233) ("
+" . 122) ("(setq user-singlecmd-table '(
+(\"upshape\")
+(\"newline\")
+(\"hrulefill\")
+(\"rmfamily\")
+(\"itshape\")
+))" . -123) (t 21335 44983 763658 512000) ("
+" . 122) (1 . 123) ("
+" . -2) ("(setq user-env-table '(
+(\"ex\")
+(\"Cor\")
+(\"lem\")
+(\"prop\")
+(\"dfn\")
+(\"defi\")
+(\"cor\")
+(\"REMARK\")
+(\"proof\")
+))" . -1) 1 (t 21302 21494 282630 293000)))

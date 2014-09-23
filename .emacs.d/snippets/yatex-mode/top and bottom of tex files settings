@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: top and bottom of latex settings
+# key: tt
+# --
+%#${1:you shuld type your main TeX file name}.tex
+%#!latexmk -dvi -pvc -src-specials -file-line-error $1.tex
+%#LPR evince %s
+
+ $0
+
+ 
+%%% Local Variables:
+%%% mode: yatex
+%%% TeX-master: "$2.tex"
+%%% End: 

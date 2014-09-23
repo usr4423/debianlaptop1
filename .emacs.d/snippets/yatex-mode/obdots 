@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: obdots 
+# key: obd
+# --
+${1:a}_{1}, $1_{2}, \cdots,$1_{${2:n}}$0

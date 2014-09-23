@@ -1,0 +1,70 @@
+#!/bin/sh
+#                               -*- Mode: Sh -*- 
+# emacsen-common-remove --- 
+# Author           : Manoj Srivastava ( srivasta@tiamat.datasync.com ) 
+# Created On       : Thu Oct 15 00:16:41 1998
+# Created On Node  : tiamat.datasync.com
+# Last Modified By : Manoj Srivastava
+# Last Modified On : Tue Jan 25 17:41:24 2000
+# Last Machine Used: glaurung.green-gryphon.com
+# Update Count     : 5
+# Status           : Unknown, Use with caution!
+# HISTORY          : 
+# Description      : 
+# 
+# 
+
+set -e
+
+FLAVOUR=$1
+PACKAGE="trr22"
+VERSION="1.0-1"
+
+if [ "X$FLAVOUR" = "X" ]; then
+    echo Need argument to determin FLAVOUR of emacs;
+    exit 1
+fi
+
+if [ "X$PACKAGE" = "X" ]; then
+    echo Internal error: need package name;
+    exit 1;
+fi
+
+if [ "X$VERSION" = "X" ]; then
+    echo Internal error: need package version;
+    exit 1;
+fi
+
+
+ELDIR=/usr/share/emacs/site-lisp/$PACKAGE
+ELCDIR=/usr/share/$FLAVOUR/site-lisp/$PACKAGE/
+INFO_FILES="";
+
+case $FLAVOUR in
+    emacs22 | emacs-snapshot | emacs23)
+        echo -n "remove/$PACKAGE: Removing for $FLAVOUR..."
+	if [ -d $ELCDIR ]; then
+	    rm -fr $ELCDIR
+	fi
+        if test -x /usr/sbin/install-info-altdir; then
+            for infofile in $INFO_FILES; do
+                install-info-altdir --quiet --remove \
+                    --dirname=${FLAVOUR} $infofile
+            done
+        fi
+	if [ -f $STARTDIR/20$STARTFILE ]; then
+	    rm -f $STARTDIR/20$STARTFILE;
+	fi
+
+        echo " done."   
+        ;;
+    *)
+        echo "remove/$PACKAGE: Ignoring emacsen flavor $FLAVOUR."       
+        ;;
+esac
+
+exit 0
+
+### Local Variables:
+### mode: shell-script
+### End:

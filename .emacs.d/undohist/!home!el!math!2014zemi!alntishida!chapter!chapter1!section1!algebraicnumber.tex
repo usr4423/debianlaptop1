@@ -1,0 +1,436 @@
+
+((digest . "e420d42a92f1fa3a049ff9bb3f9a3a2c") (undo-list (102 . 103) nil ("▼" . 100) 102 ((marker . 100) . -1) ((marker) . -1) ((marker) . -1) nil (101 . 102) ("たい" . -101) ((marker) . -2) ((marker) . -2) ((marker . 101) . -2) ("すう" . 103) ((marker) . -2) nil (101 . 105) ("たい" . -101) ((marker) . -1) ((marker) . -1) (102 . 103) ("んいげん" . 102) ((marker) . -4) nil (101 . 106) ("た" . -101) (100 . 102) ("▼" . 98) 101 ((marker . 100) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker . 98) . -1) ((marker . 98) . -1) ((marker . 98) . -1) ((marker . 98) . -1) nil (99 . 101) ("だいすう" . -99) ((marker) . -4) ((marker) . -4) ((marker) . -4) ((marker) . -4) ((marker . 98) . -4) ((marker . 98) . -4) ((marker . 98) . -4) ((marker . 98) . -4) ((marker . 100) . -4) ("た" . -103) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker . 98) . -1) ((marker . 98) . -1) ((marker . 98) . -1) ((marker . 98) . -1) nil ("い" . -104) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker . 98) . -1) ((marker . 98) . -1) ((marker . 98) . -1) ((marker . 98) . -1) nil (101 . 105) ("ひょう" . 101) ((marker) . -3) nil (99 . 104) ("だい" . -99) ((marker) . -1) ((marker) . -1) (100 . 101) ("いひょう" . 100) ((marker) . -4) nil (99 . 104) ("だ" . -99) (98 . 100) nil (97 . 99) nil (89 . 97) (t 21326 20262 188538 175000) nil ("これから考えるのは, ある条件を満たす環から体を機械的に構成する方法である.
+
+
+\\par 本題に入る前に私事ですが, 復習をしましょう.
+\\begin{dfn}[整域]
+ 単位元$e(\\neq0)$を持つ\\underline{可換環}で, 零元以外に零因子を持たない
+ ものを
+ \\textbf{整域(integral domain)}という.
+\\end{dfn}
+\\par これまで, 整域が`可換'であることを明確に意識する機会は, `零因子'の
+それに比べて少かったように思う. しかし, ここに来てそれが活躍するのである.
+% ちなみにちゃっかり体は可換ということになっている. どうしてだか石田での学
+% び始めに`体は可換ではない'と勘違いしていたようだ. おそらく数学選書の可換
+% 体論という本の表紙だけ見て, `非可換も含めたものを体'として, そのうち可換
+% なものを取り合つかっているものだと思っていたのだ.
+\\par この節では$I$は整域とする.
+\\begin{prop}
+ \\label{222425_28Mar14}
+ 次の2つの性質を持つ集合$F$が存在し, それは体となる.
+ \\begin{enumerate}
+  \\item $I$から$F$への単射である準同型写像$\\varphi$が存在する.
+  \\item $F$の任意な元$\\alpha$は, $\\alpha=\\varphi(a)\\varphi(b)^{-1}(\\exe
+        a,b\\in I,b\\neq 0)$と書ける.
+ \\end{enumerate}
+\\end{prop}
+$I$がすでにある体$E$にその部分環として含まれているときと, そうでないとき
+に証明を分ける.
+\\par まずは次を証明する.
+\\begin{lem}
+ $I$がすでにある体$E$に部分環として含まれているとする. このとき
+ \\[
+  F=\\left\\{ab^{-1}\\middle| a,b\\in I(b\\neq 0)\\right\\}(\\subset E)
+ \\]
+ は$E$の部分体であり, $F$は$I$の商体である.
+\\end{lem}
+ \\begin{proof}
+  (部分集合であること)\\\\
+  $\\fora c\\in I$に対し, $I$の単位元を$e$としたとき, $c=ce^{-1}$であるの
+  で, $c\\in F$となる. すなわち$I\\subset F$である. \\\\
+  因みに$F\\subset E$ であるので乗法群としての単位元を考えると, それぞれ
+  の単位元は一致する. また, $\\fora ab^{-1}\\in F(a,b\\in I)$に対し, $F$が
+  可換であることに注意すれば, $ab^{-1}e=eab^{-1}=(ea)b^{-1}=ab^{-1}$であ
+  る. すなわち$e(=e^{-1})$は$E$の単位元と一致する. \\\\
+  (部分体であること)\\\\
+   $\\fora ab^{-1},cd^{-1}\\in F(\\exe a,b,c,d\\in I,b,d\\neq 0)$に対し,
+  \\begin{align*}
+    (-ad+bc)(bd)^{-1}&=(-ad+bc)(d^{-1}b^{-1}),\\\\
+    &=-add^{-1}b^{-1}+bcd^{-1}b^{-1},
+    \\intertext{$I$が可換であるので,}
+    &=-add^{-1}b^{-1}+bb^{-1}cd^{-1},\\\\
+    &=-ab^{-1}+cd^{-1}
+  \\end{align*}
+  である. 特に$a\\neq0$(すなわち$ab^{-1}\\neq 0$)とすると,
+  \\begin{align*}
+   (ab^{-1})^{-1}(cd^{-1})&=(b^{-1})^{-1}a^{-1}cd^{-1},
+   \\intertext{$I$が可換であるので,}
+   &=bca^{-1}d^{-1}, \\\\
+   &=bc(da)^{-1}, \\\\
+   &=bc(ad)^{-1}
+  \\end{align*}
+  となる. 定理2.5(2),4) より$F$は$E$の部分体である.\\\\
+  (商体であること)\\\\
+  $F$の単位元を$e$,
+  %$I$の単位元を$e'$
+  とする%と, $F$の上で$ee'=e'$である
+  . このとき $e^{-1}=e$であるので$e^{-1}\\in F$である. よって, 写像を
+  \\[
+   \\begin{array}{rccl}
+    f:&I&\\rightarrow &F \\\\
+    &\\rotatebox{90}{$\\in$} & &\\rotatebox{90}{$\\in$} \\\\
+    &a &\\mapsto &ae^{-1} \\\\
+   \\end{array}
+  \\]
+  で定めると, $I$の任意の元$a,b$に対して,
+  \\begin{align*}
+   \\varphi(a+b)&=(a+b)e^{-1},\\\\
+   &=ae^{-1}+be^{-1},\\\\
+   &=\\varphi(a)+\\varphi(b).
+  \\end{align*}
+  \\begin{align*}
+   \\varphi(ab)&=abe^{-1},\\\\
+   &=ae^{-1}be^{-1},\\\\
+   &=\\varphi(a)\\varphi(b) 
+  \\end{align*}
+  が成り立つので, $\\varphi$は準同型写像である. また,
+  $\\varphi(a)=ae^{-1}=0$とすると, $a=0$であるので$\\ker(f)=\\{0\\}$となる.
+  2-9節, 命題2.7よりこれは$f$が単射であることと同値である.
+  \\par さらに$F$の任意な元$\\alpha=ab^{-1}(\\exe a,b\\in I(b\\neq 0))$につ
+  いて, $ab^{-1}=(ae^{-1})(b^{-1}e)=\\varphi(a)\\varphi(b)$と書ける.
+ \\end{proof}
+%\\begin{REMARK}
+ 一般の場合は少々複雑な議論を要する. その為, いくつか補題を用意する.
+%\\end{REMARK}
+\\begin{lem}
+ \\label{001916_29Mar14}
+ $I$の直積集合$X:=\\{(a,b)\\mid a,b\\in I(b\\neq 0)\\}$を考えたとき, その二つの
+ 任意な元$(a,b),(c,d)$に対して, その関係$\\sim$を$(a,b)\\sim
+ (c,d)\\Leftrightarrow ad=bc$で定めると, これは同値関係である.
+\\end{lem}
+\\begin{proof}
+ \\begin{enumerate}
+  \\item $I$が可換であることに注意すれば,  $X$の任意の元$(a,b)$に対して
+        $ab=ab$が成り立つので, $(a,b)\\sim(a,b)$である.
+  \\item $X$の任意の元$(a,b),(c,d)$に対して$(a,b)\\sim(c,d)$, すなわち
+        $ad=bc$とすると, $I$が可換であるので$cb=da$が成り立つ. よって, 
+        $(c,d)\\sim(a,b)$となる.
+  \\item $X$の任意の元$(a,b),(a',b'),(a'',b'')$に対して
+        $(a,b)\\sim(a',b')\\land(a',b')\\sim(a''',b''')$, すなわち
+        $ab'=a'b\\land a'b''=a''b'$とする. このとき
+        \\begin{align*}
+          ab''b'&=ab'b'',\\\\
+          &=ba'b'', \\\\
+          &=ba''b', \\\\
+          \\Leftrightarrow (ab''-a''b)b'&=0 
+        \\end{align*}
+        となる. 
+        ここで、$I$が整域であるので、$ab''-a''b=0$または$b'=0$である.
+        $(a',b')\\in X$より, $b'\\neq 0$であることに注意すれば,
+        $ab''-a''b=0$である. よって$ab''=a''b$すなわち$(a,b)\\sim
+        (a'',b'')$となる. 
+ \\end{enumerate}
+ 以上より関係$\\sim$は同値関係である.
+\\end{proof}
+\\begin{dfn}
+ \\label{121730_29Mar14}
+ page.\\pageref{001916_29Mar14}の\\textsc{Lemma}~\\ref{001916_29Mar14}で定まる関係による$X$の商集合を$F$と
+ おき, そのうち$(a,b)\\in X$を含むものを$[a,b]$と書くことにする. すなわち
+ $F=\\{[a,b]\\mid a,b\\in I(b\\neq 0)\\}$とする.
+\\end{dfn}
+この集合上に`和'と`積'を定義する.
+%\\newpage
+\\begin{lem}
+ \\label{005847_29Mar14}
+ 上で定義された$F$に対し, 次の二項算法が定義できる.
+ \\[
+  \\begin{array}{l}
+   \\text{加法}:[a,b]+[c,d]=[ad+bc,bd],\\\\
+   \\text{乗法}:[a,b][c,d]=[ac,bd].\\\\
+  \\end{array}
+ \\]
+\\end{lem}
+\\begin{REMARK}
+ 個人的にこの定義はかなり違和感が感じられた. しかし, これは後々証明する
+ ことだが, 実はこの定義は我々の身近にある集合に対する和と積の定義と一致
+ することがわかる.\\\\
+ それは有理数体$\\Q$である. 実際有理数体$\\Q$の元$\\dps
+ \\frac{a}{b},\\frac{c}{d}$に対して, その積と和は
+ \\begin{align*}
+  \\frac{a}{b}+\\frac{c}{d}&=\\frac{ad+bc}{bd},\\\\
+  \\frac{a}{b}\\frac{c}{d}&=\\frac{ac}{bd}
+ \\end{align*}
+ となる. すなわち
+ \\[
+  \\xymatrix{
+ [a,b]\\ar@{<->}[r]&\\dps\\frac{a}{b},&[c,d]\\ar@{<->}[r]&\\dps\\frac{c}{d}
+ }
+ \\]
+ \\[
+ \\xymatrix{
+ [a,b]+[c,d]=[ad+bc,bd]\\ar@{<->}[r]&\\dps\\frac{a}{b}+\\frac{c}{d}=\\frac{ad+bc}{bd},&[a,b][c,d]=[ac,bd]\\ar@{<->}[r]&\\dps\\frac{a}{b}\\frac{c}{d}=\\frac{ac}{bd}
+ }
+ \\]
+ という対応を考えれば, それが良くわかる.
+\\end{REMARK}
+さて, \\textsc{Remark}が長くなってしまったが,
+page.\\pageref{005847_29Mar14}, \\textsc{Lemma}~\\ref{005847_29Mar14}の証明に移る.
+  \\begin{proof}[Proof of page.\\pageref{005847_29Mar14}, \\textsc{Lemma}~\\ref{005847_29Mar14}]
+ $(a,b)\\sim(a',b')\\land (c,d)\\sim(c',d')$, すなわち$ab'=a'b\\land
+ cd'=c'd$とする. \\\\
+ (和が代表元の取りかたによらないこと)\\\\
+ $I$は整域であるので, 可換であり, 分配律などを使えば
+ \\begin{align*}
+  &(a'b'+b'c)(bd)=(ad+bc)(b'd'),\\\\
+  &\\Leftrightarrow a'd'bd+b'c'bd-adb'd'-bcb'd'=0, \\\\
+  &\\Leftrightarrow (a'b-ab')d'd+b'b(c'd-cd')=0
+ \\end{align*}
+ であるが, 仮定より$ab'=a'b\\land cd'=c'd$であったので, 最後の等式が成り
+ 立つ. よって$(ad+bc,bd)\\sim(a'd'+b'c',b'd')$.\\\\
+ (積が代表元の取りかたによらないこと)\\\\
+ 仮定より
+ \\begin{align*}
+  ab'cd'&=ab'c'd,\\\\
+  &=a'bc'd,\\\\
+  \\intertext{であるが, さらに可換であることを使えば}
+  &=a'c'bd
+ \\end{align*}
+ すなわち$(ac,bd)\\sim (a'c',b'd')$である.
+  \\end{proof}
+\\begin{REMARK}
+ page.\\pageref{005847_29Mar14}の\\textsc{Lemma}~\\ref{005847_29Mar14}は上で定義されたものが
+ Well-defined(すなわちその与えられた対応が写像になっている)であるという
+ ことを主張しているのである.
+\\end{REMARK}
+page.\\pageref{005847_29Mar14}の\\textsc{Lemma}~\\ref{005847_29Mar14} であつかった対応を$F$上の演算として定
+義しておこう. 
+% \\begin{lem}
+%  $I$の任意の元$c\\neq0$, $X/\\sim$の元$[a,b]$のに対し, 次が成り立つ.
+%  \\begin{enumerate}
+%   \\item $[ac,bc]=[a,b]$
+%   \\item $[a,c]+[]$
+%  \\end{enumerate}
+  % \\end{lem}
+\\begin{dfn}
+ \\label{013339_29Mar14}
+ 上で定義された$F$に対し, 次の二項算法を定義する.
+ \\[
+ \\begin{array}{l}
+  \\text{加法}:[a,b]+[c,d]=[ad+bc,bd],\\\\
+  \\text{乗法}:[a,b][c,d]=[ac,bd].
+ \\end{array}
+ \\]
+\\end{dfn}
+次の\\textsc{Proposition}の準備をする.
+\\begin{lem}
+ \\label{111607_29Mar14}
+ $F$に上で定義した算法を考えたとき, $F$の任意の元$[a,b]$, $I$の零でない
+ 任意の元$c$に対して,
+ \\[
+  [ac,bc]=[a,b]
+ \\]
+ が成り立つ.
+\\end{lem}
+\\begin{proof}
+ $I$が可換であることに注意すれば, ,
+ \\begin{align}
+  &[ac,bc]=[a,b],\\nonumber\\\\
+  &\\Leftrightarrow (ac)b=(bc)a,\\nonumber\\\\
+  &\\Leftrightarrow a(cb)=b(ca),\\nonumber\\\\
+  &\\Leftrightarrow a(bc)=b(ac),\\nonumber\\\\
+  &\\Leftrightarrow a(bc)=(ba)c,\\nonumber\\\\
+  &\\Leftrightarrow a(bc)=(ab)c,\\nonumber\\\\
+  &\\Leftrightarrow a(bc)=a(bc)\\label{111430_29Mar14}
+ \\end{align}
+ であり, 等式(\\ref{111430_29Mar14})は$F$の任意の元$[a,b]$, $I$の零でない
+ 任意の元$c$に対して成り立つので, 主張は成り立つ.
+\\end{proof}
+\\begin{prop}
+ \\label{130008_29Mar14}
+ page.\\pageref{013339_29Mar14}の\\textsc{Definition}~\\ref{013339_29Mar14}で定義した算法により, $F$は,
+ 体になる.
+\\end{prop}
+ \\begin{proof}
+  \\lev\\\\
+  (R1):\\\\
+  (G1):$F$の任意の元$[a,b],[c,d],[e,f]$に対して, 
+  \\begin{align*}
+   [a,b]+\\left([c,d]+[e,f]\\right)&=[a,b]+[cg+df,dg], \\\\
+   &=[a(dg)+b(cg+df),b(dg)],\\\\
+   &=[(ad+bc)g+(bd)f,(bd)g],\\\\
+   &=[ad+bc,bd]+[f,g],\\\\
+   &=\\left([a,b]+[c,d]\\right)+[f,g]
+  \\end{align*}
+  が成り立つ.\\\\
+  (A1):
+  $F$の任意の元$[a,b],[c,d]$に対して, $I$が特に和と積に関して可換である
+  ことに注意すれば, 
+  \\begin{align*}
+   [a,b]+[c,d]&=[ad+bc,bd],\\\\
+   &=[cb+da,db],\\\\
+   &=[c,d]+[a,b]
+  \\end{align*}
+  であるので, $F$は和に関して可換である.
+  \\\\
+  (G2):$(0\\neq)[0,e]\\in F$であり, $F$の任意の元$[a,b]$に対して, $I$が特
+  に和と積に関して可換であることに注意すれば
+  \\begin{align*}
+   [a,b]+[0,e]&=[ae+b0,be],\\\\
+   &=[ae,be],\\\\
+   &=[a,b]
+  \\end{align*}
+  であるので, $[0,e]$が$F$の零元である.\\\\
+  とくに, $c\\in I^{\\ast}$に対して$c0=0e$であるので, $[0,c]=[0,e]$である.\\\\
+  (G3):$F$の任意の元$[a,b]$に対して$-a,b\\in I,b\\neq0$より, $[-a,b]\\in
+  F$であり
+  \\begin{align*}
+   [a,b]+[-a,b]&=[ab+b(-a),bb],\\\\
+   &=[0,bb],\\\\
+   &=[0,e]
+  \\end{align*}
+  となるので, $[a,b]$の逆元$[-a,b]$が存在した.\\\\
+  (R2):$I$が乗法に関して結合法則を充すことに注意すれば, $F$の任意の元
+  $[a,b],[c,d],[e,f]$に対して
+  \\begin{align*}
+   [a,b]\\left([c,d][f,g]\\right)&=[a,b][cf,dg],\\\\
+   &=[a(cf),b(dg)],\\\\
+   &=[(ac)f,(bd)g],\\\\
+   &=[ac,bd][f,g],\\\\
+   &=\\left([a,b][c,d]\\right)[e,f]
+  \\end{align*}
+  が成り立つので, $F$は乗法に関する結合法則を充す.\\\\
+  (A2):$F$の任意の元$[a,b],[c,d]$に対して, $I$が特
+  に積に関して可換であることに注意すれば, 
+  \\begin{align*}
+   [a,b][c,d]&=[ac,bd],\\\\
+   &=[ca,bd], \\\\
+   &=[c,d][a,d] 
+  \\end{align*}
+  が成り立つので, $F$は乗法に関して可換である.\\\\
+  (R3):$I$が分配法則を充すことに注意すれば
+  \\begin{align*}
+   [a,b]\\left([c,d]+[f,g]\\right)&=[a,b][cg+df,dg],\\\\
+   &=[a(cg+df),b(dg)],\\\\
+   \\intertext{であり, $b\\neq0$であるので
+   page.\\pageref{111607_29Mar14}の\\textsc{Lemma}~\\ref{111607_29Mar14}に注意すれば, }
+   &=[b(a(cg+df)),b(b(dg))],\\\\
+   &=[b(a(cg)+a(df)),b((bd)g)],\\\\
+   &=[(ac)(bg)+(bd)(af),(bd)(bg)],\\\\
+   &=[ac,bd]+[af,bg],\\\\
+   &=[a,b][c,d]+[a,b][f,g]
+  \\end{align*}
+  が成り立ち, $F$は乗法に関して可換であることに注意すれば,
+  \\[
+  \\left([c,d]+[f,g]\\right)[a,b]=[c,d][a,b]+[f,g][a,b]
+  \\]
+  も成り立つ. 一応書いておくと
+   \\begin{align*}
+    \\left([c,d]+[f,g]\\right)[a,b]&=[cg+df,dg][a,b],\\\\
+    &=[(cg+df)a,(dg)b],\\\\
+    \\intertext{であり, $b\\neq0$であるので
+    page.\\pageref{111607_29Mar14}の\\textsc{Lemma}~\\ref{111607_29Mar14}に注意すれば, }
+    &=[((cg+df)a)b,((dg)b)b],\\\\
+    &=[((cg)a+(df)a)b,(g(db))b],\\\\
+    &=[(gb)(ca)+(db)(fa),(db)(gb)],\\\\
+    &=[ca,db]+[fa,gb],\\\\
+    &=[c,d][a,b]+[f,g][a,b]
+  \\end{align*}
+  も成り立つ. よって分配法則が成り立つ.\\\\
+  (E):$e\\neq0$であるので$[e,e]\\in F$であり, 任意の$F$の元$[a,b]$に対して,
+  \\begin{align*}
+   [a,b][e,e]=[ae,be]=[a,b]
+  \\end{align*}
+  となる. $F$が乗法に関して可換であることに注意すれば, $[e,e]$は$F$の単
+  位元である. とくに $e\\neq 0\\Leftrightarrow ee\\neq e0\\Leftrightarrow
+  (e,e)\\not\\sim(0,e)$であるので, $F$の単位元は零元と異る.\\\\
+  (F):$F$の任意な元$[a,b]$に対して, $[a,b]=[0,e]\\Leftrightarrow
+  ae=0b\\Leftrightarrow a=0$である. そこで $[a,b]$を$F$の零でない任意な元と
+  おきなおすと, $a\\neq 0$である. よって$[b,a]\\in F$であり,
+  \\[
+   [a,b][b,a]=[ab,ba]=[ab,ab]
+  \\]
+  となる. ここでpage.\\pageref{111607_29Mar14}の\\textsc{Lemma}~\\ref{111607_29Mar14}より$[ab,ab]=[e,e]$であ
+  る. よって$[a,b][b,a]=[e,e]$, すなわち$[a,b]$に対して$[b,a]$がその逆元であ
+  ることがわかった.\\\\
+  以上より, $F$が体であることが分かった.
+ \\end{proof}
+  page.\\pageref{121730_29Mar14}の\\textsc{Definition}~\\ref{121730_29Mar14}で定められた$F$は
+  page.\\pageref{013339_29Mar14}の\\textsc{Definition}~\\ref{013339_29Mar14}で定められた算法により
+  page.\\pageref{222425_28Mar14}の\\textsc{Proposition}~\\ref{222425_28Mar14}の性質を充す体となる.
+  ことを証明しよう.
+ 体であることは既に示したので, あとは
+  \\begin{enumerate}
+   \\item $\\varphi$は$I$から$F$への単射な準同型写像である.
+   \\item $F$の任意な元$\\alpha$は, $\\alpha=\\varphi(a)\\varphi(b)^{-1}(\\exe
+         a,b\\in I,b\\neq 0)$と書ける.
+  \\end{enumerate}
+を充すような$\\varphi:I\\rightarrow F$が存在すればよい. その際, $I$が既に
+ある体$E$に含まれていたときは, $\\varphi(a)=ae^{-1}$と定めていたことに注意
+する.
+\\begin{lem}
+ \\label{130304_29Mar14}
+ $I$から$F$への対応$\\varphi:I\\rightarrow F$を$\\fora a\\in I$に対し,
+ \\[
+ \\varphi(a)=[a,e]
+ \\]
+ で定めると, これは$I$から$F$への単射な準同型写像になる.
+\\end{lem}
+ \\begin{proof}
+  (単射な写像であること)\\\\
+  $\\fora a\\in I$に対して$a=b$とする, このとき
+  \\[
+  \\begin{array}{l}
+   \\varphi(a)=[a,e],\\\\
+   \\varphi(b)=[b,e]\\\\
+  \\end{array}
+  \\]
+  であり, $[a,e]=[b,e]\\Leftrightarrow ae=eb\\Leftrightarrow a=b$であるの
+  で写像である. 同時に単射であることもわかる.\\\\
+  (準同型写像であること)\\\\
+  $I$の任意な元$a,b$に対して
+  \\begin{align*}
+   \\varphi(a+b)&=[a+b,e],\\\\
+   &=[a,e]+[b,e],\\\\
+   &=\\varphi(a)+\\varphi(b).
+  \\end{align*}
+  \\begin{align*}
+   \\varphi(ab)&=[ab,e],\\\\
+   &=[ab,ee],\\\\
+   &=[a,e][b,e],\\\\
+   &=\\varphi(a)\\varphi(b)
+  \\end{align*}
+  となる. よって, $\\varphi$は準同型写像である.\\\\
+  (単射であることの別解)\\\\
+  2-8節より準同型写像$f$に対して, $\\ker f=\\{0\\}$であることと$f$が単射
+  であることが同値であった.\\\\
+  $I$の任意な元$a$に対して,
+  $\\varphi(a)=[0,e]\\Leftrightarrow[a,e]=[0,e]\\Leftrightarrow
+  ae=0e\\Leftrightarrow a=0$であるので, $\\ker f=\\{0\\}$である. $\\varphi$が準同
+  型写像であることに注意すれば, $f$は単射である.
+ \\end{proof}
+ \\begin{proof}[Proof of page.\\pageref{222425_28Mar14}, \\textsc{Proposition}~\\ref{222425_28Mar14}]
+  page.\\pageref{121730_29Mar14}の\\textsc{Definition}~\\ref{121730_29Mar14}で定められる集合は
+  page.\\pageref{130008_29Mar14}の\\textsc{Proposition}~\\ref{130008_29Mar14}より
+  page.\\pageref{013339_29Mar14}の\\textsc{Definition}~\\ref{013339_29Mar14}で定める演算によって体となる.
+  さらに, page.\\pageref{130304_29Mar14}の\\textsc{Lemma}~\\ref{130304_29Mar14}より$I$から$F$への単射な準同型
+  写像$\\varphi:I\\ni a\\mapsto [a,e]\\in F$は
+  % \\[
+  % \\begin{array}{rccl}
+  %  \\varphi:&I&\\rightarrow&F\\\\
+  %  &\\rotatebox{90}{$\\in$}& &\\rotatebox{90}{$\\in$}\\\\
+  %  &a&\\mapsto&[a,e]
+  % \\end{array}
+  % \\]
+  % \\[
+  % \\xymatrix{
+  % I\\ar@{->}[r]^{\\varphi}&F\\\\
+  % a\\ar@{|->}[r]&[a,e]
+  % }
+  % \\]
+  $F$の任意な元$\\alpha=\\varphi(a)\\varphi(b)^{-1}(a, b\\in I)$を充す.
+  よって\\textsc{Proposition}~\\ref{222425_28Mar14}の条件を充す
+  体$F$が存在する.
+ \\end{proof} 
+ \\textsc{Proposition}~\\ref{222425_28Mar14}の条件を充す体が存在した, よっ
+ てその体に名前をつける.
+\\begin{dfn}
+ 次の2つの性質を持つ体$F$を$I$の\\textbf{商体}(\\emph{field of quotients})
+ という.
+ \\begin{enumerate}
+  \\item $I$から$F$への単射である準同型写像$\\varphi$が存在する.
+  \\item $F$の任意な元$\\alpha$は, $\\alpha=\\varphi(a)\\varphi(b)^{-1}(\\exe
+        a,b\\in I,b\\neq 0)$と書ける.
+ \\end{enumerate}
+\\end{dfn}
+ながかった,
+" . -89) ((marker . 102) . -12689) ((marker) . -12557) ((marker) . -12557) ((marker) . -12623) ((marker) . -12623) ((marker*) . 7467) ((marker) . -5224) ((marker*) . 7232) ((marker) . -5461) ((marker . 89) . -5787) ((marker . 89) . -5618) ((marker . 1) . -12488) ((marker . 98) . -5787) ((marker) . -12513) ((marker) . -12513) ((marker*) . 7989) ((marker) . -4702) ((marker) . -12682) ((marker) . -12682) ((marker) . -12672) ((marker) . -12672) ((marker*) . 10743) ((marker) . -1950) ((marker) . -12655) ((marker) . -12655) ((marker) . -12494) ((marker) . -12494) ((marker . 100) . -139) ((marker) . -139) ((marker) . -139) ((marker . 89) . -139) ((marker . 101) . -139) ((marker*) . 11172) ((marker) . -1519) ((marker*) . 10638) ((marker) . -2053) ((marker*) . 8590) ((marker) . -4101) ((marker*) . 8278) ((marker) . -4413) ((marker) . -12488) ((marker) . -12488) nil ("材" . -228) ((marker . 89) . -1) ((marker . 101) . -1) nil ("▼" . 228) ((marker . 100) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ("料" . -230) ((marker . 89) . -1) ((marker) . -1) nil (229 . 231) ("ざいりょう" . -229) ((marker) . -5) ((marker) . -5) ((marker) . -5) ((marker) . -5) ((marker . 89) . -5) (229 . 234) nil ("え" . 229) ((marker) . -1) ("う" . -229) ((marker) . -1) ((marker) . -1) nil (229 . 231) ("う" . -229) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ("ぃ" . -230) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) nil (228 . 231) nil (223 . 225) 226 nil ("s" . -226) nil ("a" . -227) nil (226 . 228) (t 21326 20038 915431 24000) nil (64 . 68) nil ("m" . -64) nil ("v" . -65) nil (53 . 66) nil (" " . -54) nil (53 . 55) nil ("." . 53) ((marker* . 69) . 1) nil ("2-10_qfield" . 53) (t 21326 20005 891267 266000) ((marker . 89) . -11) ((marker*) . 6) ((marker) . -11) ((marker* . 69) . 11) ((marker . 53) . -11) nil ("定" . -2701) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) nil ("義" . -2702) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) nil ("▼" . 2703) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ("駿" . -2704) ((marker) . -1) ((marker) . -1) nil (2704 . 2705) ("駿" . -2704) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) nil (2704 . 2705) ("する" . -2704) ((marker) . -2) ((marker) . -2) ((marker) . -2) ((marker) . -2) ((marker) . -2) (2705 . 2706) ("う" . 2705) ((marker) . -1) nil (2704 . 2706) ("す" . -2704) (2703 . 2705) ("▼" . 2701) 2704 ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) nil (2702 . 2704) ("ていぎ" . -2702) ((marker) . -3) ((marker) . -3) ((marker) . -3) ((marker) . -3) ((marker) . -3) (2704 . 2705) ("ぎ" . 2704) ((marker) . -1) nil (2702 . 2705) ("てい" . -2702) ((marker) . -1) ((marker) . -1) (2703 . 2704) ("いぎ" . 2703) ((marker) . -2) nil (2702 . 2705) ("て" . -2702) (2702 . 2703) nil ("いぎ" . 2702) ((marker) . -2) ("て" . -2702) ((marker) . -1) ((marker) . -1) nil (2702 . 2705) ("て" . -2702) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ("す" . -2703) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) nil ("と" . -2704) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) nil (2703 . 2705) ("いぎ" . 2703) ((marker) . -2) nil (2702 . 2705) ("て" . -2702) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) ("っ" . -2703) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) nil ("す" . -2704) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) nil ("と" . -2705) ((marker) . -1) ((marker) . -1) ((marker) . -1) ((marker) . -1) nil (2703 . 2706) ("いぎ" . 2703) ((marker) . -2) nil (2702 . 2705) ("て" . -2702) (2701 . 2703) (t 21314 13079 759799 197000) nil ("ま" . -2942) nil ("ち" . -2943) nil ("が" . -2944) nil ("l" . -2945) nil ("ぁ" . -2946) nil ("あ" . -2947) nil ("l" . -2948) nil ("l" . -2949) nil ("っ" . -2950) nil (2948 . 2951) nil ("あ" . -2948) nil (2942 . 2949) nil ("ま" . -2942) nil (2942 . 2943) nil ("l" . -2942) nil (2942 . 2943) nil ("l" . -2942) nil (2942 . 2943) (t 21308 6679 499707 791000) nil undo-tree-canary))

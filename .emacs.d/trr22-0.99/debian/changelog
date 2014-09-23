@@ -1,0 +1,33 @@
+trr22 (0.99-5) unstable; urgency=low
+
+  * unnumbered update
+
+ -- Shuji Narazaki <narazaki@cs.cis.nagasaki-u.ac.jp>  Thu, 10 Jul 2008 17:20:01 +0900
+
+trr22 (0.99-4) unstable; urgency=low
+
+  * unnumbered update
+
+ -- Shuji Narazaki <narazaki@cs.cis.nagasaki-u.ac.jp>  Sun, 06 Jul 2008 12:50:15 +0900
+
+trr22 (0.99-3) unstable; urgency=low
+
+  * unnumbered update
+
+ -- Shuji Narazaki <narazaki@cs.cis.nagasaki-u.ac.jp>  Mon, 30 Jun 2008 13:30:38 +0900
+
+trr22 (0.99-2) unstable; urgency=low
+
+  * unnumbered update
+
+ -- Shuji Narazaki <narazaki@cs.cis.nagasaki-u.ac.jp>  Mon, 30 Jun 2008 10:59:54 +0900
+
+trr22 (0.99-1) unstable; urgency=low
+    
+  * debianize
+  
+ -- Shuji Narazaki <shuji.narazaki@gmail.com>  Sun, 29 Jun 2008 22:58:42 +0900
+
+Local Variables:
+mode : debian-changelog
+End:

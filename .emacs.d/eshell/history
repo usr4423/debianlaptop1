@@ -1,0 +1,36 @@
+ls
+latexmk -c
+ls
+ls
+ls
+latexmk -c
+ls
+cd ishidakan8/
+ls
+mv eclbkbox.sty ../
+ls
+cd ..
+ls
+sudo apt-cache search font
+dvipdfmx 2-10_qfield.dvi
+evince 2-10_qfield.pdf
+ls
+find . -name "*.csv" | xargs grep helm-source*
+sl
+ls
+find . -name "*.el" | xargs grep helm-source*
+cd elpa/
+ls
+cd yasnippet/
+ls
+cd snippets/
+ls
+cd c-mode/
+ls
+ls
+ghci
+wget
+ssh
+tail
+ls -al
+ls -al | less
