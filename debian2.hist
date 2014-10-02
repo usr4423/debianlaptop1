@@ -1,0 +1,410 @@
+    1  sudo aptitude update;sudo aptitude -y upgrade; sudo aptitude install x-window-system-core emacs xmonad slim urxvt-unicode git curl chromium aspell aspell-en unzip texlive-lang-cjk ddskk latexmk yatex xdvik-ja ghostscript-x usbmount wpasupplicant wicd flashplugin-nonfree ranger pepperflashplugin-nonfree
+    2  su
+    3  sudo aptitude update;sudo aptitude -y upgrade; sudo aptitude install x-window-system-core emacs xmonad slim urxvt-unicode git curl chromium aspell aspell-en unzip texlive-lang-cjk ddskk latexmk yatex xdvik-ja ghostscript-x usbmount wpasupplicant wicd flashplugin-nonfree ranger pepperflashplugin-nonfree
+    4  sudo aptitude update;sudo aptitude -y upgrade; sudo aptitude install x-window-system-core emacs xmonad slim rxvt-unicode-256color git curl chromium aspell aspell-en unzip texlive-lang-cjk ddskk latexmk yatex xdvik-ja ghostscript-x usbmount wpasupplicant wicd flashplugin-nonfree ranger pepperflashplugin-nonfree
+    5  sudo aptitude update;sudo aptitude -y upgrade; sudo aptitude install x-window-system-core emacs xmonad slim rxvt-unicode-256color git curl chromium aspell aspell-en unzip texlive-lang-japanese ddskk latexmk yatex xdvik-ja ghostscript-x usbmount wpasupplicant wicd flashplugin-nonfree ranger pepperflashplugin-nonfree
+    6  sudo reboot
+    7  sudo aptitude isntall xmobar
+    8  sudo aptitude install xmobar
+    9  sudo aptitude install dmenu
+   10  sudo reboot
+   11  sudo nano /etc/apt/sources.list
+   12  sudo aptitude update;sudo aptitude install firefox
+   13  sudo nano /etc/apt/sources.list
+   14  sudo aptitude update;sudo aptitude install pupperflashplugin-nonfree
+   15  sudo aptitude install pepperflashplugin-nonfree
+   16  sudo updatedb
+   17  sudo nano /etc/locale.gen 
+   18  locale-gen
+   19  sudo locale-gen
+   20  git clone https://github.com/usr4423/debianlaptop1
+   21  cd debianlaptop1/
+   22  ls -al
+   23  git pull
+   24  ping -c 3 www.google.com
+   25  ip link
+   26  ip status
+   27  ip help
+   28  locate .emacs.d
+   29  cd
+   30  cd debianlaptop1/
+   31  wicd-client -n
+   32  git push
+   33  git pull
+   34  mkdir ~/.xmonad
+   35  cp .xmonad/xmonad.hs ~/.xmonad/
+   36  amixer
+   37  ls -al
+   38  cat commandmemo.txt 
+   39  sudo aptitude install fbterm
+   40  cp .xmobarrc ~/
+   41  cp -a .emacs.d/ ~/
+   42  cd ..
+   43  ls -al
+   44  cd .emacs.d/
+   45  ls -al
+   46  cd elisp/
+   47  ls -al
+   48  cd multiple-cursors.el/
+   49  ls -al
+   50  sudo shutdown -h now
+   51  locate multiple
+   52  cd .emacs.d/
+   53  cd elisp/
+   54  ls -al
+   55  sudo shutdown -h now
+   56  cd debianlaptop1/
+   57  cat commandmemo.txt 
+   58  wicd-client -n
+   59  sudo emacs /etc/apt/sources.list
+   60  lspci | grep Network
+   61  sudo aptitude update
+   62  sudo aptitude search firmware | broadcom
+   63  sudo aptitude search firmware | grep broadcom
+   64  lspci | grep Network
+   65  sudo aptitude search firmware | grep brcmsmac
+   66  sudo emacs /etc/apt/sources.list
+   67  sudo aptitude update;sudo aptitude search firmware
+   68  sudo aptitude install firmware-brcm8211
+   69  sudo aptitude install firmware-brcm80211
+   70  modprove -r brcmsmac;modprobe brcmsmac
+   71  modprobe -r brcmsmac;modprobe brcmsmac
+   72  man modprobe
+   73  sudo modprobe -r brcmsmac;modprobe brcmsmac
+   74  su
+   75  ls -al
+   76  cp .xmodmap ~/
+   77  cd ..
+   78  xmodmap .xmodmap 
+   79  sudo wicd-client -n
+   80  emacs .xmobarrc 
+   81  sudo ip a
+   82  iwconfig
+   83  ip link set wlan0 up
+   84  sudo ip link set wlan0 up
+   85  iwlist scan
+   86  sudo iwlist scan
+   87  sudo iwlist scan | less
+   88  lspci
+   89  lspci | grep audio
+   90  lspci | grep {a,A}udio
+   91  lspci | grep Audio
+   92  lsmox
+   93  lsmod 
+   94  lsmod | grep snd
+   95  lsmod | less
+   96  sudo aptitude search oss
+   97  sudo aptitude search alsa
+   98  sudo aptitude install bash-completion
+   99  sudo aptitude install alsa-base alsa-utils
+  100  sudo reboot
+  101  ping amixer
+  102  amixer
+  103  sudo amixer
+  104  alsamixer
+  105  emacs -nw comm
+  106  ls -al
+  107  cd debianlaptop1/
+  108  ls -al
+  109  xmodmap .xmo
+  110  xmodmap .xmodmap 
+  111  cp commandmemo.txt ~/
+  112  cd ..
+  113  cd debianlaptop1/
+  114  emacs -nw commandmemo.txt 
+  115  sudo reboot
+  116  wicd-client -n
+  117  alsamixer
+  118  sudo shutdown -h now
+  119  wicd-client -n
+  120  sudo shutdown -h now
+  121  wicd-client -n
+  122  amixer
+  123  alsamixer
+  124  sudo shutdown -h now
+  125  ls -ak
+  126  ls -al
+  127  cd debianlaptop1/
+  128  ls -al
+  129  git pull
+  130  cp -rf multiple-cursors.el/ ~/.emacs.d/elisp/
+  131  ls ~/.emacs.d/elisp/
+  132  ls ~/.emacs.d/elisp/multiple-cursors.el/
+  133  cp -rf helm/ ~/.emacs.d/elisp/
+  134  ls -al
+  135  cp -rf emacs-anzu/ ~/.emacs.d/elisp/
+  136  ls ~/.emacs.d/
+  137  cp -rf yspel/ ~/.emacs.d/
+  138  sudo curl -kL https://raw.github.com/cstrap/monaco-font/master/install-font-ubuntu.sh | bash
+  139  ls -al /etc/X11/xinit/
+  140  cat /etc/X11/xinit/xinitrc 
+  141  sudo mkdir  /etc/X11/xinit/xinitrc.d 
+  142  sudo reboot
+  143  xmodmap .xmodmap 
+  144  exit
+  145  cd debianlaptop1/
+  146  dvipdfmx test.dvi 
+  147  evince
+  148  sudo aptitude isntall evince
+  149  sudo aptitude install evince
+  150  evince test.pdf
+  151  cd Down
+  152  cd ..
+  153  cd Downloads/
+  154  ls -al
+  155  cd .
+  156  cd ..
+  157  cd debianlaptop1/
+  158  ls -al | grep input
+  159  cp .inputrc ~/
+  160  exit
+  161  cd Downloads/
+  162  ls -al
+  163  unzip backup.zip 
+  164  cd backup/
+  165  ls -al
+  166  ls ~
+  167  ls -al  ~
+  168  cp .aspell.* ~/
+  169  ls -a
+  170  sl
+  171  sudo aptitude install sl
+  172  sl
+  173  ls -al
+  174  cd Downloads/
+  175  cd backup/
+  176  ls
+  177  unzip math.backup.zip 
+  178  ls -al
+  179  cp -a -rf math ~/
+  180  sudo chmod +x /etc/X11/xinit/xinitrc.d/99-xmodmap 
+  181  sudo reboot
+  182  xmodmap .xmodmap 
+  183  ls -al
+  184  cd math/
+  185  ls
+  186  sudo updatedb
+  187  locate
+  188  sudo aptitude search ranger
+  189  ranger
+  190  ls -al
+  191  cd 2014zemi/
+  192  cd 2-10/
+  193  ls -al
+  194  latexmk -C
+  195  ls 
+  196  ls -a
+  197  ls -al
+  198  locate lineno
+  199  cp ../lineno.sty 
+  200  cp ../lineno.sty ../2-10/
+  201  ls -al
+  202  cp ~/Downloads/2-13.tex ../
+  203  cd ..
+  204  ls -al
+  205  sudo mktexlsr
+  206  sudo shutdown -h now
+  207  df -h
+  208  dmesg | tail
+  209  dmesg
+  210  sudo reboot
+  211  ls -al
+  212  ls -al
+  213  dmesg
+  214  alsamixer
+  215  ps
+  216  xmodmap .xmodmap 
+  217  sudo reboot
+  218  AHO='() {baka;}; echo manuke' bash -c 'echo Hi'
+  219  env x='() { :;}; echo vulnerable' bash -c "echo this is a test"
+  220  sudo aptitude update;sudo aptitude -y upgrade
+  221  xrdb -merge ~/.Xdefaults
+  222  sudo reboot
+  223  ls -al
+  224  latexmk
+  225  latexmk -help
+  226  latexmk -v
+  227  sudo aptitude udpate;sudo aptitude -y upgrade
+  228  sudo aptitude update;sudo aptitude -y upgrade
+  229  dpkg -l
+  230  sudo shutdown -h now
+  231  sudo aptitude search nkf
+  232  sudo aptitude install nkf
+  233  sudo shutdown -h now
+  234  sudo aptitude search midnight commander
+  235  sudo aptitude search mc
+  236  sudo aptitude search mc | less
+  237  sudo aptitude install mc
+  238  mc
+  239  xmodmap .xmodmap 
+  240  exit
+  241  emac
+  242  wicd-client -n
+  243  sudo shutdown -h now
+  244  ping -c 3 www.google.com
+  245  xmodmap .xmodmap 
+  246  sudo shutdown -h now
+  247  ping -c 3 www.google.com
+  248  wicd-client -n
+  249  sudo shutdown -h now
+  250  xmodmap .xmodmap 
+  251  locate xorg.comf
+  252  locate xorg.conf
+  253  sudo nano /etc/default/keyboard 
+  254  sudo reboot
+  255  cd math/2014zemi/
+  256  ls -al
+  257  latexmk -C
+  258  ls -al
+  259  sudo shutdown -h now
+  260  cd math/
+  261  cd 2014zemi/
+  262  ls -al
+  263  latexmk -C
+  264  cd 2-14/
+  265  latexmk -C
+  266  ls -al
+  267  cd ..
+  268  ls -al
+  269  cp lineno.sty 2-1*/
+  270  cp lineno.sty 2-14/
+  271  cp lineno.sty 2-10/
+  272  cp lineno.sty 2-12/
+  273  nkf -g *
+  274  nkf -g *.tex
+  275  sudo shutdown -h now
+  276  cd math/2014zemi/
+  277  cd 2-14/
+  278  ls -al
+  279  latexmk -C
+  280  ls -al
+  281  latexmk test
+  282  dvipdfmx test.dvi 
+  283  evince test.pdf
+  284  dvipdfmx test.dvi ;evince test.pdf
+  285  sudo shutdown -h now
+  286  sudo aptitude search gmrun
+  287  sudo aptitude install gmrun
+  288  sudo reboot
+  289  locate monaco.ttf
+  290  sudo locate monaco
+  291  sudo aptitude search monaco
+  292  sudo locate xdvi-search
+  293  sudo locate XDvi
+  294  sudo nano .
+  295  sudo nano /usr/share/texlive/texmf-dist/xdvi/XDvi
+  296  sudo emacs -nw /usr/share/texlive/texmf-dist/xdvi/XDvi
+  297  locate undo | grep history
+  298  locate undohist
+  299  sudo aptitude search sumatra
+  300  sudo aptitude search Okular
+  301  sudo aptitude install okular
+  302  sudo aptitude install okular | less
+  303  sudo aptitude install okular
+  304  sudo shutdown -h now
+  305  wicd-client -n
+  306  sudo shutdown -h now
+  307  fc-list | less
+  308  history | grep monaco
+  309  sudo curl -kL https://raw.github.com/cstrap/monaco-font/master/install-font-ubuntu.sh | bash
+  310  ping -c 3 www.google.com
+  311  sudo reboot
+  312  ping -c 3 www.google.com
+  313  cd Downloads/
+  314  ls -al
+  315  wget ftp://ftp.adobe.com/pub/adobe/acrobatreader/unix/3.x/acroread_linux_301.tar.gz
+  316  ls -al
+  317  tar zxvf acroread_linux_301.tar.gz 
+  318  ls -al
+  319  cat READ.TAR 
+  320  1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c
+  321  emacs INSTGUID.TXT 
+  322  updmap
+  323  sudo mktexlsr
+  324  sudo dpkg-reconfigure ptex-jisfonts
+  325  sudo jisftconfig add
+  326  sudo shutdown -h now
+  327  cd math/2014zemi/
+  328  ls -al
+  329  latexmk -C
+  330  cd 2-14/
+  331  ls -al
+  332  latexmk -C
+  333  ls -al
+  334  cd ..
+  335  mkdir doc
+  336  cd doc
+  337  ls -al
+  338  cp /etc/X11/xinit/
+  339  cd /etc/X11/xinit/
+  340  ls -al
+  341  cat xinitrc
+  342  cd ..
+  343  cat Xsession
+  344  sudo aptitude search zile
+  345  sudo aptitude install zile
+  346  sudo zile Xsession
+  347  sudo reboot
+  348  zile .xmodmap 
+  349  xmodmap
+  350  xev
+  351  zile .xmodmap 
+  352  xmodmap .xmo
+  353  xmodmap .xmodmap
+  354  sudo shutdown -h now
+  355  sudo reboot
+  356  alsamixer 
+  357  sudo shutdown -h now
+  358  cd math/2014zemi/
+  359  ls -al
+  360  latexmk -C
+  361  latexmk kanex.tex
+  362  dvipdfmx kanex.dvi 
+  363  evince kanex.pdf
+  364  dvipdfmx kanex.dvi;evince kanex.pdf
+  365  sudo aptitude search dropbox
+  366  cd ~/Downloads/
+  367  ls -al
+  368  cd ~
+  369  wget -O - "https://www.dropbox.com/download?plat=lnx.x86" | tar xzf
+  370  wget -O - "https://www.dropbox.com/download?plat=lnx.x86" | tar xzf -
+  371  ~/.dropbox-dist/dropboxd 
+  372  wget https://www.dropbox.com/download?dl=packages/dropbox.py -O dropbox.py
+  373  chmod 700 dropbox.py 
+  374  sudo mv dropbox.py /usr/local/bin/dropbox
+  375  dropbox start
+  376  dropbox status
+  377  cd Dropbox/
+  378  ls -al
+  379  cp ~/math/2014zemi/kanex.pdf ~/Dropbox/
+  380  ls -al
+  381  dvipdfmx ~/math/2014zemi/kanex.dvi ;cp ~/math/2014zemi/kanex.pdf ~/Dropbox/
+  382  ls -al
+  383  dvipdfmx ~/math/2014zemi/kanex.dvi ;cp -f ~/math/2014zemi/kanex.pdf ~/Dropbox/
+  384  mv kanex.pdf 
+  385  rm kanex.pdf 
+  386  ls -al
+  387  dvipdfmx ~/math/2014zemi/kanex.dvi ;cp -f ~/math/2014zemi/kanex.pdf ~/Dropbox/
+  388  evince ~/math/2014zemi/kanex.pdf
+  389  xdvi ~/math/2014zemi/kanex.pdf
+  390  xdvi ~/math/2014zemi/kanex.dvi
+  391  dvipdfmx ~/math/2014zemi/kanex.dvi
+  392  evince ~/math/2014zemi/kanex.pdf
+  393  latexmk -C ~/math/2014zemi/
+  394  dvipdfmx ~/math/2014zemi/kanex.dvi
+  395  evince ~/math/2014zemi/kanex.pdf
+  396  cd ~/math/2014zemi/
+  397  latexmk -C
+  398  latexmk kanex.tex
+  399  dvipdfmx kanex.dvi 
+  400  dvipdfmx -d kanex.dvi 
+  401  dvipdfmx -d 5 kanex.dvi 
+  402  evince kanex.pdf
+  403  cp ~/math/2014zemi/kanex.pdf ~/Dropbox/
+  404  dvipdfmx -d 5 kanex.dvi 
+  405  cp ~/math/2014zemi/kanex.pdf ~/Dropbox/
+  406  sudo reboot
+  407  cd debianlaptop1/
+  408  ls -al
+  409  git pull
+  410  history >> debian2.hist
